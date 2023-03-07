@@ -1,0 +1,836 @@
+{
+    "convivenciaCiudadana": {
+        "convivenciaCiudadana1": {
+            "numeroCurso": "10001",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/24023/course/overviewfiles/20200526_Panoramica.jpg",
+            "nombre": "Convivencia ciudadana",
+            "contenido": "El curso pedagógico de convivencia se dicta para dar aplicación a la medida correctiva impuesta al interior del Proceso Único de Policía desarrollado por parte de las Autoridades de Policía, según lo dispuesto en el artículo 175 de la Ley 1801 de 2016, que describe esta medida como programa pedagógico en materia de convivencia, organizado por la administración distrital o municipal. El contenido del curso fue desarrollado de acuerdo a los objetivos del Código Nacional de Seguridad y Convivencia, propendiendo por la promoción del respeto y del ejercicio responsable de la libertad, la dignidad, los deberes y derechos colectivos e individuales relacionados con las categorías de convivencia descritas en esa norma.",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Convivencia Ciudadana",
+            "estado": "activo",
+            "alt": "Imagen curso convivencia ciudadana",
+            "disponible": "si"
+        }
+    },
+    "diversidadGenero": {
+        "diversidadGenero1": {
+            "numeroCurso": "20001",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/53552/course/overviewfiles/abece.png",
+            "nombre": "ABC para Incorporar el Enfoque de Género en las Prácticas Pedagógicas",
+            "contenido": "Nuestro propósito con estas recomendaciones es motivar a la comunidad educativa a acercarse al enfoque de género en la educación, que permita a las instituciones educativas reflexionar e incorporar prácticas que conlleven a la equidad e igualdad entre hombres y mujeres desde una visión de derechos humanos, especialmente los de las niñas y las mujeres, como aporte a la trasformación de patrones culturales machistas que han generado desigualdad y violencias basadas en género.",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Diversidad y Género",
+            "estado": "activo"
+        },
+        "diversidadGenero2": {
+            "numeroCurso": "20002",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/18665/course/overviewfiles/m7.jpg",
+            "nombre": "Alfabetización Digital",
+            "contenido": "Este curso tiene como objetivo la implementación de estrategias formativas y de permanencia para las mujeres en el sistema educativo y favorecer la transformación de patrones culturales sexistas. Gracias a este curso podemos minimizar la brecha de conocimiento de sistemas digitales con herramientas básicas, uno de los grandes retos de la sociedad actual es pasar la información excluyente a una sociedad con comunicación digital.",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Diversidad y Género",
+            "estado": "activo"
+        },
+        "diversidadGenero3": {
+            "numeroCurso": "20003",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/189/course/overviewfiles/Etnica4.png",
+            "nombre": "Calendario Intercultural",
+            "contenido": "",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Diversidad y Género",
+            "estado": "inactivo"
+        },
+        "diversidadGenero4": {
+            "numeroCurso": "20004",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/1965/course/overviewfiles/m2.jpg",
+            "nombre": "Diplomado en Autonomía Económica",
+            "contenido": "El Diplomado de Autonomía Económica trata acerca de la relación entre género y diversas dimensiones de la economía; para ello propone un recorrido a través de las principales propuestas teóricas-conceptuales y prácticas elaboradas desde la economía feminista no sólo para explicar las desigualdades socioeconómicas entre mujeres y hombres, sino también para realizar una mirada alternativa global al orden económico en varios niveles, desde lo más general (economía global, enfoques del desarrollo) hasta las apuestas y experiencias locales.",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Diversidad y Género",
+            "estado": "activo"
+        },
+        "diversidadGenero5": {
+            "numeroCurso": "20005",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/1911/course/overviewfiles/m1.jpg",
+            "nombre": "Diplomado en Género",
+            "contenido": "El Diplomado en Género trata sobre los principales planteamientos teóricos de los estudios de género, abordando la aparición, usos y discusión de dicha categoría. A través de un recorrido por las trayectorias históricas de los movimientos feministas y su apropiación de la noción y categoría de género, en el Diplomado se explora la relación entre la teoría y la acción política dirigida a denunciar y superar la subordinación femenina y la dominación masculina (patriarcado).",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Diversidad y Género",
+            "estado": "activo"
+        },
+        "diversidadGenero6": {
+            "numeroCurso": "20006",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/16692/course/overviewfiles/m5.jpg",
+            "nombre": "Diplomado en Mujeres y Paz",
+            "contenido": "​El diplomado mujeres y paz es un espacio de formación para la reflexión y la construcción de procesos de paz territorial. Analiza el papel y los aportes de las mujeres en la construcción de paz y explora la relación entre la teoría y la acción política para transformar las relaciones violentas y patriarcales que han justificado una cultura violenta y guerrerista. Además, aborda los principales planteamientos conceptuales sobre la paz como una construcción social y cultural con perspectiva de género.",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Diversidad y Género",
+            "estado": "activo"
+        },
+        "diversidadGenero7": {
+            "numeroCurso": "20007",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/2010/course/overviewfiles/m11.jpg",
+            "nombre": "Diplomado en Mujeres y Política",
+            "contenido": "El Diplomado en Mujeres y política trata en torno dos cuestiones fundamentales y recurrentes en la relación entre las mujeres y la vida política. La primera de ellas se pregunta acerca de por qué, a pesar de la desaparición de las prohibiciones y exclusiones explícitas, la participación de las mujeres en las instituciones y procesos formales de la política (partidos políticos, procesos electorales, instituciones de gobierno, ámbitos de toma de decisiones públicas) sigue siendo tan escasa, limitada y plagada de barreras. La segunda se cuestiona acerca de por qué los intereses y necesidades prácticas y estratégicas de las mujeres – entendidas como conjunto social, pero también diversas entre sí – continúan encontrando innumerables dificultades para expresarse y concretarse en los espacios de ejercicio del poder y la toma de decisiones en los niveles sociales y comunitarios y, en especial, en el Estado.",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Diversidad y Género",
+            "estado": "activo"
+        },
+        "diversidadGenero8": {
+            "numeroCurso": "20008",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/16447/course/overviewfiles/m3.jpg",
+            "nombre": "Diplomado en Nuevos Relacionamientos",
+            "contenido": "El Diplomado de nuevos relacionamientos invita a mujeres y hombres a reflexionar sobre la masculinidad hegemónica construida culturalmente, la cual ha influido en la construcción de nuestras relaciones; este espacio abre la discusión a otras prácticas de relacionamiento entre mujeres y hombres, y promueve una masculinidad consciente y comprometida con la transformación de las relaciones entre los géneros e ideas para avanzar en relaciones con equidad de género.",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Diversidad y Género",
+            "estado": "activo"
+        },
+        "diversidadGenero9": {
+            "numeroCurso": "20009",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/22385/course/overviewfiles/MujeresEIG.png",
+            "nombre": "Educación en igualdad de género",
+            "contenido": "",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Diversidad y Género",
+            "estado": "activo"
+        },
+        "diversidadGenero10": {
+            "numeroCurso": "20010",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/25005/course/overviewfiles/cartillasPPLP.png",
+            "nombre": "Guía Pedagogías para la Paz",
+            "contenido": "Esta herramienta digital cuenta con un cuerpo central, en el cual se podrán visibilizar los desarrollos conceptuales que dieron lugar y direccionamiento a las diferentes intervenciones de pedagogía para la paz realizadas con las mujeres desde el año 2016 hasta el año 2019 en el marco del proyecto “Mujeres memorias de la guerra, protagonistas de la paz” y en el Componente Acciones para la Promoción de la Paz en el 2020, los cuales fueron organizados en 3 módulos así: lo subjetivo, lo intersubjetivo, los acuerdos de paz y mecanismos existentes para alcanzar la paz.",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Diversidad y Género",
+            "estado": "activo"
+        },
+        "diversidadGenero11": {
+            "numeroCurso": "20011",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/54/course/overviewfiles/Etnica2.png",
+            "nombre": "Interculturalidad en la Escuela",
+            "contenido": "",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Diversidad y Género",
+            "estado": "inactivo"
+        },
+        "diversidadGenero12": {
+            "numeroCurso": "20012",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/1831/course/summary/mooc-coeducacion.jpg",
+            "nombre": "MOOC - Coeducación",
+            "contenido": "Bienvenidos a los MOOC de la Escuela de Gobierno de Equidad de Género de La Secretaría de las Mujeres de la Alcaldía de Medellín. Por medio de esta estrategia de aprendizaje autónomo queremos brindarles a las mujeres de la ciudad, en su diversidad, herramientas de análisis sobre el origen de las violencias basadas en género, las desigualdades, los estereotipos de género, el sexismo; y así contribuir a la posibilidad de construir nuevos relacionamientos en clave de equidad, entre mujeres y hombres.",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Diversidad y Género",
+            "estado": "activo"
+        },
+        "diversidadGenero13": {
+            "numeroCurso": "20013",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/1634/course/summary/mooc-genero.jpg",
+            "nombre": "MOOC - Género",
+            "contenido": "Bienvenidos a los MOOC de la Escuela de Gobierno de Equidad de Género de La Secretaría de las Mujeres de la Alcaldía de Medellín. Por medio de esta estrategia de aprendizaje autónomo queremos brindarles a las mujeres de la ciudad, en su diversidad, herramientas de análisis sobre el origen de las violencias basadas en género, las desigualdades, los estereotipos de género, el sexismo; y así contribuir a la posibilidad de construir nuevos relacionamientos en clave de equidad, entre mujeres y hombres.",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Diversidad y Género",
+            "estado": "inactivo"
+        },
+        "diversidadGenero14": {
+            "numeroCurso": "20014",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/1765/course/summary/mooc-violencias.jpg",
+            "nombre": "MOOC - Violencias Basadas en Género",
+            "contenido": "Bienvenidos a los MOOC de la Escuela de Gobierno de Equidad de Género de La Secretaría de las Mujeres de la Alcaldía de Medellín. Por medio de esta estrategia de aprendizaje autónomo queremos brindarles a las mujeres de la ciudad, en su diversidad, herramientas de análisis sobre el origen de las violencias basadas en género, las desigualdades, los estereotipos de género, el sexismo; y así contribuir a la posibilidad de construir nuevos relacionamientos en clave de equidad, entre mujeres y hombres.",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Diversidad y Género",
+            "estado": "activo"
+        },
+        "diversidadGenero15": {
+            "numeroCurso": "20015",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/16424/course/overviewfiles/PCIG.png",
+            "nombre": "Pedagogías y Didácticas Creativas para la Igualdad de Género",
+            "contenido": "",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Diversidad y Género",
+            "estado": "activo"
+        },
+        "diversidadGenero16": {
+            "numeroCurso": "20016",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/22480/course/overviewfiles/PPIG.png",
+            "nombre": "Política Pública para la Igualdad de Género",
+            "contenido": "",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Diversidad y Género",
+            "estado": "activo"
+        },
+        "diversidadGenero17": {
+            "numeroCurso": "20017",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/697/course/overviewfiles/Etnica3.png",
+            "nombre": "Prevención del Racismo, la Discriminación Racial y la Xenofobia",
+            "contenido": "",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Diversidad y Género",
+            "estado": "inactivo"
+        },
+        "diversidadGenero18": {
+            "numeroCurso": "20018",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/605/course/overviewfiles/Etnica1.png",
+            "nombre": "Servicio Público y Enfoque Diferencial Étnico",
+            "contenido": "",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Diversidad y Género",
+            "estado": "inactivo"
+        }
+    },
+    "gestionHumana": {
+        "gestionHumana1": {
+            "numeroCurso": "30001",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/829/course/overviewfiles/humana1.png",
+            "nombre": "Acción Emprendedora",
+            "contenido": "",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Gestión Humana",
+            "estado": "inactivo"
+        },
+        "gestionHumana2": {
+            "numeroCurso": "30002",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/26332/course/overviewfiles/humana2.png",
+            "nombre": "Acoso Laboral",
+            "contenido": "",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Gestión Humana",
+            "estado": "activo"
+        },
+        "gestionHumana3": {
+            "numeroCurso": "30003",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/936/course/overviewfiles/humana4.png",
+            "nombre": "Evaluación del Desempeño",
+            "contenido": "",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Gestión Humana",
+            "estado": "inactivo"
+        },
+        "gestionHumana4": {
+            "numeroCurso": "30004",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/904/course/overviewfiles/humana5.png",
+            "nombre": "Inducción Virtual",
+            "contenido": "",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Gestión Humana",
+            "estado": "inactivo"
+        },
+        "gestionHumana5": {
+            "numeroCurso": "30005",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/808/course/overviewfiles/humana6.png",
+            "nombre": "Servicio a la Ciudadanía",
+            "contenido": "",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Gestión Humana",
+            "estado": "inactivo"
+        },
+        "gestionHumana6": {
+            "numeroCurso": "30006",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/26235/course/overviewfiles/humana7.png",
+            "nombre": "Sistema de Formación Institucional",
+            "contenido": "",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Gestión Humana",
+            "estado": "activo"
+        }
+    },
+    "haciendaContratacion": {
+        "haciendaContratacion1": {
+            "numeroCurso": "40001",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/584/course/overviewfiles/portada1.png",
+            "nombre": "El ABC de la Supervisión o Interventoría",
+            "contenido": "",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Hacienda y Contratación",
+            "estado": "activo"
+        },
+        "haciendaContratacion2": {
+            "numeroCurso": "40002",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/47/course/overviewfiles/hacienda2.png",
+            "nombre": "Estructura Subsecretaría de Ingresos",
+            "contenido": "",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Hacienda y Contratación",
+            "estado": "activo"
+        },
+        "haciendaContratacion3": {
+            "numeroCurso": "40003",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/10346/course/overviewfiles/portada3.png",
+            "nombre": "Módulo de Contratación para Proveedores",
+            "contenido": "El Curso Básico de Contratación le brinda la oportunidad de conocer los principios básicos de la contratación  y le  ayuda a formar  una visión general de la contratación estatal, así como a conocer  los medios con los que puede contar para participar en los proceso de contratación que realice el Municipio de Medellín.",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Hacienda y Contratación",
+            "estado": "inactivo"
+        },
+        "haciendaContratacion4": {
+            "numeroCurso": "40004",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/497/course/overviewfiles/portada4.png",
+            "nombre": "Módulo de Gestores de Contratación",
+            "contenido": "La  Secretaría de Suministros y Servicios le ofrece una cordial  bienvenida al Modulo de Contratación para los Gestores de la Contratacion. Le ofrecemos nuestro apoyo y los medios a nuestro alcance para que sea del mayor beneficio posible en su crecimiento intelectual. El Curso Básico de Contratación le brinda la oportunidad de conocer los principios básicos de la contratación  y le  ayuda a formar  una visión general de la contratación estatal, así como a conocer  los medios con los que puede contar para participar en los proceso de contratación que realice el Municipio de Medellín.",
+            "usuario": 2,
+            "link": "",
+            "categoria": "Hacienda y Contratación",
+            "estado": "activo"
+        }
+    },
+    "inclusionSocial": {
+        "inclusionSocial1": {
+            "numeroCurso": "50001",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/53631/course/overviewfiles/Portada%20-%20Ciclo%20de%20formaci%C3%B3n.png",
+            "nombre": "Ciclo de Formación",
+            "contenido": "El curso virtual Ciclo de Formación posibilita la inducción y reinducción a los equipos de trabajo en lo que corresponde a acciones encaminadas a la mejora continua en la prestación de los servicios misionales de la Unidad Familia Medellín, a través del conocimiento de la institucionalidad, la Política Pública para la Familia, la metodología para el Acompañamiento Familiar y la integralidad de enfoques para el acompañamiento humano del plan de transversalización.",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Inclusión Social",
+            "estado": "activo"
+        },
+        "inclusionSocial2": {
+            "numeroCurso": "50002",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/72015/course/overviewfiles/Portada%20-%20Politica%20Publica.png",
+            "nombre": "Política Pública de infancia y adolescencia",
+            "contenido": "En este curso aprenderán sobre el camino que enmarca nuestro que hacer desde lo conceptual, teórico y técnico, para favorecer el desarrollo integral de la niñez y la adolescencia desde la ciudad y q nos señala la ruta para favorecer la corresponsabilidad en toda  la población, para velar por sus derechos, su integridad y su dignidad.",
+            "usuario": 2,
+            "link": "",
+            "categoria": "Inclusión Social",
+            "estado": "activo"
+        },
+        "inclusionSocial3": {
+            "numeroCurso": "50003",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/86524/course/overviewfiles/Portada%20-%20Practica%20para%20la%20accion.png",
+            "nombre": "Prácticas para la acción",
+            "contenido": "La Unidad de Niñez a través del proyecto Medellín Cuida a sus Niñas, Niños y Adolescentes les da la bienvenida al curso virtual  Prácticas para la Acción, como una apuesta de ciudad tenemos el reto de  trabajar en la erradicación de la explotación sexual comercial de niñas, niños y adolescentes -ESCNNA-, las violencias sexuales – abuso sexual- y el embarazo adolescente y subsecuente, problemáticas que vulneran los derechos de las infancias y las adolescencias  y deterioran su bienestar y calidad de vida.",
+            "usuario": 2,
+            "link": "",
+            "categoria": "Inclusión Social",
+            "estado": "activo"
+        }
+    },
+    "salud": {
+        "salud1": {
+            "numeroCurso": "60001",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/26668/course/overviewfiles/curso1.png",
+            "nombre": "AEIPI Clínico versión 2016",
+            "contenido": "Objetivo: fortalecer las competencias necesarias para la atención integral de niños y niñas menores de seis años y las mujeres gestantes bajo la estrategia AIEPI. Dirigido a: médicos(as), pediatras, que se desempeñen en las diferentes instituciones prestadores de servicios de salud de la ciudad de Medellín.",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Salud",
+            "estado": "inactivo"
+        },
+        "salud2": {
+            "numeroCurso": "60002",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/1013/course/overviewfiles/curso2.png",
+            "nombre": "Capacitación en Curso de vida: adolescencia y juventud",
+            "contenido": "Comunicación asertiva y acompañamiento afectivo, elementos prioritarios de la atención Objetivo: fortalecer las competencias de profesionales de la salud, de las EAPB e IPS de la ciudad para la atención de los adolescentes y jóvenes (12-28 años) desde los servicios de salud. Dirigido a: profesionales del área de la salud y social que están asignados a la atención de la población de 12 a 28 años en las IPS y enfermeras líderes de infancia del componente de promoción y prevención de las EAPB e IPS, en la ciudad de Medellín.",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Salud",
+            "estado": "inactivo"
+        },
+        "salud3": {
+            "numeroCurso": "60003",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/1013/course/overviewfiles/curso2.png",
+            "nombre": "Conéctate con la vida",
+            "contenido": "Con el curso 'Conéctate con la Vida' 💙, aprenderás a trabajar en redes sociales, realizar piezas gráficas, conocer diferentes planos audiovisuales y aplicaciones para desarrollar los mismos 😊",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Salud",
+            "estado": "activo"
+        },
+        "salud4": {
+            "numeroCurso": "60004",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/1128/course/overviewfiles/curso6.png",
+            "nombre": "Diplomado Adulto y adulto mayor: el arte de vivir mejor",
+            "contenido": "Objetivo: fortalecer las competencias de profesionales de la salud, de las EAPB e IPS de la ciudad para la atención de los adultos (29-59 y mayores de 60 años) desde los servicios de salud. Dirigido a: profesionales del área de la salud y social que están asignados a la atención de los adultos en las IPS y líderes del componente de promoción y prevención de las EAPB e IPS.",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Salud",
+            "estado": "inactivo"
+        },
+        "salud5": {
+            "numeroCurso": "60005",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/26385/course/overviewfiles/curso7.png",
+            "nombre": "Diplomado AIEPI Clínico 2017",
+            "contenido": "Objetivo: Fortalecer las competencias necesarias para la atención integral de niños y niñas menores de seis años y las mujeres gestantes bajo la estrategia AIEPI. Dirigido a: médicos(as), pediatras, que se desempeñen en las diferentes instituciones prestadores de servicios de salud de la ciudad de Medellín.",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Salud",
+            "estado": "inactivo"
+        },
+        "salud6": {
+            "numeroCurso": "60006",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/26824/course/overviewfiles/curso8.png",
+            "nombre": "Diplomado Gestión Servicios de Detección Temprana y Protección Específica",
+            "contenido": "Objetivo: Fortalecer las competencias en gestión de los servicios de promoción de la salud y prevención de la enfermedad en los profesionales líderes de estos servicios en las EAPB e IPS de la Ciudad. Dirigido a: Líderes de calidad de los servicios de  Detección Temprana, Protección específica  y de las Enfermedades de Interés en Salud Pública de las EAPB e IPS, dando prioridad a las Instituciones que forman parte del proceso de implementación de los Servicios de Excelencia.",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Salud",
+            "estado": "inactivo"
+        },
+        "salud7": {
+            "numeroCurso": "60007",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/28444/course/overviewfiles/guardianes-de-vida.png",
+            "nombre": "Guardianes de vida",
+            "contenido": "Al final de este curso tendrás una idea clara de los factores de riesgo asociados a la conducta suicida en adolescentes, niños y niñas. Sabrás cómo promover los factores protectores para el cuidado de tu salud mental.",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Salud",
+            "estado": "activo"
+        },
+        "salud8": {
+            "numeroCurso": "60008",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/27049/course/overviewfiles/curso9.png",
+            "nombre": "La salud mental, transversal a la atención en salud",
+            "contenido": "Objetivo: brindar herramientas técnicas, a los profesionales del área psicosocial, para adquirir nuevos aprendizajes y actualizar conocimientos básicos que beneficien tanto a las personas como a las instituciones en los temas de salud mental. Dirigido a: personal de salud y otros actores responsables del desarrollo de programas relacionados con el componente de Salud Mental en las diferentes secretarías de la Alcaldía de Medellín y otras instituciones de la ciudad.",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Salud",
+            "estado": "inactivo"
+        },
+        "salud9": {
+            "numeroCurso": "60009",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/1291/course/overviewfiles/curso10.png",
+            "nombre": "Nuevas Propuestas en Crecimiento y Desarrollo",
+            "contenido": "Tema: detección temprana de las alteraciones del crecimiento y desarrollo en el menor de 10 años Dirigido a: profesionales del área de la salud y social que están asignados a la atención en los servicios de crecimiento y desarrollo de las EAPB e IPS, ubicadas en el municipio de Medellín. Objetivo: fortalecer las competencias de profesionales de la salud, de las EAPB e IPS de la ciudad para la implementación de la norma técnica para la detección temprana de las alteraciones del menor de 10 años.",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Salud",
+            "estado": "inactivo"
+        },
+        "salud10": {
+            "numeroCurso": "60010",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/1521/course/overviewfiles/curso11.png",
+            "nombre": "Programa Inmunizaciones",
+            "contenido": "",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Salud",
+            "estado": "inactivo"
+        },
+        "salud11": {
+            "numeroCurso": "60011",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/1461/course/overviewfiles/curso13.png",
+            "nombre": "Reporte de Información del Servicio de Salud Bucal",
+            "contenido": "Objetivo: fortalecer las competencias de los profesionales en odontología en el adecuado diligenciamiento y reporte de la información de los servicios odontológicos, para propiciar la toma de decisiones y proponer acciones para el mejoramiento de la salud bucal. Dirigido a: odontólogos generales y especialistas de las EAPB, IPS y consultorios particulares que ofrecen los servicios de odontología en la ciudad de Medellín.",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Salud",
+            "estado": "inactivo"
+        },
+        "salud12": {
+            "numeroCurso": "60012",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/26366/course/overviewfiles/curso14.png",
+            "nombre": "Salud Sexual y Reproductiva, una mirada integral con enfoque de derechos",
+            "contenido": "Objetivo: fortalecer las competencias y estandarizar conceptos en temas de salud sexual y reproductiva en los profesionales, de las EAPB e IPS y otras instituciones de la ciudad Dirigido a: profesionales, de las EAPB e IPS, y operadores de los programas y proyectos sociales de la Alcaldía de Medellín, o personal de las ONG que trabajan directamente con la población.",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Salud",
+            "estado": "inactivo"
+        },
+        "salud13": {
+            "numeroCurso": "60013",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/29046/course/overviewfiles/salva-vidas-educativo.png",
+            "nombre": "Salva Vidas Educativo",
+            "contenido": "Al final de este curso tendrás una idea clara de los factores de riesgo asociados a la conducta suicida desde el entorno educativo, con el fin de identificar estudiantes en riesgo, guiarlos en el acceso a los servicios y acompañarlos en sus procesos individuales y familiares.",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Salud",
+            "estado": "activo"
+        },
+        "salud14": {
+            "numeroCurso": "60014",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/31595/course/overviewfiles/salva-vidas-familia.png",
+            "nombre": "Salva Vidas Familia",
+            "contenido": "Al final de este curso tendrás una idea clara de los factores de riesgo asociados a la conducta suicida desde el entorno familiar, con el fin de adquirir herramientas para identificar de manera temprana un riesgo de comportamiento suicida y qué hacer ante el mismo.",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Salud",
+            "estado": "activo"
+        },
+        "salud15": {
+            "numeroCurso": "60015",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/1614/course/overviewfiles/curso15.png",
+            "nombre": "Seguridad Social Para Todos",
+            "contenido": "",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Salud",
+            "estado": "inactivo"
+        }
+    },
+    "seguridadVial": {
+        "seguridadVial1": {
+            "numeroCurso": "70001",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/26146/course/overviewfiles/Educaci%C3%B3n.png",
+            "nombre": "Amonestados",
+            "contenido": "",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Seguridad Vial",
+            "estado": "activo"
+        }
+    },
+    "seguridadSaludTrabajo": {
+        "seguridadSaludTrabajo1": {
+            "numeroCurso": "80001",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/958/course/overviewfiles/humana3.png",
+            "nombre": "Comité de Emergencia",
+            "contenido": "",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Seguridad y Salud en el Trabajo",
+            "estado": "activo"
+        },
+        "seguridadSaludTrabajo2": {
+            "numeroCurso": "80002",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/26316/course/overviewfiles/PORTADA%20INVESTIGACION%20DE%20AT%20E%20INCIDENTES.JPG",
+            "nombre": "Investigación de Accidentes e incidentes",
+            "contenido": "",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Seguridad y Salud en el Trabajo",
+            "estado": "activo"
+        },
+        "seguridadSaludTrabajo3": {
+            "numeroCurso": "80003",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/27095/course/overviewfiles/PORTADA%20PELIGRO%20LOCATIVO.JPG",
+            "nombre": "Peligro Locativo",
+            "contenido": "",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Seguridad y Salud en el Trabajo",
+            "estado": "inactivo"
+        },
+        "seguridadSaludTrabajo4": {
+            "numeroCurso": "80004",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/26289/course/overviewfiles/PORTADA%20PELIGRO%20MEC%C3%81NICO.JPG",
+            "nombre": "Peligro Mecánico",
+            "contenido": "",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Seguridad y Salud en el Trabajo",
+            "estado": "inactivo"
+        },
+        "seguridadSaludTrabajo5": {
+            "numeroCurso": "80005",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/26254/course/overviewfiles/PROGRAMA%20DME.JPG",
+            "nombre": "Programa de gestión para la prevención de los DME",
+            "contenido": "",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Seguridad y Salud en el Trabajo",
+            "estado": "inactivo"
+        },
+        "seguridadSaludTrabajo6": {
+            "numeroCurso": "80006",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/26303/course/overviewfiles/PORTADA%20SEGURIDAD%20VIAL.JPG",
+            "nombre": "Seguridad Vial",
+            "contenido": "",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Seguridad y Salud en el Trabajo",
+            "estado": "inactivo"
+        },
+        "seguridadSaludTrabajo7": {
+            "numeroCurso": "80007",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/880/course/overviewfiles/humana8.png",
+            "nombre": "Sistema Gestión Seguridad y Salud en el Trabajo",
+            "contenido": "",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Seguridad y Salud en el Trabajo",
+            "estado": "inactivo"
+        },
+        "seguridadSaludTrabajo8": {
+            "numeroCurso": "80008",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/26261/course/overviewfiles/PORTADA%20TRABAJO%20EN%20ALTURAS.JPG",
+            "nombre": "Trabajo seguro en alturas",
+            "contenido": "",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Seguridad y Salud en el Trabajo",
+            "estado": "inactivo"
+        }
+    },
+    "seminarios": {
+        "seminarios1": {
+            "numeroCurso": "90001",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/130122/course/overviewfiles/IX_Seminario_Auditoria_Interna.png",
+            "nombre": "IX Seminario Internacional de Auditoría Interna",
+            "contenido": "",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Seminarios",
+            "estado": "activo"
+        }
+    },
+    "social": {
+        "social1": {
+            "numeroCurso": "100001",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/516/course/overviewfiles/juventud1.png",
+            "nombre": "Aula Sello Joven 2017",
+            "contenido": "",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Social",
+            "estado": "activo"
+        },
+        "social2": {
+            "numeroCurso": "100002",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/29/course/overviewfiles/juventud2.png",
+            "nombre": "Aula Sello Joven 2018",
+            "contenido": "",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Social",
+            "estado": "inactivo"
+        },
+        "social3": {
+            "numeroCurso": "100003",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/770/course/overviewfiles/Banners-Secretar%C3%ADa-participaci%C3%B3n-ciudadana1.png",
+            "nombre": "Com-Paz Participamos en la Transformación del Territorio",
+            "contenido": "",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Social",
+            "estado": "inactivo"
+        },
+        "social4": {
+            "numeroCurso": "100004",
+            "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg",
+            "nombre": "Foro: Retos para prevenir la violencia sexual y las maternidades no deseadas",
+            "contenido": "",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Social",
+            "estado": "inactivo"
+        },
+        "social5": {
+            "numeroCurso": "100005",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/24834/course/overviewfiles/portada2.png",
+            "nombre": "Generación de Capacidades. Diplomado: Innovación, Sostenibilidad y Enfoque Social",
+            "contenido": "",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Social",
+            "estado": "inactivo"
+        },
+        "social6": {
+            "numeroCurso": "100006",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/61496/course/overviewfiles/Portada%20Curso%20Adolescentes.png",
+            "nombre": "Prevención del embarazo en la adolescencia - Curso Adolescentes",
+            "contenido": "En este corto y divertido proceso formativo encontraras todas las herramientas para proyectar tu futuro, tomar decisiones planeadas para la vida y tener una salud sexual sana, responsable y libre de violencias.",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Social",
+            "estado": "activo"
+        },
+        "social7": {
+            "numeroCurso": "100007",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/61494/course/overviewfiles/Portada%20Curso%20Formadores.png",
+            "nombre": "Prevención del embarazo en la adolescencia - Curso Formadores",
+            "contenido": "En este corto y amigable curso encontraras un diseño curricular listo y todas las herramientas para formar niñas, niños, adolescentes y jóvenes en habilidades para la vida, toma de decisiones, salud sexual y reproductiva y llevar una vida libre de violencias.",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Social",
+            "estado": "activo"
+        },
+        "social8": {
+            "numeroCurso": "100008",
+            "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg",
+            "nombre": "Servicio social obligatorio del distrito de Medellín en protección y bienestar animal",
+            "contenido": "",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Social",
+            "estado": "inactivo"
+        }
+    },
+    "tecnologiaInnovacion": {
+        "tecnologiaInnovacion1": {
+            "numeroCurso": "110001",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/129224/course/overviewfiles/Identificador_cursos.png",
+            "nombre": "ABC de las ciudades inteligentes e implementación de soluciones",
+            "contenido": "Descubre el fascinante mundo de la transición de nuestras ciudades actuales hacia las ciudades del futuro. En este curso podrás explorar algunos casos de éxito de ciudades inteligentes, con los cuales podremos estar plenamente conscientes de nuestro potencial y limitaciones locales. Este curso pretende inspirarnos en los avances identificados en otras latitudes para pensarlos en nuestro contexto local. ¡Comencemos esta aventura!",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Tecnología e Innovación",
+            "estado": "activo"
+        },
+        "tecnologiaInnovacion2": {
+            "numeroCurso": "110002",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/974/course/overviewfiles/Archivistica.png",
+            "nombre": "Archivística",
+            "contenido": "El Archivo Central se complace en darle la bienvenida e invitarlo a  participar de este curso básico de archivo, en el que se te brindará herramientas conceptuales y metodológicas para tus actividades administrativas y técnicas en la gestión de archivos. Inscríbete y aprende  sobre la planificación, el  manejo y la organización de la documentación producida y recibida por las entidades desde su origen hasta su disposición final, con el fin de facilitar su utilización, consulta y conservación de los documentos. Al finalizar este curso estarás en capacidad de identificar los conceptos básicos relacionados con la gestión documental, de reconocer los componentes que hacen parte del proceso de organización de archivos, de identificar la normatividad archivística, así como de familiarizarse con los instrumentos archivísticos.",
+            "usuario": 2,
+            "link": "",
+            "categoria": "Tecnología e Innovación",
+            "estado": "activo"
+        },
+        "tecnologiaInnovacion3": {
+            "numeroCurso": "110003",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/115950/course/overviewfiles/Comunicacioncolaboracion_basico.png",
+            "nombre": "Competencias digitales: énfasis en comunicación y colaboración NB",
+            "contenido": "Las posibilidades que se presentan ante nosotros gracias a la revolución digital son realmente sorprendentes. Con este curso buscamos aprovechar al máximo las herramientas disponibles para comunicarnos y desenvolvernos en una nueva sociedad digital e interconectada, que necesita una ciudadanía inteligente. Te invitamos a entrar en esta cuarta revolución industrial consciente de las competencias digitales y comunicacionales que se requieren para vivir a plenitud este momento.",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Tecnología e Innovación",
+            "estado": "activo"
+        },
+        "tecnologiaInnovacion4": {
+            "numeroCurso": "110004",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/123650/course/overviewfiles/Nivelavanzado.png",
+            "nombre": "Competencias digitales: énfasis en comunicación y colaboración NA",
+            "contenido": "Vivimos en un mundo digital. Te invitamos a sacar todo el provecho posible para tus trabajos cotidianos, pero también para la gestión de contenidos y proyectos de tus diferentes actividades, entendiendo tu trabajo como un proceso que inicia desde la toma de decisiones y continúa hasta el desarrollo y producción final de las ideas. En este curso abordaremos herramientas gratuitas para gestionar tus contenidos y proyectos.",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Tecnología e Innovación",
+            "estado": "activo"
+        },
+        "tecnologiaInnovacion5": {
+            "numeroCurso": "110005",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/112658/course/overviewfiles/transformaciondigital_basico.png",
+            "nombre": "Competencias Digitales: énfasis en cultura de la transformación digital e inteligencia colectiva NB",
+            "contenido": "La transformación digital abarca mucho más que tecnologías y dispositivos tecnológicos. En este curso abordaremos cómo esta transformación implica también cambios en la forma de trabajar, de relacionarse y de crear de las personas. Esto llevado al ámbito empresarial se convierte en un alto potencial de innovación y de creatividad para potenciar los negocios hacia adelante, en concordancia con los retos del entorno.",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Tecnología e Innovación",
+            "estado": "activo"
+        },
+        "tecnologiaInnovacion6": {
+            "numeroCurso": "110006",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/121964/course/overviewfiles/Transformaciondigital_avanzado.png",
+            "nombre": "Competencias Digitales: énfasis en cultura de la transformación digital e inteligencia colectiva NA",
+            "contenido": "En este curso podrás comprender las principales tendencias en Transformación Digital y cómo puedes hacerlas tangibles en acciones estratégicas como punto de partida para que luego puedas llevar procesos de cambio de manera eficiente y exitosa. Además, podrás adquirir los conocimientos y las herramientas para que pases de la teoría a la práctica y obtengas un primer plan de trabajo en el que puedas aprovechar la Inteligencia colectiva en la Transformación Digital en tu emprendimiento o empresa.",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Tecnología e Innovación",
+            "estado": "activo"
+        },
+        "tecnologiaInnovacion7": {
+            "numeroCurso": "110007",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/109776/course/overviewfiles/Poderdatos_basico.png",
+            "nombre": "Competencias digitales: énfasis en el poder de los datos NB",
+            "contenido": "Los datos se conciben como un recurso que, con apoyo de internet y de las TIC, permiten la generación de valor público, social y económico para contribuir en el desarrollo de la sociedad. En este curso conocerás conceptos y estrategias para la búsqueda de información y contenido digital, aplicar filtros, evaluar críticamente su contenido, y considerar buenas prácticas para su uso ético, responsable y efectivo.",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Tecnología e Innovación",
+            "estado": "activo"
+        },
+        "tecnologiaInnovacion8": {
+            "numeroCurso": "110008",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/120768/course/overviewfiles/Poderdatos_avanzado.png",
+            "nombre": "Competencias digitales: énfasis en el poder de los datos NA",
+            "contenido": "En esta experiencia conocerás conceptos y estrategias para llevar a cabo la gestión de datos, información y contenidos digitales, principalmente en los procesos de almacenamiento, organización y recuperación de datos en entornos digitales. Además, aprenderás a diseñar tableros de control de datos como una herramienta que te permitirá visualizar y analizar datos e información en un entorno estructurado.",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Tecnología e Innovación",
+            "estado": "activo"
+        },
+        "tecnologiaInnovacion9": {
+            "numeroCurso": "110009",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/122800/course/overviewfiles/Identificador_cursos.png",
+            "nombre": "Fundamentos de las ciudades inteligentes",
+            "contenido": "Te invitamos a descubrir el fascinante mundo de la transición de nuestras ciudades actuales, hacia las ciudades del futuro. En este curso, podrás explorar algunos casos de éxito de ciudades inteligentes, con los cuales, podremos estar plenamente conscientes de nuestro potencial y limitaciones locales. Este curso pretende inspirarnos en los avances identificados en otras latitudes para pensarlos en nuestro contexto local. ¡Comencemos esta aventura!",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Tecnología e Innovación",
+            "estado": "activo"
+        },
+        "tecnologiaInnovacion10": {
+            "numeroCurso": "110010",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/129300/course/overviewfiles/Identificador_cursos.png",
+            "nombre": "Introducción a la plataforma Fiware para soluciones de ciudad inteligente",
+            "contenido": "Bienvenido al curso Introducción a la plataforma Fiware para soluciones de ciudad inteligente, en este curso podrás desarrollar competencias en la conceptualización, diseño e implementación de soluciones de Internet de las cosas para resolver problemas en el marco del concepto de ciudades inteligentes, mediante la apropiación de conocimientos de arquitecturas de nube, virtualización de servicios, implementación de sensores y desarrollo de analítica descriptiva y visualización mediante tableros de control de procesos empleando el ecosistema de desarrollo FiWARE.",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Tecnología e Innovación",
+            "estado": "activo"
+        },
+        "tecnologiaInnovacion11": {
+            "numeroCurso": "110011",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/86668/course/overviewfiles/IntroSegInformacion.png",
+            "nombre": "Introducción a la Seguridad de la Información",
+            "contenido": "El propósito de este curso es reconocer los conceptos básicos sobre Seguridad de la Información y los procesos de seguridad de la información, de acuerdo con los lineamientos del Modelo de Seguridad y Privacidad de la Información emitidos por el MinTIC.",
+            "usuario": 2,
+            "link": "",
+            "categoria": "Tecnología e Innovación",
+            "estado": "activo"
+        },
+        "tecnologiaInnovacion12": {
+            "numeroCurso": "110012",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/86668/course/overviewfiles/IntroSegInformacion.png",
+            "nombre": "Introducción al Centro de servicios compartidos",
+            "contenido": "Con este Curso sobre el Centro de Servicios Compartidos (CSC), se pretende que los funcionarios y contratistas del Distrito de Ciencia Tecnología e Innovación de Medellín, conozcan e interioricen los conceptos de Proyectos, Servicios y Categorías, requerimientos e incidentes, responsables de los servicios, entre otros. Además, aprenderán de como acceder a la plataforma, como se encuentra distribuido el CSC, como se registra un caso, por qué categoría debe realizar las solicitudes para los diferentes servicios y campos a diligenciar, como realizar seguimiento a los casos, a la solución de los mismos y agregar notas, que notificaciones nos da el sistema y finalmente el feedback contestando una breve encuesta de satisfacción del servicio que llega a los correos.",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Tecnología e Innovación",
+            "estado": "inactivo"
+        },
+        "tecnologiaInnovacion13": {
+            "numeroCurso": "110013",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/103931/course/overviewfiles/Metaverso_basico.png",
+            "nombre": "Metaverso y tecnologías 4.0 NB",
+            "contenido": "El concepto de Metaverso nace en la ficción por medio de la literatura y el cine; y se ha venido desarrollando en los videojuegos gracias a las nuevas posibilidades de interconectividad. En este curso podrás conocer qué es un metaverso y cómo funciona este mundo, y relacionar conceptos clave con ejemplos prácticos y cercanos a tu vida diaria.",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Tecnología e Innovación",
+            "estado": "activo"
+        },
+        "tecnologiaInnovacion14": {
+            "numeroCurso": "110014",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/118358/course/overviewfiles/Metaverso_avanzado.png",
+            "nombre": "Metaverso y tecnologías 4.0 NA",
+            "contenido": "En este curso aprenderás sobre los elementos que le dan vida a los mundos virtuales, como abre bocas para motivarte a seguir profundizando en algunos de estos elementos como el diseño de videojuegos, modelado 3D, ilustración digital, composición de audio y efectos para videojuegos, entre muchos otros.",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Tecnología e Innovación",
+            "estado": "activo"
+        },
+        "tecnologiaInnovacion15": {
+            "numeroCurso": "110015",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/858/course/overviewfiles/SAP.png",
+            "nombre": "SAP",
+            "contenido": "Acá conocerás todo el contexto del entorno SAP en el Municipio de Medellín para que cualquier persona de la organización, que deba, necesite o desee interactuar con SAP pueda conocer la filosofía del sistema y las herramientas básicas que le ayudarían durante su labor, sin importar con qué Módulo o Dependencia trabaje.",
+            "usuario": 2,
+            "link": "",
+            "categoria": "Tecnología e Innovación",
+            "estado": "activo"
+        },
+        "tecnologiaInnovacion16": {
+            "numeroCurso": "110016",
+            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/24503/course/overviewfiles/SeguridadInformatica.png",
+            "nombre": "Seguridad informática",
+            "contenido": "",
+            "usuario": 1,
+            "link": "",
+            "categoria": "Tecnología e Innovación",
+            "estado": "inactivo"
+        }
+    }
+}
