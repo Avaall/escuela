@@ -7,7 +7,7 @@
             "contenido": "El curso pedagógico de convivencia se dicta para dar aplicación a la medida correctiva impuesta al interior del Proceso Único de Policía desarrollado por parte de las Autoridades de Policía, según lo dispuesto en el artículo 175 de la Ley 1801 de 2016, que describe esta medida como programa pedagógico en materia de convivencia, organizado por la administración distrital o municipal. El contenido del curso fue desarrollado de acuerdo a los objetivos del Código Nacional de Seguridad y Convivencia, propendiendo por la promoción del respeto y del ejercicio responsable de la libertad, la dignidad, los deberes y derechos colectivos e individuales relacionados con las categorías de convivencia descritas en esa norma.",
             "usuario": 1,
             "link": "",
-            "categoria": "Convivencia Ciudadana",
+            "categoria": "Convivencia ciudadana",
             "estado": "activo",
             "alt": "Imagen curso convivencia ciudadana",
             "disponible": "si"
@@ -16,12 +16,12 @@
     "diversidadGenero": {
         "diversidadGenero1": {
             "numeroCurso": "20001",
-            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/53552/course/overviewfiles/abece.png",
+            "imagen": "https://img.freepik.com/foto-gratis/manos-signo-transgenero_23-2148621037.jpg?w=826&t=st=1678291187~exp=1678291787~hmac=e1841fc9e4698d1ed1388db88a12c2c5fc6aa8d562912e985fd3949552fe62c2",
             "nombre": "ABC para Incorporar el Enfoque de Género en las Prácticas Pedagógicas",
             "contenido": "Nuestro propósito con estas recomendaciones es motivar a la comunidad educativa a acercarse al enfoque de género en la educación, que permita a las instituciones educativas reflexionar e incorporar prácticas que conlleven a la equidad e igualdad entre hombres y mujeres desde una visión de derechos humanos, especialmente los de las niñas y las mujeres, como aporte a la trasformación de patrones culturales machistas que han generado desigualdad y violencias basadas en género.",
             "usuario": 1,
             "link": "",
-            "categoria": "Diversidad y Género",
+            "categoria": "Diversidad y género",
             "estado": "activo"
         },
         "diversidadGenero2": {
@@ -31,7 +31,7 @@
             "contenido": "Este curso tiene como objetivo la implementación de estrategias formativas y de permanencia para las mujeres en el sistema educativo y favorecer la transformación de patrones culturales sexistas. Gracias a este curso podemos minimizar la brecha de conocimiento de sistemas digitales con herramientas básicas, uno de los grandes retos de la sociedad actual es pasar la información excluyente a una sociedad con comunicación digital.",
             "usuario": 1,
             "link": "",
-            "categoria": "Diversidad y Género",
+            "categoria": "Diversidad y género",
             "estado": "activo"
         },
         "diversidadGenero3": {
@@ -41,7 +41,7 @@
             "contenido": "",
             "usuario": 1,
             "link": "",
-            "categoria": "Diversidad y Género",
+            "categoria": "Diversidad y género",
             "estado": "inactivo"
         },
         "diversidadGenero4": {
@@ -51,7 +51,7 @@
             "contenido": "El Diplomado de Autonomía Económica trata acerca de la relación entre género y diversas dimensiones de la economía; para ello propone un recorrido a través de las principales propuestas teóricas-conceptuales y prácticas elaboradas desde la economía feminista no sólo para explicar las desigualdades socioeconómicas entre mujeres y hombres, sino también para realizar una mirada alternativa global al orden económico en varios niveles, desde lo más general (economía global, enfoques del desarrollo) hasta las apuestas y experiencias locales.",
             "usuario": 1,
             "link": "",
-            "categoria": "Diversidad y Género",
+            "categoria": "Diversidad y género",
             "estado": "activo"
         },
         "diversidadGenero5": {
@@ -61,7 +61,7 @@
             "contenido": "El Diplomado en Género trata sobre los principales planteamientos teóricos de los estudios de género, abordando la aparición, usos y discusión de dicha categoría. A través de un recorrido por las trayectorias históricas de los movimientos feministas y su apropiación de la noción y categoría de género, en el Diplomado se explora la relación entre la teoría y la acción política dirigida a denunciar y superar la subordinación femenina y la dominación masculina (patriarcado).",
             "usuario": 1,
             "link": "",
-            "categoria": "Diversidad y Género",
+            "categoria": "Diversidad y género",
             "estado": "activo"
         },
         "diversidadGenero6": {
@@ -71,7 +71,7 @@
             "contenido": "​El diplomado mujeres y paz es un espacio de formación para la reflexión y la construcción de procesos de paz territorial. Analiza el papel y los aportes de las mujeres en la construcción de paz y explora la relación entre la teoría y la acción política para transformar las relaciones violentas y patriarcales que han justificado una cultura violenta y guerrerista. Además, aborda los principales planteamientos conceptuales sobre la paz como una construcción social y cultural con perspectiva de género.",
             "usuario": 1,
             "link": "",
-            "categoria": "Diversidad y Género",
+            "categoria": "Diversidad y género",
             "estado": "activo"
         },
         "diversidadGenero7": {
@@ -81,7 +81,7 @@
             "contenido": "El Diplomado en Mujeres y política trata en torno dos cuestiones fundamentales y recurrentes en la relación entre las mujeres y la vida política. La primera de ellas se pregunta acerca de por qué, a pesar de la desaparición de las prohibiciones y exclusiones explícitas, la participación de las mujeres en las instituciones y procesos formales de la política (partidos políticos, procesos electorales, instituciones de gobierno, ámbitos de toma de decisiones públicas) sigue siendo tan escasa, limitada y plagada de barreras. La segunda se cuestiona acerca de por qué los intereses y necesidades prácticas y estratégicas de las mujeres – entendidas como conjunto social, pero también diversas entre sí – continúan encontrando innumerables dificultades para expresarse y concretarse en los espacios de ejercicio del poder y la toma de decisiones en los niveles sociales y comunitarios y, en especial, en el Estado.",
             "usuario": 1,
             "link": "",
-            "categoria": "Diversidad y Género",
+            "categoria": "Diversidad y género",
             "estado": "activo"
         },
         "diversidadGenero8": {
@@ -91,27 +91,27 @@
             "contenido": "El Diplomado de nuevos relacionamientos invita a mujeres y hombres a reflexionar sobre la masculinidad hegemónica construida culturalmente, la cual ha influido en la construcción de nuestras relaciones; este espacio abre la discusión a otras prácticas de relacionamiento entre mujeres y hombres, y promueve una masculinidad consciente y comprometida con la transformación de las relaciones entre los géneros e ideas para avanzar en relaciones con equidad de género.",
             "usuario": 1,
             "link": "",
-            "categoria": "Diversidad y Género",
+            "categoria": "Diversidad y género",
             "estado": "activo"
         },
         "diversidadGenero9": {
             "numeroCurso": "20009",
-            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/22385/course/overviewfiles/MujeresEIG.png",
+            "imagen": "https://img.freepik.com/foto-gratis/grupo-mejores-amigos-tomados-mano_23-2148440552.jpg?w=900&t=st=1678291256~exp=1678291856~hmac=1518be04af9fe188f49a2b9c492ea08cea877a7d3556789fba537e3610253730",
             "nombre": "Educación en igualdad de género",
             "contenido": "",
             "usuario": 1,
             "link": "",
-            "categoria": "Diversidad y Género",
+            "categoria": "Diversidad y género",
             "estado": "activo"
         },
         "diversidadGenero10": {
             "numeroCurso": "20010",
-            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/25005/course/overviewfiles/cartillasPPLP.png",
+            "imagen": "https://img.freepik.com/foto-gratis/imagen-primer-plano-gente-feliz-sonriendo-teniendo-mesa-redonda-sala-juntas-gente-negocios-real-mostrando-trabajo-equipo-oficina_549566-781.jpg?w=900&t=st=1678290815~exp=1678291415~hmac=3ee562ce8d26f7b7e398603bfaf6325ac0fd428882b3b30a59cd07977cdb5553",
             "nombre": "Guía Pedagogías para la Paz",
             "contenido": "Esta herramienta digital cuenta con un cuerpo central, en el cual se podrán visibilizar los desarrollos conceptuales que dieron lugar y direccionamiento a las diferentes intervenciones de pedagogía para la paz realizadas con las mujeres desde el año 2016 hasta el año 2019 en el marco del proyecto “Mujeres memorias de la guerra, protagonistas de la paz” y en el Componente Acciones para la Promoción de la Paz en el 2020, los cuales fueron organizados en 3 módulos así: lo subjetivo, lo intersubjetivo, los acuerdos de paz y mecanismos existentes para alcanzar la paz.",
             "usuario": 1,
             "link": "",
-            "categoria": "Diversidad y Género",
+            "categoria": "Diversidad y género",
             "estado": "activo"
         },
         "diversidadGenero11": {
@@ -121,7 +121,7 @@
             "contenido": "",
             "usuario": 1,
             "link": "",
-            "categoria": "Diversidad y Género",
+            "categoria": "Diversidad y género",
             "estado": "inactivo"
         },
         "diversidadGenero12": {
@@ -131,7 +131,7 @@
             "contenido": "Bienvenidos a los MOOC de la Escuela de Gobierno de Equidad de Género de La Secretaría de las Mujeres de la Alcaldía de Medellín. Por medio de esta estrategia de aprendizaje autónomo queremos brindarles a las mujeres de la ciudad, en su diversidad, herramientas de análisis sobre el origen de las violencias basadas en género, las desigualdades, los estereotipos de género, el sexismo; y así contribuir a la posibilidad de construir nuevos relacionamientos en clave de equidad, entre mujeres y hombres.",
             "usuario": 1,
             "link": "",
-            "categoria": "Diversidad y Género",
+            "categoria": "Diversidad y género",
             "estado": "activo"
         },
         "diversidadGenero13": {
@@ -141,7 +141,7 @@
             "contenido": "Bienvenidos a los MOOC de la Escuela de Gobierno de Equidad de Género de La Secretaría de las Mujeres de la Alcaldía de Medellín. Por medio de esta estrategia de aprendizaje autónomo queremos brindarles a las mujeres de la ciudad, en su diversidad, herramientas de análisis sobre el origen de las violencias basadas en género, las desigualdades, los estereotipos de género, el sexismo; y así contribuir a la posibilidad de construir nuevos relacionamientos en clave de equidad, entre mujeres y hombres.",
             "usuario": 1,
             "link": "",
-            "categoria": "Diversidad y Género",
+            "categoria": "Diversidad y género",
             "estado": "inactivo"
         },
         "diversidadGenero14": {
@@ -151,27 +151,27 @@
             "contenido": "Bienvenidos a los MOOC de la Escuela de Gobierno de Equidad de Género de La Secretaría de las Mujeres de la Alcaldía de Medellín. Por medio de esta estrategia de aprendizaje autónomo queremos brindarles a las mujeres de la ciudad, en su diversidad, herramientas de análisis sobre el origen de las violencias basadas en género, las desigualdades, los estereotipos de género, el sexismo; y así contribuir a la posibilidad de construir nuevos relacionamientos en clave de equidad, entre mujeres y hombres.",
             "usuario": 1,
             "link": "",
-            "categoria": "Diversidad y Género",
+            "categoria": "Diversidad y género",
             "estado": "activo"
         },
         "diversidadGenero15": {
             "numeroCurso": "20015",
-            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/16424/course/overviewfiles/PCIG.png",
+            "imagen": "https://img.freepik.com/foto-gratis/cerca-personas-que-conectan-traves-manos_23-2149125871.jpg?w=900&t=st=1678291556~exp=1678292156~hmac=5f1c40bd0d4568cb65ce2526fed75fa41a8050af5b412cefa4512abe674212b3",
             "nombre": "Pedagogías y Didácticas Creativas para la Igualdad de Género",
             "contenido": "",
             "usuario": 1,
             "link": "",
-            "categoria": "Diversidad y Género",
+            "categoria": "Diversidad y género",
             "estado": "activo"
         },
         "diversidadGenero16": {
             "numeroCurso": "20016",
-            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/22480/course/overviewfiles/PPIG.png",
+            "imagen": "https://img.freepik.com/foto-gratis/grupo-mujeres-activistas-juntas_23-2148409921.jpg?w=900&t=st=1678290903~exp=1678291503~hmac=ca685002334cd8bba40133981b1cb96c114c38331399626806ae15c02c570976",
             "nombre": "Política Pública para la Igualdad de Género",
             "contenido": "",
             "usuario": 1,
             "link": "",
-            "categoria": "Diversidad y Género",
+            "categoria": "Diversidad y género",
             "estado": "activo"
         },
         "diversidadGenero17": {
@@ -181,7 +181,7 @@
             "contenido": "",
             "usuario": 1,
             "link": "",
-            "categoria": "Diversidad y Género",
+            "categoria": "Diversidad y género",
             "estado": "inactivo"
         },
         "diversidadGenero18": {
@@ -191,7 +191,7 @@
             "contenido": "",
             "usuario": 1,
             "link": "",
-            "categoria": "Diversidad y Género",
+            "categoria": "Diversidad y género",
             "estado": "inactivo"
         }
     },
@@ -203,17 +203,17 @@
             "contenido": "",
             "usuario": 1,
             "link": "",
-            "categoria": "Gestión Humana",
+            "categoria": "Gestión humana",
             "estado": "inactivo"
         },
         "gestionHumana2": {
             "numeroCurso": "30002",
-            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/26332/course/overviewfiles/humana2.png",
+            "imagen": "https://img.freepik.com/foto-gratis/violencia-lugar-trabajo-colegas_23-2149361822.jpg?w=900&t=st=1678290955~exp=1678291555~hmac=c126112915cc7e112b8bece7c4def3ce16f3378a6a2cbb6d3f0f0c980a58280f",
             "nombre": "Acoso Laboral",
             "contenido": "",
             "usuario": 1,
             "link": "",
-            "categoria": "Gestión Humana",
+            "categoria": "Gestión humana",
             "estado": "activo"
         },
         "gestionHumana3": {
@@ -223,7 +223,7 @@
             "contenido": "",
             "usuario": 1,
             "link": "",
-            "categoria": "Gestión Humana",
+            "categoria": "Gestión humana",
             "estado": "inactivo"
         },
         "gestionHumana4": {
@@ -233,7 +233,7 @@
             "contenido": "",
             "usuario": 1,
             "link": "",
-            "categoria": "Gestión Humana",
+            "categoria": "Gestión humana",
             "estado": "inactivo"
         },
         "gestionHumana5": {
@@ -243,39 +243,39 @@
             "contenido": "",
             "usuario": 1,
             "link": "",
-            "categoria": "Gestión Humana",
+            "categoria": "Gestión humana",
             "estado": "inactivo"
         },
         "gestionHumana6": {
             "numeroCurso": "30006",
-            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/26235/course/overviewfiles/humana7.png",
+            "imagen": "https://img.freepik.com/foto-gratis/como-son-tus-tratos-grupo-personas-conferencia-negocios-aula-moderna-dia_146671-16408.jpg?w=900&t=st=1678290984~exp=1678291584~hmac=bdff996935d3d43c038f102ad6b01a53a7b9385b3933911dfcdc851f86c46b8f",
             "nombre": "Sistema de Formación Institucional",
             "contenido": "",
             "usuario": 1,
             "link": "",
-            "categoria": "Gestión Humana",
+            "categoria": "Gestión humana",
             "estado": "activo"
         }
     },
     "haciendaContratacion": {
         "haciendaContratacion1": {
             "numeroCurso": "40001",
-            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/584/course/overviewfiles/portada1.png",
+            "imagen": "https://img.freepik.com/foto-gratis/concepto-marca-solucion-estrategia-gestion-corporativa_53876-122982.jpg?w=996&t=st=1678291044~exp=1678291644~hmac=101825ce2b42dc963a8a0f4750a6227571a0b17d84d28ae5f6ffe9926635e6e6",
             "nombre": "El ABC de la Supervisión o Interventoría",
             "contenido": "",
             "usuario": 1,
             "link": "",
-            "categoria": "Hacienda y Contratación",
+            "categoria": "Hacienda y contratación",
             "estado": "activo"
         },
         "haciendaContratacion2": {
             "numeroCurso": "40002",
-            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/47/course/overviewfiles/hacienda2.png",
+            "imagen": "https://img.freepik.com/foto-gratis/grafico-barras-creciente-digital-superposicion-manos-empresario_53876-97640.jpg?w=1060&t=st=1678291068~exp=1678291668~hmac=93f13e85a1a5398b493dc8e823efdb4e92aae6016ec90cb2913e9ffcaae18d8f",
             "nombre": "Estructura Subsecretaría de Ingresos",
             "contenido": "",
             "usuario": 1,
             "link": "",
-            "categoria": "Hacienda y Contratación",
+            "categoria": "Hacienda y contratación",
             "estado": "activo"
         },
         "haciendaContratacion3": {
@@ -285,7 +285,7 @@
             "contenido": "El Curso Básico de Contratación le brinda la oportunidad de conocer los principios básicos de la contratación  y le  ayuda a formar  una visión general de la contratación estatal, así como a conocer  los medios con los que puede contar para participar en los proceso de contratación que realice el Municipio de Medellín.",
             "usuario": 1,
             "link": "",
-            "categoria": "Hacienda y Contratación",
+            "categoria": "Hacienda y contratación",
             "estado": "inactivo"
         },
         "haciendaContratacion4": {
@@ -295,29 +295,29 @@
             "contenido": "La  Secretaría de Suministros y Servicios le ofrece una cordial  bienvenida al Modulo de Contratación para los Gestores de la Contratacion. Le ofrecemos nuestro apoyo y los medios a nuestro alcance para que sea del mayor beneficio posible en su crecimiento intelectual. El Curso Básico de Contratación le brinda la oportunidad de conocer los principios básicos de la contratación  y le  ayuda a formar  una visión general de la contratación estatal, así como a conocer  los medios con los que puede contar para participar en los proceso de contratación que realice el Municipio de Medellín.",
             "usuario": 2,
             "link": "",
-            "categoria": "Hacienda y Contratación",
+            "categoria": "Hacienda y contratación",
             "estado": "activo"
         }
     },
     "inclusionSocial": {
         "inclusionSocial1": {
             "numeroCurso": "50001",
-            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/53631/course/overviewfiles/Portada%20-%20Ciclo%20de%20formaci%C3%B3n.png",
+            "imagen": "https://img.freepik.com/foto-gratis/orador-masculino-dando-presentacion-salon-taller-universitario-audiencia-o-sala-conferencias_155003-27452.jpg?w=900&t=st=1678291328~exp=1678291928~hmac=aff3b3454de124d9b087be17c8cef126e0d7dd1412cde5547a58a8dc11563fc1",
             "nombre": "Ciclo de Formación",
             "contenido": "El curso virtual Ciclo de Formación posibilita la inducción y reinducción a los equipos de trabajo en lo que corresponde a acciones encaminadas a la mejora continua en la prestación de los servicios misionales de la Unidad Familia Medellín, a través del conocimiento de la institucionalidad, la Política Pública para la Familia, la metodología para el Acompañamiento Familiar y la integralidad de enfoques para el acompañamiento humano del plan de transversalización.",
             "usuario": 1,
             "link": "",
-            "categoria": "Inclusión Social",
+            "categoria": "Inclusión social",
             "estado": "activo"
         },
         "inclusionSocial2": {
             "numeroCurso": "50002",
-            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/72015/course/overviewfiles/Portada%20-%20Politica%20Publica.png",
+            "imagen": "https://img.freepik.com/foto-gratis/vista-inferior-varios-estudiantes-mirando-camara_1098-1259.jpg?w=900&t=st=1678291401~exp=1678292001~hmac=68daa538f1f7e3c81f97c3df3b1d5a79203e795b262ca3b295371b83fe878d3c",
             "nombre": "Política Pública de infancia y adolescencia",
             "contenido": "En este curso aprenderán sobre el camino que enmarca nuestro que hacer desde lo conceptual, teórico y técnico, para favorecer el desarrollo integral de la niñez y la adolescencia desde la ciudad y q nos señala la ruta para favorecer la corresponsabilidad en toda  la población, para velar por sus derechos, su integridad y su dignidad.",
             "usuario": 2,
             "link": "",
-            "categoria": "Inclusión Social",
+            "categoria": "Inclusión social",
             "estado": "activo"
         },
         "inclusionSocial3": {
@@ -327,7 +327,7 @@
             "contenido": "La Unidad de Niñez a través del proyecto Medellín Cuida a sus Niñas, Niños y Adolescentes les da la bienvenida al curso virtual  Prácticas para la Acción, como una apuesta de ciudad tenemos el reto de  trabajar en la erradicación de la explotación sexual comercial de niñas, niños y adolescentes -ESCNNA-, las violencias sexuales – abuso sexual- y el embarazo adolescente y subsecuente, problemáticas que vulneran los derechos de las infancias y las adolescencias  y deterioran su bienestar y calidad de vida.",
             "usuario": 2,
             "link": "",
-            "categoria": "Inclusión Social",
+            "categoria": "Inclusión social",
             "estado": "activo"
         }
     },
@@ -354,7 +354,7 @@
         },
         "salud3": {
             "numeroCurso": "60003",
-            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/1013/course/overviewfiles/curso2.png",
+            "imagen": "https://img.freepik.com/foto-gratis/mujer-asiatica-joven-sana-corredor-calienta-cuerpo-que-estira-antes-ejercicio-yoga_7861-1116.jpg?w=900&t=st=1678291824~exp=1678292424~hmac=9ca858d14ad7c56da39bab3cc2fb4d739fc2b5f018028941b9379cf9e186b685",
             "nombre": "Conéctate con la vida",
             "contenido": "Con el curso 'Conéctate con la Vida' 💙, aprenderás a trabajar en redes sociales, realizar piezas gráficas, conocer diferentes planos audiovisuales y aplicaciones para desarrollar los mismos 😊",
             "usuario": 1,
@@ -394,7 +394,7 @@
         },
         "salud7": {
             "numeroCurso": "60007",
-            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/28444/course/overviewfiles/guardianes-de-vida.png",
+            "imagen": "https://img.freepik.com/foto-gratis/gente-que-tiene-manos-familia-papel-lindo_23-2148485839.jpg?w=826&t=st=1678291850~exp=1678292450~hmac=a91f31f0197dcff57e3231d7afbeda6938c487037d3cff0db4597e5a935bec23",
             "nombre": "Guardianes de vida",
             "contenido": "Al final de este curso tendrás una idea clara de los factores de riesgo asociados a la conducta suicida en adolescentes, niños y niñas. Sabrás cómo promover los factores protectores para el cuidado de tu salud mental.",
             "usuario": 1,
@@ -454,7 +454,7 @@
         },
         "salud13": {
             "numeroCurso": "60013",
-            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/29046/course/overviewfiles/salva-vidas-educativo.png",
+            "imagen": "https://img.freepik.com/foto-gratis/estudiante-sonriente-atractivo-joven-que-muestra-pulgar-arriba-al-aire-libre-campus-universidad_8353-6394.jpg?w=900&t=st=1678291919~exp=1678292519~hmac=568c6162bd560021a43cfe5a9b10ff87e058bae09b9ea764077a8cacdddfe852",
             "nombre": "Salva Vidas Educativo",
             "contenido": "Al final de este curso tendrás una idea clara de los factores de riesgo asociados a la conducta suicida desde el entorno educativo, con el fin de identificar estudiantes en riesgo, guiarlos en el acceso a los servicios y acompañarlos en sus procesos individuales y familiares.",
             "usuario": 1,
@@ -464,7 +464,7 @@
         },
         "salud14": {
             "numeroCurso": "60014",
-            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/31595/course/overviewfiles/salva-vidas-familia.png",
+            "imagen": "https://img.freepik.com/foto-gratis/padres-sus-hijos-caminando-bosque_1303-16365.jpg?w=900&t=st=1678291952~exp=1678292552~hmac=e00faf7026182ee94f4eb7f89f3ac47ac2dba524efd0e5efdd06b5a0a36a4afd",
             "nombre": "Salva Vidas Familia",
             "contenido": "Al final de este curso tendrás una idea clara de los factores de riesgo asociados a la conducta suicida desde el entorno familiar, con el fin de adquirir herramientas para identificar de manera temprana un riesgo de comportamiento suicida y qué hacer ante el mismo.",
             "usuario": 1,
@@ -486,34 +486,34 @@
     "seguridadVial": {
         "seguridadVial1": {
             "numeroCurso": "70001",
-            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/26146/course/overviewfiles/Educaci%C3%B3n.png",
+            "imagen": "https://img.freepik.com/foto-gratis/hermosa-mujer-joven-sentada-coche-escuela-listo-clases_342744-681.jpg?w=900&t=st=1678292011~exp=1678292611~hmac=0078addb48b5e4b943f685984f735e3394917693bbdcb8eeaa9b25199508a103",
             "nombre": "Amonestados",
             "contenido": "",
             "usuario": 1,
             "link": "",
-            "categoria": "Seguridad Vial",
+            "categoria": "Seguridad vial",
             "estado": "activo"
         }
     },
     "seguridadSaludTrabajo": {
         "seguridadSaludTrabajo1": {
             "numeroCurso": "80001",
-            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/958/course/overviewfiles/humana3.png",
+            "imagen": "https://img.freepik.com/foto-gratis/gente-practica-medicina_1157-42457.jpg?w=900&t=st=1678292064~exp=1678292664~hmac=8e04b895594711c2816828d47cdd7edc18cf21478aa2bd681922c2b0375fcbe6",
             "nombre": "Comité de Emergencia",
             "contenido": "",
             "usuario": 1,
             "link": "",
-            "categoria": "Seguridad y Salud en el Trabajo",
+            "categoria": "Seguridad y salud en el trabajo",
             "estado": "activo"
         },
         "seguridadSaludTrabajo2": {
             "numeroCurso": "80002",
-            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/26316/course/overviewfiles/PORTADA%20INVESTIGACION%20DE%20AT%20E%20INCIDENTES.JPG",
+            "imagen": "https://img.freepik.com/foto-gratis/concepto-formacion-primeros-auxilios-rcp_53876-148120.jpg?w=826&t=st=1678292146~exp=1678292746~hmac=54c86de05b512f8b4db6955d70251fa76422b5dc95ce9f81af9861bb75ad9372",
             "nombre": "Investigación de Accidentes e incidentes",
             "contenido": "",
             "usuario": 1,
             "link": "",
-            "categoria": "Seguridad y Salud en el Trabajo",
+            "categoria": "Seguridad y salud en el trabajo",
             "estado": "activo"
         },
         "seguridadSaludTrabajo3": {
@@ -523,7 +523,7 @@
             "contenido": "",
             "usuario": 1,
             "link": "",
-            "categoria": "Seguridad y Salud en el Trabajo",
+            "categoria": "Seguridad y salud en el trabajo",
             "estado": "inactivo"
         },
         "seguridadSaludTrabajo4": {
@@ -533,7 +533,7 @@
             "contenido": "",
             "usuario": 1,
             "link": "",
-            "categoria": "Seguridad y Salud en el Trabajo",
+            "categoria": "Seguridad y salud en el trabajo",
             "estado": "inactivo"
         },
         "seguridadSaludTrabajo5": {
@@ -543,7 +543,7 @@
             "contenido": "",
             "usuario": 1,
             "link": "",
-            "categoria": "Seguridad y Salud en el Trabajo",
+            "categoria": "Seguridad y salud en el trabajo",
             "estado": "inactivo"
         },
         "seguridadSaludTrabajo6": {
@@ -553,7 +553,7 @@
             "contenido": "",
             "usuario": 1,
             "link": "",
-            "categoria": "Seguridad y Salud en el Trabajo",
+            "categoria": "Seguridad y salud en el trabajo",
             "estado": "inactivo"
         },
         "seguridadSaludTrabajo7": {
@@ -563,7 +563,7 @@
             "contenido": "",
             "usuario": 1,
             "link": "",
-            "categoria": "Seguridad y Salud en el Trabajo",
+            "categoria": "Seguridad y salud en el trabajo",
             "estado": "inactivo"
         },
         "seguridadSaludTrabajo8": {
@@ -573,14 +573,14 @@
             "contenido": "",
             "usuario": 1,
             "link": "",
-            "categoria": "Seguridad y Salud en el Trabajo",
+            "categoria": "Seguridad y salud en el trabajo",
             "estado": "inactivo"
         }
     },
     "seminarios": {
         "seminarios1": {
             "numeroCurso": "90001",
-            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/130122/course/overviewfiles/IX_Seminario_Auditoria_Interna.png",
+            "imagen": "https://img.freepik.com/foto-gratis/concepto-formacion-primeros-auxilios-rcp_53876-148120.jpg?w=826&t=st=1678292146~exp=1678292746~hmac=54c86de05b512f8b4db6955d70251fa76422b5dc95ce9f81af9861bb75ad9372",
             "nombre": "IX Seminario Internacional de Auditoría Interna",
             "contenido": "",
             "usuario": 1,
@@ -598,7 +598,7 @@
             "usuario": 1,
             "link": "",
             "categoria": "Social",
-            "estado": "activo"
+            "estado": "inactivo"
         },
         "social2": {
             "numeroCurso": "100002",
@@ -679,17 +679,17 @@
             "contenido": "Descubre el fascinante mundo de la transición de nuestras ciudades actuales hacia las ciudades del futuro. En este curso podrás explorar algunos casos de éxito de ciudades inteligentes, con los cuales podremos estar plenamente conscientes de nuestro potencial y limitaciones locales. Este curso pretende inspirarnos en los avances identificados en otras latitudes para pensarlos en nuestro contexto local. ¡Comencemos esta aventura!",
             "usuario": 1,
             "link": "",
-            "categoria": "Tecnología e Innovación",
+            "categoria": "Tecnología e innovación",
             "estado": "activo"
         },
         "tecnologiaInnovacion2": {
             "numeroCurso": "110002",
-            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/974/course/overviewfiles/Archivistica.png",
+            "imagen": "https://img.freepik.com/foto-gratis/hombre-joven-primer-que-busca-vinilos-tienda_23-2148237245.jpg?w=900&t=st=1678292296~exp=1678292896~hmac=e7c76d2b86b7b248e11fd8c3c8fde3472a9b119f59b1bb385e8a46b398e2f539",
             "nombre": "Archivística",
             "contenido": "El Archivo Central se complace en darle la bienvenida e invitarlo a  participar de este curso básico de archivo, en el que se te brindará herramientas conceptuales y metodológicas para tus actividades administrativas y técnicas en la gestión de archivos. Inscríbete y aprende  sobre la planificación, el  manejo y la organización de la documentación producida y recibida por las entidades desde su origen hasta su disposición final, con el fin de facilitar su utilización, consulta y conservación de los documentos. Al finalizar este curso estarás en capacidad de identificar los conceptos básicos relacionados con la gestión documental, de reconocer los componentes que hacen parte del proceso de organización de archivos, de identificar la normatividad archivística, así como de familiarizarse con los instrumentos archivísticos.",
             "usuario": 2,
             "link": "",
-            "categoria": "Tecnología e Innovación",
+            "categoria": "Tecnología e innovación",
             "estado": "activo"
         },
         "tecnologiaInnovacion3": {
@@ -699,7 +699,7 @@
             "contenido": "Las posibilidades que se presentan ante nosotros gracias a la revolución digital son realmente sorprendentes. Con este curso buscamos aprovechar al máximo las herramientas disponibles para comunicarnos y desenvolvernos en una nueva sociedad digital e interconectada, que necesita una ciudadanía inteligente. Te invitamos a entrar en esta cuarta revolución industrial consciente de las competencias digitales y comunicacionales que se requieren para vivir a plenitud este momento.",
             "usuario": 1,
             "link": "",
-            "categoria": "Tecnología e Innovación",
+            "categoria": "Tecnología e innovación",
             "estado": "activo"
         },
         "tecnologiaInnovacion4": {
@@ -709,7 +709,7 @@
             "contenido": "Vivimos en un mundo digital. Te invitamos a sacar todo el provecho posible para tus trabajos cotidianos, pero también para la gestión de contenidos y proyectos de tus diferentes actividades, entendiendo tu trabajo como un proceso que inicia desde la toma de decisiones y continúa hasta el desarrollo y producción final de las ideas. En este curso abordaremos herramientas gratuitas para gestionar tus contenidos y proyectos.",
             "usuario": 1,
             "link": "",
-            "categoria": "Tecnología e Innovación",
+            "categoria": "Tecnología e innovación",
             "estado": "activo"
         },
         "tecnologiaInnovacion5": {
@@ -719,7 +719,7 @@
             "contenido": "La transformación digital abarca mucho más que tecnologías y dispositivos tecnológicos. En este curso abordaremos cómo esta transformación implica también cambios en la forma de trabajar, de relacionarse y de crear de las personas. Esto llevado al ámbito empresarial se convierte en un alto potencial de innovación y de creatividad para potenciar los negocios hacia adelante, en concordancia con los retos del entorno.",
             "usuario": 1,
             "link": "",
-            "categoria": "Tecnología e Innovación",
+            "categoria": "Tecnología e innovación",
             "estado": "activo"
         },
         "tecnologiaInnovacion6": {
@@ -729,7 +729,7 @@
             "contenido": "En este curso podrás comprender las principales tendencias en Transformación Digital y cómo puedes hacerlas tangibles en acciones estratégicas como punto de partida para que luego puedas llevar procesos de cambio de manera eficiente y exitosa. Además, podrás adquirir los conocimientos y las herramientas para que pases de la teoría a la práctica y obtengas un primer plan de trabajo en el que puedas aprovechar la Inteligencia colectiva en la Transformación Digital en tu emprendimiento o empresa.",
             "usuario": 1,
             "link": "",
-            "categoria": "Tecnología e Innovación",
+            "categoria": "Tecnología e innovación",
             "estado": "activo"
         },
         "tecnologiaInnovacion7": {
@@ -739,7 +739,7 @@
             "contenido": "Los datos se conciben como un recurso que, con apoyo de internet y de las TIC, permiten la generación de valor público, social y económico para contribuir en el desarrollo de la sociedad. En este curso conocerás conceptos y estrategias para la búsqueda de información y contenido digital, aplicar filtros, evaluar críticamente su contenido, y considerar buenas prácticas para su uso ético, responsable y efectivo.",
             "usuario": 1,
             "link": "",
-            "categoria": "Tecnología e Innovación",
+            "categoria": "Tecnología e innovación",
             "estado": "activo"
         },
         "tecnologiaInnovacion8": {
@@ -749,7 +749,7 @@
             "contenido": "En esta experiencia conocerás conceptos y estrategias para llevar a cabo la gestión de datos, información y contenidos digitales, principalmente en los procesos de almacenamiento, organización y recuperación de datos en entornos digitales. Además, aprenderás a diseñar tableros de control de datos como una herramienta que te permitirá visualizar y analizar datos e información en un entorno estructurado.",
             "usuario": 1,
             "link": "",
-            "categoria": "Tecnología e Innovación",
+            "categoria": "Tecnología e innovación",
             "estado": "activo"
         },
         "tecnologiaInnovacion9": {
@@ -759,7 +759,7 @@
             "contenido": "Te invitamos a descubrir el fascinante mundo de la transición de nuestras ciudades actuales, hacia las ciudades del futuro. En este curso, podrás explorar algunos casos de éxito de ciudades inteligentes, con los cuales, podremos estar plenamente conscientes de nuestro potencial y limitaciones locales. Este curso pretende inspirarnos en los avances identificados en otras latitudes para pensarlos en nuestro contexto local. ¡Comencemos esta aventura!",
             "usuario": 1,
             "link": "",
-            "categoria": "Tecnología e Innovación",
+            "categoria": "Tecnología e innovación",
             "estado": "activo"
         },
         "tecnologiaInnovacion10": {
@@ -769,17 +769,17 @@
             "contenido": "Bienvenido al curso Introducción a la plataforma Fiware para soluciones de ciudad inteligente, en este curso podrás desarrollar competencias en la conceptualización, diseño e implementación de soluciones de Internet de las cosas para resolver problemas en el marco del concepto de ciudades inteligentes, mediante la apropiación de conocimientos de arquitecturas de nube, virtualización de servicios, implementación de sensores y desarrollo de analítica descriptiva y visualización mediante tableros de control de procesos empleando el ecosistema de desarrollo FiWARE.",
             "usuario": 1,
             "link": "",
-            "categoria": "Tecnología e Innovación",
+            "categoria": "Tecnología e innovación",
             "estado": "activo"
         },
         "tecnologiaInnovacion11": {
             "numeroCurso": "110011",
-            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/86668/course/overviewfiles/IntroSegInformacion.png",
+            "imagen": "https://img.freepik.com/foto-gratis/equipo-programadores-hablando-sobre-algoritmo-que-ejecuta-pantalla-portatil-apuntando-al-codigo-fuente-mientras-sentado-escritorio-desarrolladores-software-que-colaboran-proyecto-grupo-codificacion-datos_482257-33548.jpg?w=1060&t=st=1678292340~exp=1678292940~hmac=9e449281f08886819f580a6247568142f7d9dec3a2a63dd928ecafd2993487b2",
             "nombre": "Introducción a la Seguridad de la Información",
             "contenido": "El propósito de este curso es reconocer los conceptos básicos sobre Seguridad de la Información y los procesos de seguridad de la información, de acuerdo con los lineamientos del Modelo de Seguridad y Privacidad de la Información emitidos por el MinTIC.",
             "usuario": 2,
             "link": "",
-            "categoria": "Tecnología e Innovación",
+            "categoria": "Tecnología e innovación",
             "estado": "activo"
         },
         "tecnologiaInnovacion12": {
@@ -789,7 +789,7 @@
             "contenido": "Con este Curso sobre el Centro de Servicios Compartidos (CSC), se pretende que los funcionarios y contratistas del Distrito de Ciencia Tecnología e Innovación de Medellín, conozcan e interioricen los conceptos de Proyectos, Servicios y Categorías, requerimientos e incidentes, responsables de los servicios, entre otros. Además, aprenderán de como acceder a la plataforma, como se encuentra distribuido el CSC, como se registra un caso, por qué categoría debe realizar las solicitudes para los diferentes servicios y campos a diligenciar, como realizar seguimiento a los casos, a la solución de los mismos y agregar notas, que notificaciones nos da el sistema y finalmente el feedback contestando una breve encuesta de satisfacción del servicio que llega a los correos.",
             "usuario": 1,
             "link": "",
-            "categoria": "Tecnología e Innovación",
+            "categoria": "Tecnología e innovación",
             "estado": "inactivo"
         },
         "tecnologiaInnovacion13": {
@@ -799,7 +799,7 @@
             "contenido": "El concepto de Metaverso nace en la ficción por medio de la literatura y el cine; y se ha venido desarrollando en los videojuegos gracias a las nuevas posibilidades de interconectividad. En este curso podrás conocer qué es un metaverso y cómo funciona este mundo, y relacionar conceptos clave con ejemplos prácticos y cercanos a tu vida diaria.",
             "usuario": 1,
             "link": "",
-            "categoria": "Tecnología e Innovación",
+            "categoria": "Tecnología e innovación",
             "estado": "activo"
         },
         "tecnologiaInnovacion14": {
@@ -809,17 +809,17 @@
             "contenido": "En este curso aprenderás sobre los elementos que le dan vida a los mundos virtuales, como abre bocas para motivarte a seguir profundizando en algunos de estos elementos como el diseño de videojuegos, modelado 3D, ilustración digital, composición de audio y efectos para videojuegos, entre muchos otros.",
             "usuario": 1,
             "link": "",
-            "categoria": "Tecnología e Innovación",
+            "categoria": "Tecnología e innovación",
             "estado": "activo"
         },
         "tecnologiaInnovacion15": {
             "numeroCurso": "110015",
-            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/858/course/overviewfiles/SAP.png",
+            "imagen": "https://img.freepik.com/foto-gratis/codigo-aplicacion-programacion-ingenieros-afroamericanos-desarrollo-software-linea-servidor-nube-seguridad-firewall-codificacion-nueva-interfaz-usuario-programa-html-codigo-binario-desarrollo-web_482257-49867.jpg?w=900&t=st=1678292391~exp=1678292991~hmac=e1ad05c92f73cf51ef3598be5aafc283b19caac34706e41130152ca62b2d5fc6",
             "nombre": "SAP",
             "contenido": "Acá conocerás todo el contexto del entorno SAP en el Municipio de Medellín para que cualquier persona de la organización, que deba, necesite o desee interactuar con SAP pueda conocer la filosofía del sistema y las herramientas básicas que le ayudarían durante su labor, sin importar con qué Módulo o Dependencia trabaje.",
             "usuario": 2,
             "link": "",
-            "categoria": "Tecnología e Innovación",
+            "categoria": "Tecnología e innovación",
             "estado": "activo"
         },
         "tecnologiaInnovacion16": {
@@ -829,7 +829,7 @@
             "contenido": "",
             "usuario": 1,
             "link": "",
-            "categoria": "Tecnología e Innovación",
+            "categoria": "Tecnología e innovación",
             "estado": "inactivo"
         }
     }

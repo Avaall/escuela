@@ -6,11 +6,11 @@
                 <span class="usuario-close">X</span>
                 <h1 class="text-center mb-5 usuario-texto-titulo">¿A qué perfil perteneces?</h1>
                 <div class="d-flex flex-row">
-                    <div v-on:click="cambiarValor(1)" class="d-flex flex-column align-items-center mx-5 cursor active-img-logo">
+                    <div v-on:click="cambiarValor(1)" class="d-flex flex-column align-items-center mx-2 mx-md-5 cursor active-img-logo">
                         <img src="./assets/img/usuario-ciudadano.png" alt="" height="215px" class="usuario-icon">
                         <span class="usuarios-texto">Ciudadanía</span>
                     </div>
-                    <div v-on:click="cambiarValor(2)" class="d-flex flex-column align-items-center mx-5 cursor">
+                    <div v-on:click="cambiarValor(2)" class="d-flex flex-column align-items-center mx-2 mx-md-5 cursor">
                         <img src="./assets/img/usuario-servidor.png" alt="" height="215px" class="usuario-icon">
                         <span class="usuarios-texto">Servidores</span>
                     </div>

@@ -94,7 +94,7 @@
         font-size: 20px;
     }
     .usuario-icon {
-        height: 120px;
+        height: 150px;
     }
     .usuarios-texto {
         font-size: 16px;
@@ -513,7 +513,6 @@
     letter-spacing: -1px;
     font-weight: 700;
     margin-bottom: 20px;
-    line-height: 34px;
 }
 .index-inicio-logo {
     width: 500px;
@@ -709,7 +708,7 @@
     background: #ee7b2e;
 }
 .index-cursos-menu-ul-li-activado {
-    color: black;
+    color: #ee7b2e;
     font-size: 22px;
     transition: .5s;
     margin-left: 20px;

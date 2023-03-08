@@ -23,7 +23,7 @@
                                     <img :src="cursoconvivenciaCiudadana.imagen" alt="foto" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursoconvivenciaCiudadana.nombre }}</strong> <br>
-                                        <i>{{ cursoconvivenciaCiudadana.categoria }}</i> <br>
+                                        <i>Categoría: {{ cursoconvivenciaCiudadana.categoria }}</i> <br>
                                     </p>
                                     <span>Conoce Más...</span>
                                 </button>
@@ -46,7 +46,7 @@
                                     <img :src="cursodiversidadGenero.imagen" alt="foto" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursodiversidadGenero.nombre }}</strong> <br>
-                                        <i>{{ cursodiversidadGenero.categoria }}</i> <br>
+                                        <i>Categoría: {{ cursodiversidadGenero.categoria }}</i> <br>
                                     </p>
                                     <span>Conoce Más...</span>
                                 </button>
@@ -69,7 +69,7 @@
                                     <img :src="cursogestionHumana.imagen" alt="foto" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursogestionHumana.nombre }}</strong> <br>
-                                        <i>{{ cursogestionHumana.categoria }}</i> <br>
+                                        <i>Categoría: {{ cursogestionHumana.categoria }}</i> <br>
                                     </p>
                                     <span>Conoce Más...</span>
                                 </button>
@@ -92,7 +92,7 @@
                                     <img :src="cursohaciendaContratacion.imagen" alt="foto" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursohaciendaContratacion.nombre }}</strong> <br>
-                                        <i>{{ cursohaciendaContratacion.categoria }}</i> <br>
+                                        <i>Categoría: {{ cursohaciendaContratacion.categoria }}</i> <br>
                                     </p>
                                     <span>Conoce Más...</span>
                                 </button>
@@ -115,7 +115,7 @@
                                     <img :src="cursoinclusionSocial.imagen" alt="foto" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursoinclusionSocial.nombre }}</strong> <br>
-                                        <i>{{ cursoinclusionSocial.categoria }}</i> <br>
+                                        <i>Categoría: {{ cursoinclusionSocial.categoria }}</i> <br>
                                     </p>
                                     <span>Conoce Más...</span>
                                 </button>
@@ -138,7 +138,7 @@
                                     <img :src="cursosalud.imagen" alt="foto" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursosalud.nombre }}</strong> <br>
-                                        <i>{{ cursosalud.categoria }}</i> <br>
+                                        <i>Categoría: {{ cursosalud.categoria }}</i> <br>
                                     </p>
                                     <span>Conoce Más...</span>
                                 </button>
@@ -161,7 +161,7 @@
                                     <img :src="cursoseguridadVial.imagen" alt="foto" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursoseguridadVial.nombre }}</strong> <br>
-                                        <i>{{ cursoseguridadVial.categoria }}</i> <br>
+                                        <i>Categoría: {{ cursoseguridadVial.categoria }}</i> <br>
                                     </p>
                                     <span>Conoce Más...</span>
                                 </button>
@@ -184,7 +184,7 @@
                                     <img :src="cursoseguridadSaludTrabajo.imagen" alt="foto" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursoseguridadSaludTrabajo.nombre }}</strong> <br>
-                                        <i>{{ cursoseguridadSaludTrabajo.categoria }}</i> <br>
+                                        <i>Categoría: {{ cursoseguridadSaludTrabajo.categoria }}</i> <br>
                                     </p>
                                     <span>Conoce Más...</span>
                                 </button>
@@ -207,7 +207,7 @@
                                     <img :src="cursoseminarios.imagen" alt="foto" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursoseminarios.nombre }}</strong> <br>
-                                        <i>{{ cursoseminarios.categoria }}</i> <br>
+                                        <i>Categoría: {{ cursoseminarios.categoria }}</i> <br>
                                     </p>
                                     <span>Conoce Más...</span>
                                 </button>
@@ -230,7 +230,7 @@
                                     <img :src="cursosocial.imagen" alt="foto" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursosocial.nombre }}</strong> <br>
-                                        <i>{{ cursosocial.categoria }}</i> <br>
+                                        <i>Categoría: {{ cursosocial.categoria }}</i> <br>
                                     </p>
                                     <span>Conoce Más...</span>
                                 </button>
@@ -253,7 +253,7 @@
                                     <img :src="cursotecnologiaInnovacion.imagen" alt="foto" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursotecnologiaInnovacion.nombre }}</strong> <br>
-                                        <i>{{ cursotecnologiaInnovacion.categoria }}</i> <br>
+                                        <i>Categoría: {{ cursotecnologiaInnovacion.categoria }}</i> <br>
                                     </p>
                                     <span>Conoce Más...</span>
                                 </button>
@@ -278,7 +278,7 @@
                                     <img :src="cursoconvivenciaCiudadana.imagen" alt="foto" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursoconvivenciaCiudadana.nombre }}</strong> <br>
-                                        <i>{{ cursoconvivenciaCiudadana.categoria }}</i> <br>
+                                        <i>Categoría: {{ cursoconvivenciaCiudadana.categoria }}</i> <br>
                                     </p>
                                     <span>Conoce Más...</span>
                                 </button>
@@ -301,7 +301,7 @@
                                     <img :src="cursodiversidadGenero.imagen" alt="foto" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursodiversidadGenero.nombre }}</strong> <br>
-                                        <i>{{ cursodiversidadGenero.categoria }}</i> <br>
+                                        <i>Categoría: {{ cursodiversidadGenero.categoria }}</i> <br>
                                     </p>
                                     <span>Conoce Más...</span>
                                 </button>
@@ -324,7 +324,7 @@
                                     <img :src="cursogestionHumana.imagen" alt="foto" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursogestionHumana.nombre }}</strong> <br>
-                                        <i>{{ cursogestionHumana.categoria }}</i> <br>
+                                        <i>Categoría: {{ cursogestionHumana.categoria }}</i> <br>
                                     </p>
                                     <span>Conoce Más...</span>
                                 </button>
@@ -347,7 +347,7 @@
                                     <img :src="cursohaciendaContratacion.imagen" alt="foto" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursohaciendaContratacion.nombre }}</strong> <br>
-                                        <i>{{ cursohaciendaContratacion.categoria }}</i> <br>
+                                        <i>Categoría: {{ cursohaciendaContratacion.categoria }}</i> <br>
                                     </p>
                                     <span>Conoce Más...</span>
                                 </button>
@@ -370,7 +370,7 @@
                                     <img :src="cursoinclusionSocial.imagen" alt="foto" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursoinclusionSocial.nombre }}</strong> <br>
-                                        <i>{{ cursoinclusionSocial.categoria }}</i> <br>
+                                        <i>Categoría: {{ cursoinclusionSocial.categoria }}</i> <br>
                                     </p>
                                     <span>Conoce Más...</span>
                                 </button>
@@ -393,7 +393,7 @@
                                     <img :src="cursosalud.imagen" alt="foto" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursosalud.nombre }}</strong> <br>
-                                        <i>{{ cursosalud.categoria }}</i> <br>
+                                        <i>Categoría: {{ cursosalud.categoria }}</i> <br>
                                     </p>
                                     <span>Conoce Más...</span>
                                 </button>
@@ -416,7 +416,7 @@
                                     <img :src="cursoseguridadVial.imagen" alt="foto" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursoseguridadVial.nombre }}</strong> <br>
-                                        <i>{{ cursoseguridadVial.categoria }}</i> <br>
+                                        <i>Categoría: {{ cursoseguridadVial.categoria }}</i> <br>
                                     </p>
                                     <span>Conoce Más...</span>
                                 </button>
@@ -439,7 +439,7 @@
                                     <img :src="cursoseguridadSaludTrabajo.imagen" alt="foto" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursoseguridadSaludTrabajo.nombre }}</strong> <br>
-                                        <i>{{ cursoseguridadSaludTrabajo.categoria }}</i> <br>
+                                        <i>Categoría: {{ cursoseguridadSaludTrabajo.categoria }}</i> <br>
                                     </p>
                                     <span>Conoce Más...</span>
                                 </button>
@@ -462,7 +462,7 @@
                                     <img :src="cursoseminarios.imagen" alt="foto" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursoseminarios.nombre }}</strong> <br>
-                                        <i>{{ cursoseminarios.categoria }}</i> <br>
+                                        <i>Categoría: {{ cursoseminarios.categoria }}</i> <br>
                                     </p>
                                     <span>Conoce Más...</span>
                                 </button>
@@ -485,7 +485,7 @@
                                     <img :src="cursosocial.imagen" alt="foto" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursosocial.nombre }}</strong> <br>
-                                        <i>{{ cursosocial.categoria }}</i> <br>
+                                        <i>Categoría: {{ cursosocial.categoria }}</i> <br>
                                     </p>
                                     <span>Conoce Más...</span>
                                 </button>
@@ -508,7 +508,7 @@
                                     <img :src="cursotecnologiaInnovacion.imagen" alt="foto" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursotecnologiaInnovacion.nombre }}</strong> <br>
-                                        <i>{{ cursotecnologiaInnovacion.categoria }}</i> <br>
+                                        <i>Categoría: {{ cursotecnologiaInnovacion.categoria }}</i> <br>
                                     </p>
                                     <span>Conoce Más...</span>
                                 </button>

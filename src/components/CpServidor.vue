@@ -42,11 +42,6 @@
                             </div>
                         </div>
                     </div>
-                    <div v-if="Object.keys(cursos.convivenciaCiudadana).length > 3">
-                        <div class="text-center m-2">
-                            <button v-on:click="explorar(1)" class="index-cursos-masCursos">VER MÁS CURSOS</button>
-                        </div>
-                    </div>
                 </div>
             </div>
             <!-- 2 -->
@@ -57,13 +52,13 @@
                     </h3>
                 </div>
                 <div class="d-flex flex-wrap justify-content-center">
-                    <div v-for="(cursoDiversidadGenero, identificador) in cursos.diversidadGenero" :key="cursoDiversidadGenero.id">
-                        <div v-if="cursoDiversidadGenero.estado == 'activo' && (cursoDiversidadGenero.usuario == 1 || cursoDiversidadGenero.usuario == 2) && cursoDiversidadGenero.numeroCurso <= (cantidadCursos + 10003)" class="accordion-item index-cursos-accordion">
+                    <div v-for="(cursodiversidadGenero, identificador) in cursos.diversidadGenero" :key="cursodiversidadGenero.id">
+                        <div v-if="cursodiversidadGenero.estado == 'activo' && (cursodiversidadGenero.usuario == 1 || cursodiversidadGenero == 2)" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
                                 <button class="index-cursos-accordion-button" type="button" data-bs-toggle="collapse" :data-bs-target="'#'+identificador" aria-expanded="false" :aria-controls="identificador">
-                                    <img :src="cursoDiversidadGenero.imagen" alt="foto" class="rounded" width="300px">
+                                    <img :src="cursodiversidadGenero.imagen" alt="foto" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
-                                        <strong>{{ cursoDiversidadGenero.nombre }}</strong>
+                                        <strong>{{ cursodiversidadGenero.nombre }}</strong>
                                     </p>
                                     <span>Conoce Más...</span>
                                 </button>
@@ -71,19 +66,14 @@
                             <div :id="identificador" class="collapse" aria-labelledby="acordion1" data-bs-parent="#home-accordion">
                                 <div class="index-cursos-cuerpo-accordion">
                                     <div class="d-flex align-items-center">
-                                        {{ cursoDiversidadGenero.contenido }}
+                                        {{ cursodiversidadGenero.contenido }}
                                     </div>
                                     <div class="d-flex justify-content-center">
-                                        <a :href="cursoDiversidadGenero.link" class="index-cursos-button-inscribete">INSCRIBETE</a>
+                                        <a :href="cursodiversidadGenero.link" class="index-cursos-button-inscribete">INSCRIBETE</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div v-if="Object.keys(cursos.diversidadGenero).length > 3">
-                    <div class="text-center m-2">
-                        <button v-on:click="explorar(2)" class="index-cursos-masCursos">VER MÁS CURSOS</button>
                     </div>
                 </div>
             </div>
@@ -119,11 +109,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div v-if="Object.keys(cursos.gestionHumana).length > 3">
-                    <div class="text-center m-2">
-                        <button v-on:click="explorar(3)" class="index-cursos-masCursos">VER MÁS CURSOS</button>
-                    </div>
-                </div> -->
             </div>
             <!-- 4 -->
             <div v-if="propt == 4" class="d-flex flex-column">
@@ -157,11 +142,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div v-if="Object.keys(cursos.haciendaContratacion).length > 3">
-                    <div class="text-center m-2">
-                        <button v-on:click="explorar(4)" class="index-cursos-masCursos">VER MÁS CURSOS</button>
-                    </div>
-                </div> -->
             </div>
             <!-- 5 -->
             <div v-if="propt == 5" class="d-flex flex-column">
@@ -193,11 +173,6 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div v-if="Object.keys(cursos.inclusionSocial).length > 3">
-                    <div class="text-center m-2">
-                        <button v-on:click="explorar(5)" class="index-cursos-masCursos">VER MÁS CURSOS</button>
                     </div>
                 </div>
             </div>
@@ -233,11 +208,6 @@
                         </div>
                     </div>
                 </div>
-                <div v-if="Object.keys(cursos.salud).length > 3">
-                    <div class="text-center m-2">
-                        <button v-on:click="explorar(6)" class="index-cursos-masCursos">VER MÁS CURSOS</button>
-                    </div>
-                </div>
             </div>
             <!-- 7 -->
             <div v-if="propt == 7" class="d-flex flex-column">
@@ -266,11 +236,6 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div v-if="Object.keys(cursos.seguridadVial).length > 3">
-                    <div class="text-center m-2">
-                        <button v-on:click="explorar(7)" class="index-cursos-masCursos">VER MÁS CURSOS</button>
                     </div>
                 </div>
             </div>
@@ -306,11 +271,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div v-if="Object.keys(cursos.seguridadSaludTrabajo).length > 3">
-                    <div class="text-center m-2">
-                        <button v-on:click="explorar(8)" class="index-cursos-masCursos">VER MÁS CURSOS</button>
-                    </div>
-                </div> -->
             </div>
             <!-- 9 -->
             <div v-if="propt == 9" class="d-flex flex-column">
@@ -321,7 +281,7 @@
                 </div>
                 <div class="d-flex flex-wrap justify-content-center">
                     <div v-for="(cursoseminarios, identificador) in cursos.seminarios" :key="cursoseminarios.id">
-                        <div v-if="cursoseminarios.estado == 'activo' && (cursoseminarios.usuario == 1 || cursoseminarios.usuario == 2) && cursoseminarios.numeroCurso <= (cantidadCursos + 80003)" class="accordion-item index-cursos-accordion">
+                        <div v-if="cursoseminarios.estado == 'activo' && (cursoseminarios.usuario == 1 || cursoseminarios == 2)" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
                                 <button class="index-cursos-accordion-button" type="button" data-bs-toggle="collapse" :data-bs-target="'#'+identificador" aria-expanded="false" :aria-controls="identificador">
                                     <img :src="cursoseminarios.imagen" alt="foto" class="rounded" width="300px">
@@ -344,11 +304,6 @@
                         </div>
                     </div>
                 </div>
-                <div v-if="Object.keys(cursos.seminarios).length > 3">
-                    <div class="text-center m-2">
-                        <button v-on:click="explorar(9)" class="index-cursos-masCursos">VER MÁS CURSOS</button>
-                    </div>
-                </div>
             </div>
             <!-- 10 -->
             <div v-if="propt == 10" class="d-flex flex-column">
@@ -359,7 +314,7 @@
                 </div>
                 <div class="d-flex flex-wrap justify-content-center">
                     <div v-for="(cursosocial, identificador) in cursos.social" :key="cursosocial.id">
-                        <div v-if="cursosocial.estado == 'activo' && (cursosocial.usuario == 1 || cursosocial.usuario == 2) && cursosocial.numeroCurso <= (cantidadCursos + 90006)" class="accordion-item index-cursos-accordion">
+                        <div v-if="cursosocial.estado == 'activo' && (cursosocial.usuario == 1 || cursosocial.usuario == 2)" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
                                 <button class="index-cursos-accordion-button" type="button" data-bs-toggle="collapse" :data-bs-target="'#'+identificador" aria-expanded="false" :aria-controls="identificador">
                                     <img :src="cursosocial.imagen" alt="foto" class="rounded" width="300px">
@@ -382,11 +337,6 @@
                         </div>
                     </div>
                 </div>
-                <div v-if="Object.keys(cursos.social).length > 3">
-                    <div class="text-center m-2">
-                        <button v-on:click="explorar(10)" class="index-cursos-masCursos">VER MÁS CURSOS</button>
-                    </div>
-                </div>
             </div>
             <!-- 11 -->
             <div v-if="propt == 11" class="d-flex flex-column">
@@ -397,7 +347,7 @@
                 </div>
                 <div class="d-flex flex-wrap justify-content-center">
                     <div v-for="(cursotecnologiaInnovacion, identificador) in cursos.tecnologiaInnovacion" :key="cursotecnologiaInnovacion.id">
-                        <div v-if="cursotecnologiaInnovacion.estado == 'activo' && (cursotecnologiaInnovacion.usuario == 1 || cursotecnologiaInnovacion.usuario == 2) && cursotecnologiaInnovacion.numeroCurso <= (cantidadCursos + 100002)" class="accordion-item index-cursos-accordion">
+                        <div v-if="cursotecnologiaInnovacion.estado == 'activo' && (cursotecnologiaInnovacion.usuario == 1 || cursotecnologiaInnovacion.usuario == 2)" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
                                 <button class="index-cursos-accordion-button" type="button" data-bs-toggle="collapse" :data-bs-target="'#'+identificador" aria-expanded="false" :aria-controls="identificador">
                                     <img :src="cursotecnologiaInnovacion.imagen" alt="foto" class="rounded" width="300px">
@@ -418,11 +368,6 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div v-if="Object.keys(cursos.tecnologiaInnovacion).length > 3">
-                    <div class="text-center m-2">
-                        <button v-on:click="explorar(11)" class="index-cursos-masCursos">VER MÁS CURSOS</button>
                     </div>
                 </div>
             </div>
