@@ -71,7 +71,7 @@
 }
 @media screen and (max-width: 1300px) {
     .usuario-ingresar {
-        top: -100%;
+        top: -150%;
         background-size: cover;
         background-position: center;
         min-width: 400px;
