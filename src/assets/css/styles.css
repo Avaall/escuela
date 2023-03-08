@@ -104,6 +104,9 @@
     height: 38vh;
     background-color: #e6effd;
 }
+.img-carousel {
+    width: 100%;
+}
 .home-header-texto-2 {
     display: block;
     font-size: 24px;
@@ -156,6 +159,11 @@
 }
 .home-footer-img {
     margin: 15px 0;
+}
+@media screen and (max-width: 1500px) {
+    .img-carousel {
+        width: auto;
+    }
 }
 @media screen and (max-width: 950px) {
     .info-caption {
