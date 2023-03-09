@@ -598,10 +598,10 @@
                     </ul>
                 </div>
                 <div v-if="miVariable == 1" class="index-cursos-visualizacion">
-                    <CpCiudadano class="w-100 h-100 d-flex align-items-center justify-content-center" ref="hijo" :propt="numero" />
+                    <CpCiudadano class="w-100 h-100 d-flex align-items-center justify-content-center" :propt="numero" />
                 </div>
                 <div v-if="miVariable == 2" class="index-cursos-visualizacion">
-                    <CpServidor class="w-100 h-100 d-flex align-items-center justify-content-center" ref="hijo" :propt="numero" />
+                    <CpServidor class="w-100 h-100 d-flex align-items-center justify-content-center" :propt="numero" />
                 </div>
             </div>
         </div>
@@ -629,7 +629,6 @@ export default {
   },
   methods: {
     number (valor) {
-      this.$refs.hijo.salir()
       this.valorCurso = 0
       this.numero = valor
       const li = document.querySelectorAll('.index-cursos-menu-ul-li')

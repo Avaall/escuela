@@ -2,37 +2,56 @@
     "convivenciaCiudadana": {
         "convivenciaCiudadana1": {
             "numeroCurso": "10001",
-            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/24023/course/overviewfiles/20200526_Panoramica.jpg",
+            "categoria": "Convivencia ciudadana",
             "nombre": "Convivencia ciudadana",
             "contenido": "El curso pedagógico de convivencia se dicta para dar aplicación a la medida correctiva impuesta al interior del Proceso Único de Policía desarrollado por parte de las Autoridades de Policía, según lo dispuesto en el artículo 175 de la Ley 1801 de 2016, que describe esta medida como programa pedagógico en materia de convivencia, organizado por la administración distrital o municipal. El contenido del curso fue desarrollado de acuerdo a los objetivos del Código Nacional de Seguridad y Convivencia, propendiendo por la promoción del respeto y del ejercicio responsable de la libertad, la dignidad, los deberes y derechos colectivos e individuales relacionados con las categorías de convivencia descritas en esa norma.",
-            "usuario": 1,
-            "link": "",
-            "categoria": "Convivencia ciudadana",
-            "estado": "activo",
-            "alt": "Imagen curso convivencia ciudadana",
-            "disponible": "si"
+            "figure": {
+                "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/24023/course/overviewfiles/20200526_Panoramica.jpg",
+                "alt": "Imagen curso convivencia ciudadana"
+            },
+            "requisitos": {
+                "usuario": 1,
+                "botonInscribir": "no",
+                "link": "",
+                "estado": "activo",
+                "ofertado": "si"
+            }
         }
     },
     "diversidadGenero": {
         "diversidadGenero1": {
             "numeroCurso": "20001",
-            "imagen": "https://img.freepik.com/foto-gratis/manos-signo-transgenero_23-2148621037.jpg?w=826&t=st=1678291187~exp=1678291787~hmac=e1841fc9e4698d1ed1388db88a12c2c5fc6aa8d562912e985fd3949552fe62c2",
+            "categoria": "Diversidad y género",
             "nombre": "ABC para Incorporar el Enfoque de Género en las Prácticas Pedagógicas",
             "contenido": "Nuestro propósito con estas recomendaciones es motivar a la comunidad educativa a acercarse al enfoque de género en la educación, que permita a las instituciones educativas reflexionar e incorporar prácticas que conlleven a la equidad e igualdad entre hombres y mujeres desde una visión de derechos humanos, especialmente los de las niñas y las mujeres, como aporte a la trasformación de patrones culturales machistas que han generado desigualdad y violencias basadas en género.",
-            "usuario": 1,
-            "link": "",
-            "categoria": "Diversidad y género",
-            "estado": "activo"
+            "figure": {
+                "imagen": "https://img.freepik.com/foto-gratis/manos-signo-transgenero_23-2148621037.jpg?w=826&t=st=1678291187~exp=1678291787~hmac=e1841fc9e4698d1ed1388db88a12c2c5fc6aa8d562912e985fd3949552fe62c2",
+                "alt": "Imagen curso Diversidad y género"
+            },
+            "requisitos": {
+                "usuario": 1,
+                "botonInscribir": "no",
+                "link": "",
+                "estado": "activo",
+                "ofertado": "no"
+            }
         },
         "diversidadGenero2": {
             "numeroCurso": "20002",
-            "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/18665/course/overviewfiles/m7.jpg",
+            "categoria": "Diversidad y género",
             "nombre": "Alfabetización Digital",
             "contenido": "Este curso tiene como objetivo la implementación de estrategias formativas y de permanencia para las mujeres en el sistema educativo y favorecer la transformación de patrones culturales sexistas. Gracias a este curso podemos minimizar la brecha de conocimiento de sistemas digitales con herramientas básicas, uno de los grandes retos de la sociedad actual es pasar la información excluyente a una sociedad con comunicación digital.",
-            "usuario": 1,
-            "link": "",
-            "categoria": "Diversidad y género",
-            "estado": "activo"
+            "figure": {
+                "imagen": "https://escuelavirtual.medellin.gov.co/pluginfile.php/18665/course/overviewfiles/m7.jpg",
+                "alt": "Imagen curso Alfabetización digital"
+            },
+            "requisitos": {
+                "usuario": 1,
+                "botonInscribir": "no",
+                "link": "",
+                "estado": "activo",
+                "ofertado": "no"
+            }
         },
         "diversidadGenero3": {
             "numeroCurso": "20003",
