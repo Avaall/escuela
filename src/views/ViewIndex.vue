@@ -83,7 +83,7 @@
                 </div>
                 <div class="home-informacion-button" v-on:click="MostrarInfoButton(1)">
                     <img src="../assets/img/modal-icon-2.png" alt="" class="mt-2 home-icon-informacion">
-                    <p class="text-center mx-2 home-valor-texto-titulo">¿Cuándo nace? <br> &nbsp;</p>
+                    <p class="text-center mx-2 home-valor-texto-titulo">Requisitos <br> &nbsp;</p>
                 </div>
                 <div class="home-informacion-body">
                     Se crea desde la Secretaría de Gestión Humana y Servicio a la Ciudadanía.
@@ -117,7 +117,7 @@
                 </div>
                 <div class="home-informacion-button" v-on:click="MostrarInfoButton(2)">
                     <img src="../assets/img/modal-icon-3.png" alt="" class="mt-2 home-icon-informacion">
-                    <p class="text-center mx-2 home-valor-texto-titulo">Misión <br> &nbsp;</p>
+                    <p class="text-center mx-2 home-valor-texto-titulo">¿Qué puedo <br> aprender aquí?</p>
                 </div>
                 <div class="home-informacion-body">
                     Su misión se cimienta en tres aspectos: el SER (su formación),
@@ -139,7 +139,7 @@
                 </div>
                 <div class="home-informacion-button" v-on:click="MostrarInfoButton(3)">
                     <img src="../assets/img/modal-icon-4.png" alt="" class="mt-2 home-icon-informacion">
-                    <p class="text-center mx-2 home-valor-texto-titulo">Programas <br> &nbsp;</p>
+                    <p class="text-center mx-2 home-valor-texto-titulo">Noticias de interés <br> &nbsp;</p>
                 </div>
                 <div class="home-informacion-body">
                     La plataforma cuenta con 13 secretarías Actualmente
@@ -157,37 +157,6 @@
                     hay 64 programas de aprendizaje, 56 cursos y 8 diplomados.
                     <div>
                         <button v-on:click="cerrar(3)">Cerrar</button>
-                    </div>
-                </div>
-                <div class="home-informacion-button" v-on:click="MostrarInfoButton(4)">
-                    <img src="../assets/img/modal-icon-5.png" alt="" class="mt-2 home-icon-informacion">
-                    <p class="text-center mx-2 home-valor-texto-titulo">Otros datos <br> &nbsp;</p>
-                </div>
-                <div class="home-informacion-body">
-                    A partir de mayo se reactivará en la plataforma la metodología
-                    PREA para la prevención del embarazo adolescente, construida por
-                    un grupo de expertos en tecnología e innovación e implementada a
-                    través de objetos virtuales de aprendizaje, tales como cartillas,
-                    videojuegos, podcasts, cuentos y material educativo.
-                    <div>
-                        <button v-on:click="cerrar(4)">Cerrar</button>
-                    </div>
-                </div>
-                <div class="home-informacion-body-responsive">
-                    A partir de mayo se reactivará en la plataforma la metodología
-                    PREA para la prevención del embarazo adolescente, construida por
-                    un grupo de expertos en tecnología e innovación e implementada a
-                    través de objetos virtuales de aprendizaje, tales como cartillas,
-                    videojuegos, podcasts, cuentos y material educativo.
-                </div>
-                <div class="home-informacion-body-responsive-md">
-                    A partir de mayo se reactivará en la plataforma la metodología
-                    PREA para la prevención del embarazo adolescente, construida por
-                    un grupo de expertos en tecnología e innovación e implementada a
-                    través de objetos virtuales de aprendizaje, tales como cartillas,
-                    videojuegos, podcasts, cuentos y material educativo.
-                    <div>
-                        <button v-on:click="cerrar(4)">Cerrar</button>
                     </div>
                 </div>
             </div>
@@ -195,8 +164,7 @@
         <!-- FIN Información adicional para el Conoce Más -->
         <!-- Footer -->
         <div class="d-flex justify-content-between w-100 home-footer px-0 px-md-5">
-            <div class="d-flex home-footer-limit">
-                <img src="../assets/img/footer-logo.png" alt="" class="img-fluid home-footer-img">
+            <div class="d-flex home-footer-limit align-items-center">
             </div>
             <div class="home-footer-limit text-center m-auto">
                 <div class="d-flex flex-column justify-content-center mx-3">
@@ -204,8 +172,11 @@
                     <span>(604) 385 5555 Ext. 7398 o 7619</span>
                 </div>
             </div>
-            <div class="home-footer-limit d-flex justify-content-end align-items-center">
-
+            <div class="d-flex home-footer-limit">
+                <div class="d-flex align-items-center home-footer-limit-2">
+                    <img src="../assets/img/footer-logo-sid.png" alt="" width="90px" class="mx-5 home-footer-img-sid">
+                    <img src="../assets/img/footer-logo.png" alt="" width="200px" class="img-fluid home-footer-img">
+                </div>
             </div>
         </div>
         <!-- FIN Footer -->

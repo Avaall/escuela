@@ -199,21 +199,43 @@
     width: 220px;
     margin-right: 50px;
 }
+.info-caption {
+    filter: drop-shadow(0 0 0.45rem #000);
+}
 .home-footer-limit {
     width: 33%;
 }
-.home-footer-img {
-    margin: 15px 0;
-}
 .home-header-texto {
     margin-left: 50px;
+}
+.home-footer-limit-2 {
+    width: 100%;
+    justify-content: end;
 }
 @media screen and (max-width: 1200px) {
     .img-carousel {
         width: auto;
     }
+    .home-footer-limit-2 {
+        margin-top: 30px;
+        justify-content: center;
+    }
     .img-ingreso {
         width: 200px;
+    }
+    .home-footer-limit {
+        margin: 0 !important;
+        width: 100%;
+        justify-content: center !important;
+    }
+    .home-footer {
+        margin-top: 20px;
+        padding: 20px 0;
+        height: auto;
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
     }
 }
 @media screen and (max-width: 950px) {
@@ -236,24 +258,12 @@
     }
 }
 @media screen and (max-width: 560px) {
-    .home-footer {
-        margin-top: 20px;
-        padding: 20px 0;
-        height: auto;
-        flex-direction: column-reverse !important;
-        font-size: 16px;
-    }
     .info-caption-text {
         font-size: 16px;
     }
     .home-footer-img {
         width: 200px !important;
         margin: 20px 0 0 0;
-    }
-    .home-footer-limit {
-        margin: 0 !important;
-        width: 100%;
-        justify-content: center !important;
     }
     .home-header-texto-1, .home-header-texto-2 {
         font-size: 15px;
@@ -450,7 +460,7 @@
     align-items: center;
 }
 .index-nav-button {
-    width: 150px;
+    width: 30%;
     height: 60px;
     color: #fff;
     font-size: 15px;
@@ -465,7 +475,7 @@
     background: #1e92c4;
 }
 .index-nav-button-principal {
-    padding: 10px 20px;
+    width: 30%;
     color: #fff;
     font-size: 15px;
     text-decoration: none;
@@ -498,6 +508,23 @@
 .index-nav-button-ingreso:hover {
     background: #1e92c4;
     color: #fff;
+}
+@media screen and (max-width: 1000px) {
+    .container {
+        min-width: 100% !important;
+        margin: 0 !important;
+    }
+    .index-header-texto-usuario-1,
+    .index-header-texto-usuario-2 {
+        font-size: 20px;
+    }
+    .index-header-usuario {
+        background-size: cover;
+    }
+    .index-nav-button,
+    .index-nav-button-principal {
+        text-align: center;
+    }
 }
 
     /* FIN INDEX */
@@ -622,11 +649,21 @@
     width: 70%;
     padding: 0 30px;
 }
+.index-cursos-fondo {
+    background: url(../img/index-cursos-fondo.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
     /* FIN INDEX CpCursos */
 
     /* INDEX CpCiudadano */
 
+.index-cursos-ciudadano-portada {
+    position: absolute;
+    margin: -220px 0 0 -287px;
+}
 .index-cursos-ciudadano-categoria {
     color: #ee7b2e;
     padding: 20px;
@@ -634,18 +671,6 @@
     border-radius: 10px;
     margin-bottom: -80px;
     font-weight: 800;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.index-cursos-ciudadano-categoria span {
-    animation: index-categoria infinite 1s;
-}
-@keyframes index-categoria {
-    50% {
-        transform: translateX(-20px);
-        filter: drop-shadow(0 0 0.45rem #ee7b2e);
-    }
 }
 .index-cursos-titulo {
     color: #ee7b2e;
@@ -689,7 +714,20 @@
     background: #094884;
 }
 .index-cursos-titulo-general {
-    color: gray;
+    color: #ee7b2e;
+}
+.index-cursos-titulo-general p {
+    margin: 0;
+}
+.index-cursos-titulo-general {
+    font-size: 25px;
+}
+.index-cursos-sub-linea::before {
+    content: "";
+    display: block;
+    width: 20%;
+    height: 3px;
+    background-color: #ee7b2e;
 }
 .index-cursos-cuerpo-accordion {
     padding: 0px 15px 15px 15px;

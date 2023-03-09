@@ -3,8 +3,8 @@
         <!-- Buscador y Titulo -->
         <div>
             <h1 class="my-5 d-flex flex-column index-cursos-titulo-general">
-                <div class="d-flex justify-content-between">
-                    <strong>Cursos por categoría</strong>
+                <div class="d-flex justify-content-between align-items-center">
+                    <p class="d-flex align-items-center justify-content-center"><strong>Cursos</strong>&nbsp;por categoría</p>
                     <div class="d-flex">
                         <input class="form-control me-2" id="buscador" type="search" placeholder="Buscar" v-model="buscar" aria-label="Search">
                         <button class="index-cursos-button-search">Buscar</button>
@@ -664,7 +664,7 @@
                     </ul>
                 </div>
                 <div v-if="miVariable == 1" class="index-cursos-visualizacion">
-                    <CpCiudadano class="w-100 h-100 d-flex align-items-center justify-content-center" :propt="numero" />
+                    <CpCiudadano class="w-100 h-100 d-flex align-items-center justify-content-center index-cursos-fondo" :propt="numero" />
                 </div>
                 <div v-if="miVariable == 2" class="index-cursos-visualizacion">
                     <CpServidor class="w-100 h-100 d-flex align-items-center justify-content-center" :propt="numero" />
