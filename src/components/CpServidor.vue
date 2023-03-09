@@ -248,7 +248,7 @@
                 </div>
                 <div class="d-flex flex-wrap justify-content-center">
                     <div v-for="(cursoseguridadSaludTrabajo, identificador) in cursos.seguridadSaludTrabajo" :key="cursoseguridadSaludTrabajo.id">
-                        <div v-if="cursoseguridadSaludTrabajo.estado == 'activo' && (cursoseguridadSaludTrabajo.usuario == 1 || cursoseguridadSaludTrabajo.usuario == 2) && cursoseguridadSaludTrabajo.numeroCurso <= (cantidadCursos + 70003)" class="accordion-item index-cursos-accordion">
+                        <div v-if="cursoseguridadSaludTrabajo.estado == 'activo' && (cursoseguridadSaludTrabajo.usuario == 1 || cursoseguridadSaludTrabajo.usuario == 2)" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
                                 <button class="index-cursos-accordion-button" type="button" data-bs-toggle="collapse" :data-bs-target="'#'+identificador" aria-expanded="false" :aria-controls="identificador">
                                     <img :src="cursoseguridadSaludTrabajo.imagen" alt="foto" class="rounded" width="300px">
