@@ -36,7 +36,7 @@
                                         {{ cursoConvivenciaCiudadana.contenido }}
                                     </div>
                                     <div v-if="cursoConvivenciaCiudadana.requisitos.botonInscribir == 'si'" class="d-flex justify-content-center">
-                                        <a :href="cursoConvivenciaCiudadana.requisitos.link" class="index-cursos-button-inscribete">INSCRIBETE</a>
+                                        <a :href="cursoConvivenciaCiudadana.requisitos.link" class="index-cursos-button-inscribete" target="_blank">INSCRIBETE</a>
                                     </div>
                                 </div>
                             </div>
@@ -69,7 +69,7 @@
                                         {{ cursodiversidadGenero.contenido }}
                                     </div>
                                     <div v-if="cursodiversidadGenero.requisitos.botonInscribir == 'si'" class="d-flex justify-content-center">
-                                        <a :href="cursodiversidadGenero.requisitos.link" class="index-cursos-button-inscribete">INSCRIBETE</a>
+                                        <a :href="cursodiversidadGenero.requisitos.link" class="index-cursos-button-inscribete" target="_blank">INSCRIBETE</a>
                                     </div>
                                 </div>
                             </div>
@@ -102,7 +102,7 @@
                                         {{ cursogestionHumana.contenido }}
                                     </div>
                                     <div v-if="cursogestionHumana.requisitos.botonInscribir == 'si'" class="d-flex justify-content-center">
-                                        <a :href="cursogestionHumana.requisitos.link" class="index-cursos-button-inscribete">INSCRIBETE</a>
+                                        <a :href="cursogestionHumana.requisitos.link" class="index-cursos-button-inscribete" target="_blank">INSCRIBETE</a>
                                     </div>
                                 </div>
                             </div>
@@ -135,7 +135,7 @@
                                         {{ cursohaciendaContratacion.contenido }}
                                     </div>
                                     <div v-if="cursohaciendaContratacion.requisitos.botonInscribir == 'si'" class="d-flex justify-content-center">
-                                        <a :href="cursohaciendaContratacion.requisitos.link" class="index-cursos-button-inscribete">INSCRIBETE</a>
+                                        <a :href="cursohaciendaContratacion.requisitos.link" class="index-cursos-button-inscribete" target="_blank">INSCRIBETE</a>
                                     </div>
                                 </div>
                             </div>
@@ -168,7 +168,7 @@
                                         {{ cursoinclusionSocial.contenido }}
                                     </div>
                                     <div v-if="cursoinclusionSocial.requisitos.botonInscribir == 'si'" class="d-flex justify-content-center">
-                                        <a :href="cursoinclusionSocial.requisitos.link" class="index-cursos-button-inscribete">INSCRIBETE</a>
+                                        <a :href="cursoinclusionSocial.requisitos.link" class="index-cursos-button-inscribete" target="_blank">INSCRIBETE</a>
                                     </div>
                                 </div>
                             </div>
@@ -201,7 +201,7 @@
                                         {{ cursosalud.contenido }}
                                     </div>
                                     <div v-if="cursosalud.requisitos.botonInscribir == 'si'" class="d-flex justify-content-center">
-                                        <a :href="cursosalud.requisitos.link" class="index-cursos-button-inscribete">INSCRIBETE</a>
+                                        <a :href="cursosalud.requisitos.link" class="index-cursos-button-inscribete" target="_blank">INSCRIBETE</a>
                                     </div>
                                 </div>
                             </div>
@@ -234,7 +234,7 @@
                                         {{ cursoseguridadVial.contenido }}
                                     </div>
                                     <div v-if="cursoseguridadVial.requisitos.botonInscribir == 'si'" class="d-flex justify-content-center">
-                                        <a :href="cursoseguridadVial.requisitos.link" class="index-cursos-button-inscribete">INSCRIBETE</a>
+                                        <a :href="cursoseguridadVial.requisitos.link" class="index-cursos-button-inscribete" target="_blank">INSCRIBETE</a>
                                     </div>
                                 </div>
                             </div>
@@ -251,10 +251,10 @@
                 </div>
                 <div class="d-flex flex-wrap justify-content-center">
                     <div v-for="(cursoseguridadSaludTrabajo, identificador) in cursos.seguridadSaludTrabajo" :key="cursoseguridadSaludTrabajo.id">
-                        <div v-if="cursoseguridadSaludTrabajo.estado == 'activo' && cursoseguridadSaludTrabajo.usuario == 1" class="accordion-item index-cursos-accordion">
+                        <div v-if="cursoseguridadSaludTrabajo.requisitos.estado == 'activo' && cursoseguridadSaludTrabajo.requisitos.ofertado == 'si' && cursoseguridadSaludTrabajo.requisitos.usuario == 1" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
                                 <button class="index-cursos-accordion-button" type="button" data-bs-toggle="collapse" :data-bs-target="'#'+identificador" aria-expanded="false" :aria-controls="identificador">
-                                    <img :src="cursoseguridadSaludTrabajo.imagen" alt="foto" class="rounded" width="300px">
+                                    <img :src="cursoseguridadSaludTrabajo.figure.imagen" :alt="cursoseguridadSaludTrabajo.figure.alt" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursoseguridadSaludTrabajo.nombre }}</strong>
                                     </p>
@@ -266,8 +266,8 @@
                                     <div class="d-flex align-items-center">
                                         {{ cursoseguridadSaludTrabajo.contenido }}
                                     </div>
-                                    <div class="d-flex justify-content-center">
-                                        <a :href="cursoseguridadSaludTrabajo.link" class="index-cursos-button-inscribete">INSCRIBETE</a>
+                                    <div v-if="cursoseguridadSaludTrabajo.requisitos.botonInscribir == 'si'" class="d-flex justify-content-center">
+                                        <a :href="cursoseguridadSaludTrabajo.link" class="index-cursos-button-inscribete" target="_blank">INSCRIBETE</a>
                                     </div>
                                 </div>
                             </div>
@@ -300,7 +300,7 @@
                                         {{ cursoseminarios.contenido }}
                                     </div>
                                     <div v-if="cursoseminarios.requisitos.botonInscribir == 'si'" class="d-flex justify-content-center">
-                                        <a :href="cursoseminarios.requisitos.link" class="index-cursos-button-inscribete">INSCRIBETE</a>
+                                        <a :href="cursoseminarios.requisitos.link" class="index-cursos-button-inscribete" target="_blank">INSCRIBETE</a>
                                     </div>
                                 </div>
                             </div>
@@ -333,7 +333,7 @@
                                         {{ cursosocial.contenido }}
                                     </div>
                                     <div v-if="cursosocial.requisitos.botonInscribir == 'si'" class="d-flex justify-content-center">
-                                        <a :href="cursosocial.requisitos.link" class="index-cursos-button-inscribete">INSCRIBETE</a>
+                                        <a :href="cursosocial.requisitos.link" class="index-cursos-button-inscribete" target="_blank">INSCRIBETE</a>
                                     </div>
                                 </div>
                             </div>
@@ -366,7 +366,7 @@
                                         {{ cursotecnologiaInnovacion.contenido }}
                                     </div>
                                     <div v-if="cursotecnologiaInnovacion.requisitos.botonInscribir == 'si'" class="d-flex justify-content-center">
-                                        <a :href="cursotecnologiaInnovacion.requisitos.link" class="index-cursos-button-inscribete">INSCRIBETE</a>
+                                        <a :href="cursotecnologiaInnovacion.requisitos.link" class="index-cursos-button-inscribete" target="_blank">INSCRIBETE</a>
                                     </div>
                                 </div>
                             </div>

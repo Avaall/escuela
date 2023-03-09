@@ -974,7 +974,7 @@
             "nombre": "IX Seminario Internacional de Auditoría Interna",
             "contenido": "",
             "figure": {
-                "imagen": "https://img.freepik.com/foto-gratis/concepto-formacion-primeros-auxilios-rcp_53876-148120.jpg?w=826&t=st=1678292146~exp=1678292746~hmac=54c86de05b512f8b4db6955d70251fa76422b5dc95ce9f81af9861bb75ad9372",
+                "imagen": "https://img.freepik.com/foto-gratis/orador-masculino-dando-presentacion-salon-taller-universitario-audiencia-o-sala-conferencias_155003-27439.jpg?w=1060&t=st=1678374177~exp=1678374777~hmac=67e77f26be71206244a9712056648ad8823fa43c1274c045220546784a7a711a",
                 "alt": "Imagen curso IX Seminario internacional de auditoría interna"
             },
             "requisitos": {
@@ -1083,8 +1083,8 @@
             },
             "requisitos": {
                 "usuario": 1,
-                "botonInscribir": "no",
-                "link": "",
+                "botonInscribir": "si",
+                "link": "https://forms.office.com/pages/responsepage.aspx?id=iOBInEReDUuToO6yxhJ8PdXFaF3A4mBFnO9XqZRnYUtUMUQwTDhDNE9UMzlDV0g5S0tKNEowT1g5Ry4u",
                 "estado": "activo",
                 "ofertado": "si"
             }
@@ -1101,7 +1101,7 @@
             "requisitos": {
                 "usuario": 1,
                 "botonInscribir": "si",
-                "link": "https://forms.office.com/pages/responsepage.aspx?id=iOBInEReDUuToO6yxhJ8PdXFaF3A4mBFnO9XqZRnYUtUMUQwTDhDNE9UMzlDV0g5S0tKNEowT1g5Ry4u",
+                "link": "https://forms.office.com/pages/responsepage.aspx?id=iOBInEReDUuToO6yxhJ8PdXFaF3A4mBFnO9XqZRnYUtUMUI2WFRUOE9KVlZWR05PMlZOSDRDQ0MxQS4u",
                 "estado": "activo",
                 "ofertado": "si"
             }

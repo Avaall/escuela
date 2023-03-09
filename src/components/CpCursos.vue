@@ -17,10 +17,10 @@
             <div v-if="miVariable == 1" class="d-flex flex-wrap justify-content-center">
                 <div v-for="(cursoconvivenciaCiudadana, identificador) in cursos.convivenciaCiudadana" :key="cursoconvivenciaCiudadana.id">
                     <div v-if="cursoconvivenciaCiudadana.nombre.trim().toLowerCase().indexOf(buscar.toLowerCase()) !== -1">
-                        <div v-if="cursoconvivenciaCiudadana.estado == 'activo' && cursoconvivenciaCiudadana.usuario == 1" class="accordion-item index-cursos-accordion">
+                        <div v-if="cursoconvivenciaCiudadana.requisitos.estado == 'activo' && cursoconvivenciaCiudadana.requisitos.ofertado && cursoconvivenciaCiudadana.requisitos.usuario == 1" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
                                 <button class="index-cursos-accordion-button" type="button" data-bs-toggle="collapse" :data-bs-target="'#'+identificador" aria-expanded="false" :aria-controls="identificador">
-                                    <img :src="cursoconvivenciaCiudadana.imagen" alt="foto" class="rounded" width="300px">
+                                    <img :src="cursoconvivenciaCiudadana.figure.imagen" :alt="cursoconvivenciaCiudadana.figure.alt" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursoconvivenciaCiudadana.nombre }}</strong> <br>
                                         <i>Categoría: {{ cursoconvivenciaCiudadana.categoria }}</i> <br>
@@ -33,6 +33,9 @@
                                     <div class="d-flex align-items-center">
                                         {{ cursoconvivenciaCiudadana.contenido }}
                                     </div>
+                                    <div v-if="cursoconvivenciaCiudadana.requisitos.botonInscribir == 'si'" class="d-flex justify-content-center">
+                                        <a :href="cursoconvivenciaCiudadana.requisitos.link" class="index-cursos-button-inscribete" target="_blank">INSCRIBETE</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -40,10 +43,10 @@
                 </div>
                 <div v-for="(cursodiversidadGenero, identificador) in cursos.diversidadGenero" :key="cursodiversidadGenero.id">
                     <div v-if="cursodiversidadGenero.nombre.trim().toLowerCase().indexOf(buscar.toLowerCase()) !== -1">
-                        <div v-if="cursodiversidadGenero.estado == 'activo' && cursodiversidadGenero.usuario == 1" class="accordion-item index-cursos-accordion">
+                        <div v-if="cursodiversidadGenero.requisitos.estado == 'activo' && cursodiversidadGenero.requisitos.ofertado && cursodiversidadGenero.requisitos.usuario == 1" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
                                 <button class="index-cursos-accordion-button" type="button" data-bs-toggle="collapse" :data-bs-target="'#'+identificador" aria-expanded="false" :aria-controls="identificador">
-                                    <img :src="cursodiversidadGenero.imagen" alt="foto" class="rounded" width="300px">
+                                    <img :src="cursodiversidadGenero.figure.imagen" :alt="cursodiversidadGenero.figure.alt" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursodiversidadGenero.nombre }}</strong> <br>
                                         <i>Categoría: {{ cursodiversidadGenero.categoria }}</i> <br>
@@ -56,6 +59,9 @@
                                     <div class="d-flex align-items-center">
                                         {{ cursodiversidadGenero.contenido }}
                                     </div>
+                                    <div v-if="cursodiversidadGenero.requisitos.botonInscribir == 'si'" class="d-flex justify-content-center">
+                                        <a :href="cursodiversidadGenero.requisitos.link" class="index-cursos-button-inscribete" target="_blank">INSCRIBETE</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -63,10 +69,10 @@
                 </div>
                 <div v-for="(cursogestionHumana, identificador) in cursos.gestionHumana" :key="cursogestionHumana.id">
                     <div v-if="cursogestionHumana.nombre.trim().toLowerCase().indexOf(buscar.toLowerCase()) !== -1">
-                        <div v-if="cursogestionHumana.estado == 'activo' && cursogestionHumana.usuario == 1" class="accordion-item index-cursos-accordion">
+                        <div v-if="cursogestionHumana.requisitos.estado == 'activo' && cursogestionHumana.requisitos.ofertado && cursogestionHumana.requisitos.usuario == 1" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
                                 <button class="index-cursos-accordion-button" type="button" data-bs-toggle="collapse" :data-bs-target="'#'+identificador" aria-expanded="false" :aria-controls="identificador">
-                                    <img :src="cursogestionHumana.imagen" alt="foto" class="rounded" width="300px">
+                                    <img :src="cursogestionHumana.figure.imagen" :alt="cursogestionHumana.figure.alt" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursogestionHumana.nombre }}</strong> <br>
                                         <i>Categoría: {{ cursogestionHumana.categoria }}</i> <br>
@@ -79,6 +85,9 @@
                                     <div class="d-flex align-items-center">
                                         {{ cursogestionHumana.contenido }}
                                     </div>
+                                    <div v-if="cursogestionHumana.requisitos.botonInscribir == 'si'" class="d-flex justify-content-center">
+                                        <a :href="cursogestionHumana.requisitos.link" class="index-cursos-button-inscribete" target="_blank">INSCRIBETE</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -86,10 +95,10 @@
                 </div>
                 <div v-for="(cursohaciendaContratacion, identificador) in cursos.haciendaContratacion" :key="cursohaciendaContratacion.id">
                     <div v-if="cursohaciendaContratacion.nombre.trim().toLowerCase().indexOf(buscar.toLowerCase()) !== -1">
-                        <div v-if="cursohaciendaContratacion.estado == 'activo' && cursohaciendaContratacion.usuario == 1" class="accordion-item index-cursos-accordion">
+                        <div v-if="cursohaciendaContratacion.requisitos.estado == 'activo' && cursohaciendaContratacion.requisitos.ofertado && cursohaciendaContratacion.requisitos.usuario == 1" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
                                 <button class="index-cursos-accordion-button" type="button" data-bs-toggle="collapse" :data-bs-target="'#'+identificador" aria-expanded="false" :aria-controls="identificador">
-                                    <img :src="cursohaciendaContratacion.imagen" alt="foto" class="rounded" width="300px">
+                                    <img :src="cursohaciendaContratacion.figure.imagen" :alt="cursohaciendaContratacion.figure.alt" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursohaciendaContratacion.nombre }}</strong> <br>
                                         <i>Categoría: {{ cursohaciendaContratacion.categoria }}</i> <br>
@@ -102,6 +111,9 @@
                                     <div class="d-flex align-items-center">
                                         {{ cursohaciendaContratacion.contenido }}
                                     </div>
+                                    <div v-if="cursohaciendaContratacion.requisitos.botonInscribir == 'si'" class="d-flex justify-content-center">
+                                        <a :href="cursohaciendaContratacion.requisitos.link" class="index-cursos-button-inscribete" target="_blank">INSCRIBETE</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -109,10 +121,10 @@
                 </div>
                 <div v-for="(cursoinclusionSocial, identificador) in cursos.inclusionSocial" :key="cursoinclusionSocial.id">
                     <div v-if="cursoinclusionSocial.nombre.trim().toLowerCase().indexOf(buscar.toLowerCase()) !== -1">
-                        <div v-if="cursoinclusionSocial.estado == 'activo' && cursoinclusionSocial.usuario == 1" class="accordion-item index-cursos-accordion">
+                        <div v-if="cursoinclusionSocial.requisitos.estado == 'activo' && cursoinclusionSocial.requisitos.ofertado && cursoinclusionSocial.requisitos.usuario == 1" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
                                 <button class="index-cursos-accordion-button" type="button" data-bs-toggle="collapse" :data-bs-target="'#'+identificador" aria-expanded="false" :aria-controls="identificador">
-                                    <img :src="cursoinclusionSocial.imagen" alt="foto" class="rounded" width="300px">
+                                    <img :src="cursoinclusionSocial.figure.imagen" :alt="cursoinclusionSocial.figure.alt" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursoinclusionSocial.nombre }}</strong> <br>
                                         <i>Categoría: {{ cursoinclusionSocial.categoria }}</i> <br>
@@ -125,6 +137,9 @@
                                     <div class="d-flex align-items-center">
                                         {{ cursoinclusionSocial.contenido }}
                                     </div>
+                                    <div v-if="cursoinclusionSocial.requisitos.botonInscribir == 'si'" class="d-flex justify-content-center">
+                                        <a :href="cursoinclusionSocial.requisitos.link" class="index-cursos-button-inscribete" target="_blank">INSCRIBETE</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -132,10 +147,10 @@
                 </div>
                 <div v-for="(cursosalud, identificador) in cursos.salud" :key="cursosalud.id">
                     <div v-if="cursosalud.nombre.trim().toLowerCase().indexOf(buscar.toLowerCase()) !== -1">
-                        <div v-if="cursosalud.estado == 'activo' && cursosalud.usuario == 1" class="accordion-item index-cursos-accordion">
+                        <div v-if="cursosalud.requisitos.estado == 'activo' && cursosalud.requisitos.ofertado && cursosalud.requisitos.usuario == 1" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
                                 <button class="index-cursos-accordion-button" type="button" data-bs-toggle="collapse" :data-bs-target="'#'+identificador" aria-expanded="false" :aria-controls="identificador">
-                                    <img :src="cursosalud.imagen" alt="foto" class="rounded" width="300px">
+                                    <img :src="cursosalud.figure.imagen" :alt="cursosalud.figure.alt" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursosalud.nombre }}</strong> <br>
                                         <i>Categoría: {{ cursosalud.categoria }}</i> <br>
@@ -148,6 +163,9 @@
                                     <div class="d-flex align-items-center">
                                         {{ cursosalud.contenido }}
                                     </div>
+                                    <div v-if="cursosalud.requisitos.botonInscribir == 'si'" class="d-flex justify-content-center">
+                                        <a :href="cursosalud.requisitos.link" class="index-cursos-button-inscribete" target="_blank">INSCRIBETE</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -155,10 +173,10 @@
                 </div>
                 <div v-for="(cursoseguridadVial, identificador) in cursos.seguridadVial" :key="cursoseguridadVial.id">
                     <div v-if="cursoseguridadVial.nombre.trim().toLowerCase().indexOf(buscar.toLowerCase()) !== -1">
-                        <div v-if="cursoseguridadVial.estado == 'activo' && cursoseguridadVial.usuario == 1" class="accordion-item index-cursos-accordion">
+                        <div v-if="cursoseguridadVial.requisitos.estado == 'activo' && cursoseguridadVial.requisitos.ofertado && cursoseguridadVial.requisitos.usuario == 1" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
                                 <button class="index-cursos-accordion-button" type="button" data-bs-toggle="collapse" :data-bs-target="'#'+identificador" aria-expanded="false" :aria-controls="identificador">
-                                    <img :src="cursoseguridadVial.imagen" alt="foto" class="rounded" width="300px">
+                                    <img :src="cursoseguridadVial.figure.imagen" :alt="cursoseguridadVial.figure.alt" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursoseguridadVial.nombre }}</strong> <br>
                                         <i>Categoría: {{ cursoseguridadVial.categoria }}</i> <br>
@@ -171,6 +189,9 @@
                                     <div class="d-flex align-items-center">
                                         {{ cursoseguridadVial.contenido }}
                                     </div>
+                                    <div v-if="cursoseguridadVial.requisitos.botonInscribir == 'si'" class="d-flex justify-content-center">
+                                        <a :href="cursoseguridadVial.requisitos.link" class="index-cursos-button-inscribete" target="_blank">INSCRIBETE</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -178,10 +199,10 @@
                 </div>
                 <div v-for="(cursoseguridadSaludTrabajo, identificador) in cursos.seguridadcursoseguridadSaludTrabajo" :key="cursoseguridadSaludTrabajo.id">
                     <div v-if="cursoseguridadSaludTrabajo.nombre.trim().toLowerCase().indexOf(buscar.toLowerCase()) !== -1">
-                        <div v-if="cursoseguridadSaludTrabajo.estado == 'activo' && cursoseguridadSaludTrabajo.usuario == 1" class="accordion-item index-cursos-accordion">
+                        <div v-if="cursoseguridadSaludTrabajo.requisitos.estado == 'activo' && cursoseguridadSaludTrabajo.requisitos.ofertado && cursoseguridadSaludTrabajo.requisitos.usuario == 1" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
                                 <button class="index-cursos-accordion-button" type="button" data-bs-toggle="collapse" :data-bs-target="'#'+identificador" aria-expanded="false" :aria-controls="identificador">
-                                    <img :src="cursoseguridadSaludTrabajo.imagen" alt="foto" class="rounded" width="300px">
+                                    <img :src="cursoseguridadSaludTrabajo.figure.imagen" :alt="cursoseguridadSaludTrabajo.figure.alt" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursoseguridadSaludTrabajo.nombre }}</strong> <br>
                                         <i>Categoría: {{ cursoseguridadSaludTrabajo.categoria }}</i> <br>
@@ -194,6 +215,9 @@
                                     <div class="d-flex align-items-center">
                                         {{ cursoseguridadSaludTrabajo.contenido }}
                                     </div>
+                                    <div v-if="cursoseguridadSaludTrabajo.requisitos.botonInscribir == 'si'" class="d-flex justify-content-center">
+                                        <a :href="cursoseguridadSaludTrabajo.requisitos.link" class="index-cursos-button-inscribete" target="_blank">INSCRIBETE</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -201,10 +225,10 @@
                 </div>
                 <div v-for="(cursoseminarios, identificador) in cursos.seminarios" :key="cursoseminarios.id">
                     <div v-if="cursoseminarios.nombre.trim().toLowerCase().indexOf(buscar.toLowerCase()) !== -1">
-                        <div v-if="cursoseminarios.estado == 'activo' && cursoseminarios.usuario == 1" class="accordion-item index-cursos-accordion">
+                        <div v-if="cursoseminarios.requisitos.estado == 'activo' && cursoseminarios.requisitos.ofertado && cursoseminarios.requisitos.usuario == 1" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
                                 <button class="index-cursos-accordion-button" type="button" data-bs-toggle="collapse" :data-bs-target="'#'+identificador" aria-expanded="false" :aria-controls="identificador">
-                                    <img :src="cursoseminarios.imagen" alt="foto" class="rounded" width="300px">
+                                    <img :src="cursoseminarios.figure.imagen" :alt="cursoseminarios.figure.alt" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursoseminarios.nombre }}</strong> <br>
                                         <i>Categoría: {{ cursoseminarios.categoria }}</i> <br>
@@ -217,6 +241,9 @@
                                     <div class="d-flex align-items-center">
                                         {{ cursoseminarios.contenido }}
                                     </div>
+                                    <div v-if="cursoseminarios.requisitos.botonInscribir == 'si'" class="d-flex justify-content-center">
+                                        <a :href="cursoseminarios.requisitos.link" class="index-cursos-button-inscribete" target="_blank">INSCRIBETE</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -224,10 +251,10 @@
                 </div>
                 <div v-for="(cursosocial, identificador) in cursos.social" :key="cursosocial.id">
                     <div v-if="cursosocial.nombre.trim().toLowerCase().indexOf(buscar.toLowerCase()) !== -1">
-                        <div v-if="cursosocial.estado == 'activo' && cursosocial.usuario == 1" class="accordion-item index-cursos-accordion">
+                        <div v-if="cursosocial.requisitos.estado == 'activo' && cursosocial.requisitos.ofertado && cursosocial.requisitos.usuario == 1" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
                                 <button class="index-cursos-accordion-button" type="button" data-bs-toggle="collapse" :data-bs-target="'#'+identificador" aria-expanded="false" :aria-controls="identificador">
-                                    <img :src="cursosocial.imagen" alt="foto" class="rounded" width="300px">
+                                    <img :src="cursosocial.figure.imagen" :alt="cursosocial.figure.alt" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursosocial.nombre }}</strong> <br>
                                         <i>Categoría: {{ cursosocial.categoria }}</i> <br>
@@ -240,6 +267,9 @@
                                     <div class="d-flex align-items-center">
                                         {{ cursosocial.contenido }}
                                     </div>
+                                    <div v-if="cursosocial.requisitos.botonInscribir == 'si'" class="d-flex justify-content-center">
+                                        <a :href="cursosocial.requisitos.link" class="index-cursos-button-inscribete" target="_blank">INSCRIBETE</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -247,10 +277,10 @@
                 </div>
                 <div v-for="(cursotecnologiaInnovacion, identificador) in cursos.tecnologiaInnovacion" :key="cursotecnologiaInnovacion.id">
                     <div v-if="cursotecnologiaInnovacion.nombre.trim().toLowerCase().indexOf(buscar.toLowerCase()) !== -1">
-                        <div v-if="cursotecnologiaInnovacion.estado == 'activo' && cursotecnologiaInnovacion.usuario == 1" class="accordion-item index-cursos-accordion">
+                        <div v-if="cursotecnologiaInnovacion.requisitos.estado == 'activo' && cursotecnologiaInnovacion.requisitos.ofertado && cursotecnologiaInnovacion.requisitos.usuario == 1" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
                                 <button class="index-cursos-accordion-button" type="button" data-bs-toggle="collapse" :data-bs-target="'#'+identificador" aria-expanded="false" :aria-controls="identificador">
-                                    <img :src="cursotecnologiaInnovacion.imagen" alt="foto" class="rounded" width="300px">
+                                    <img :src="cursotecnologiaInnovacion.figure.imagen" :alt="cursotecnologiaInnovacion.figure.alt" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursotecnologiaInnovacion.nombre }}</strong> <br>
                                         <i>Categoría: {{ cursotecnologiaInnovacion.categoria }}</i> <br>
@@ -262,6 +292,9 @@
                                 <div class="index-cursos-cuerpo-accordion">
                                     <div class="d-flex align-items-center">
                                         {{ cursotecnologiaInnovacion.contenido }}
+                                    </div>
+                                    <div v-if="cursotecnologiaInnovacion.requisitos.botonInscribir == 'si'" class="d-flex justify-content-center">
+                                        <a :href="cursotecnologiaInnovacion.requisitos.link" class="index-cursos-button-inscribete" target="_blank">INSCRIBETE</a>
                                     </div>
                                 </div>
                             </div>
@@ -272,10 +305,10 @@
             <div v-if="miVariable == 2" class="d-flex flex-wrap justify-content-center">
                 <div v-for="(cursoconvivenciaCiudadana, identificador) in cursos.convivenciaCiudadana" :key="cursoconvivenciaCiudadana.id">
                     <div v-if="cursoconvivenciaCiudadana.nombre.trim().toLowerCase().indexOf(buscar.toLowerCase()) !== -1">
-                        <div v-if="cursoconvivenciaCiudadana.estado == 'activo' && (cursoconvivenciaCiudadana.usuario == 1 || cursoconvivenciaCiudadana.usuario == 2)" class="accordion-item index-cursos-accordion">
+                        <div v-if="cursoconvivenciaCiudadana.requisitos.estado == 'activo' && cursoconvivenciaCiudadana.requisitos.ofertado && (cursoconvivenciaCiudadana.requisitos.usuario == 1 || cursoconvivenciaCiudadana.requisitos.usuario == 2)" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
                                 <button class="index-cursos-accordion-button" type="button" data-bs-toggle="collapse" :data-bs-target="'#'+identificador" aria-expanded="false" :aria-controls="identificador">
-                                    <img :src="cursoconvivenciaCiudadana.imagen" alt="foto" class="rounded" width="300px">
+                                    <img :src="cursoconvivenciaCiudadana.figure.imagen" :alt="cursoconvivenciaCiudadana.figure.alt" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursoconvivenciaCiudadana.nombre }}</strong> <br>
                                         <i>Categoría: {{ cursoconvivenciaCiudadana.categoria }}</i> <br>
@@ -288,6 +321,9 @@
                                     <div class="d-flex align-items-center">
                                         {{ cursoconvivenciaCiudadana.contenido }}
                                     </div>
+                                    <div v-if="cursoconvivenciaCiudadana.requisitos.botonInscribir == 'si'" class="d-flex justify-content-center">
+                                        <a :href="cursoconvivenciaCiudadana.requisitos.link" class="index-cursos-button-inscribete" target="_blank">INSCRIBETE</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -295,10 +331,10 @@
                 </div>
                 <div v-for="(cursodiversidadGenero, identificador) in cursos.diversidadGenero" :key="cursodiversidadGenero.id">
                     <div v-if="cursodiversidadGenero.nombre.trim().toLowerCase().indexOf(buscar.toLowerCase()) !== -1">
-                        <div v-if="cursodiversidadGenero.estado == 'activo' && (cursodiversidadGenero.usuario == 1 || cursodiversidadGenero.usuario == 2)" class="accordion-item index-cursos-accordion">
+                        <div v-if="cursodiversidadGenero.requisitos.estado == 'activo' && cursodiversidadGenero.requisitos.ofertado && (cursodiversidadGenero.requisitos.usuario == 1 || cursodiversidadGenero.requisitos.usuario == 2)" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
                                 <button class="index-cursos-accordion-button" type="button" data-bs-toggle="collapse" :data-bs-target="'#'+identificador" aria-expanded="false" :aria-controls="identificador">
-                                    <img :src="cursodiversidadGenero.imagen" alt="foto" class="rounded" width="300px">
+                                    <img :src="cursodiversidadGenero.figure.imagen" :alt="cursodiversidadGenero.figure.alt" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursodiversidadGenero.nombre }}</strong> <br>
                                         <i>Categoría: {{ cursodiversidadGenero.categoria }}</i> <br>
@@ -311,6 +347,9 @@
                                     <div class="d-flex align-items-center">
                                         {{ cursodiversidadGenero.contenido }}
                                     </div>
+                                    <div v-if="cursodiversidadGenero.requisitos.botonInscribir == 'si'" class="d-flex justify-content-center">
+                                        <a :href="cursodiversidadGenero.requisitos.link" class="index-cursos-button-inscribete" target="_blank">INSCRIBETE</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -318,10 +357,10 @@
                 </div>
                 <div v-for="(cursogestionHumana, identificador) in cursos.gestionHumana" :key="cursogestionHumana.id">
                     <div v-if="cursogestionHumana.nombre.trim().toLowerCase().indexOf(buscar.toLowerCase()) !== -1">
-                        <div v-if="cursogestionHumana.estado == 'activo' && (cursogestionHumana.usuario == 1 || cursogestionHumana.usuario == 2)" class="accordion-item index-cursos-accordion">
+                        <div v-if="cursogestionHumana.requisitos.estado == 'activo' && cursogestionHumana.requisitos.ofertado && (cursogestionHumana.requisitos.usuario == 1 || cursogestionHumana.requisitos.usuario == 2)" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
                                 <button class="index-cursos-accordion-button" type="button" data-bs-toggle="collapse" :data-bs-target="'#'+identificador" aria-expanded="false" :aria-controls="identificador">
-                                    <img :src="cursogestionHumana.imagen" alt="foto" class="rounded" width="300px">
+                                    <img :src="cursogestionHumana.figure.imagen" :alt="cursogestionHumana.figure.alt" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursogestionHumana.nombre }}</strong> <br>
                                         <i>Categoría: {{ cursogestionHumana.categoria }}</i> <br>
@@ -334,6 +373,9 @@
                                     <div class="d-flex align-items-center">
                                         {{ cursogestionHumana.contenido }}
                                     </div>
+                                    <div v-if="cursogestionHumana.requisitos.botonInscribir == 'si'" class="d-flex justify-content-center">
+                                        <a :href="cursogestionHumana.requisitos.link" class="index-cursos-button-inscribete" target="_blank">INSCRIBETE</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -341,10 +383,10 @@
                 </div>
                 <div v-for="(cursohaciendaContratacion, identificador) in cursos.haciendaContratacion" :key="cursohaciendaContratacion.id">
                     <div v-if="cursohaciendaContratacion.nombre.trim().toLowerCase().indexOf(buscar.toLowerCase()) !== -1">
-                        <div v-if="cursohaciendaContratacion.estado == 'activo' && (cursohaciendaContratacion.usuario == 1 || cursohaciendaContratacion.usuario == 2)" class="accordion-item index-cursos-accordion">
+                        <div v-if="cursohaciendaContratacion.requisitos.estado == 'activo' && cursohaciendaContratacion.requisitos.ofertado && (cursohaciendaContratacion.requisitos.usuario == 1 || cursohaciendaContratacion.requisitos.usuario == 2)" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
                                 <button class="index-cursos-accordion-button" type="button" data-bs-toggle="collapse" :data-bs-target="'#'+identificador" aria-expanded="false" :aria-controls="identificador">
-                                    <img :src="cursohaciendaContratacion.imagen" alt="foto" class="rounded" width="300px">
+                                    <img :src="cursohaciendaContratacion.figure.imagen" :alt="cursohaciendaContratacion.figure.alt" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursohaciendaContratacion.nombre }}</strong> <br>
                                         <i>Categoría: {{ cursohaciendaContratacion.categoria }}</i> <br>
@@ -357,6 +399,9 @@
                                     <div class="d-flex align-items-center">
                                         {{ cursohaciendaContratacion.contenido }}
                                     </div>
+                                    <div v-if="cursohaciendaContratacion.requisitos.botonInscribir == 'si'" class="d-flex justify-content-center">
+                                        <a :href="cursohaciendaContratacion.requisitos.link" class="index-cursos-button-inscribete" target="_blank">INSCRIBETE</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -364,10 +409,10 @@
                 </div>
                 <div v-for="(cursoinclusionSocial, identificador) in cursos.inclusionSocial" :key="cursoinclusionSocial.id">
                     <div v-if="cursoinclusionSocial.nombre.trim().toLowerCase().indexOf(buscar.toLowerCase()) !== -1">
-                        <div v-if="cursoinclusionSocial.estado == 'activo' && (cursoinclusionSocial.usuario == 1 || cursoinclusionSocial.usuario == 2)" class="accordion-item index-cursos-accordion">
+                        <div v-if="cursoinclusionSocial.requisitos.estado == 'activo' && cursoinclusionSocial.requisitos.ofertado && (cursoinclusionSocial.requisitos.usuario == 1 || cursoinclusionSocial.requisitos.usuario == 2)" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
                                 <button class="index-cursos-accordion-button" type="button" data-bs-toggle="collapse" :data-bs-target="'#'+identificador" aria-expanded="false" :aria-controls="identificador">
-                                    <img :src="cursoinclusionSocial.imagen" alt="foto" class="rounded" width="300px">
+                                    <img :src="cursoinclusionSocial.figure.imagen" :alt="cursoinclusionSocial.figure.alt" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursoinclusionSocial.nombre }}</strong> <br>
                                         <i>Categoría: {{ cursoinclusionSocial.categoria }}</i> <br>
@@ -380,6 +425,9 @@
                                     <div class="d-flex align-items-center">
                                         {{ cursoinclusionSocial.contenido }}
                                     </div>
+                                    <div v-if="cursoinclusionSocial.requisitos.botonInscribir == 'si'" class="d-flex justify-content-center">
+                                        <a :href="cursoinclusionSocial.requisitos.link" class="index-cursos-button-inscribete" target="_blank">INSCRIBETE</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -387,10 +435,10 @@
                 </div>
                 <div v-for="(cursosalud, identificador) in cursos.salud" :key="cursosalud.id">
                     <div v-if="cursosalud.nombre.trim().toLowerCase().indexOf(buscar.toLowerCase()) !== -1">
-                        <div v-if="cursosalud.estado == 'activo' && (cursosalud.usuario == 1 || cursosalud.usuario == 2)" class="accordion-item index-cursos-accordion">
+                        <div v-if="cursosalud.requisitos.estado == 'activo' && cursosalud.requisitos.ofertado && (cursosalud.requisitos.usuario == 1 || cursosalud.requisitos.usuario == 2)" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
                                 <button class="index-cursos-accordion-button" type="button" data-bs-toggle="collapse" :data-bs-target="'#'+identificador" aria-expanded="false" :aria-controls="identificador">
-                                    <img :src="cursosalud.imagen" alt="foto" class="rounded" width="300px">
+                                    <img :src="cursosalud.figure.imagen" :alt="cursosalud.figure.alt" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursosalud.nombre }}</strong> <br>
                                         <i>Categoría: {{ cursosalud.categoria }}</i> <br>
@@ -403,6 +451,9 @@
                                     <div class="d-flex align-items-center">
                                         {{ cursosalud.contenido }}
                                     </div>
+                                    <div v-if="cursosalud.requisitos.botonInscribir == 'si'" class="d-flex justify-content-center">
+                                        <a :href="cursosalud.requisitos.link" class="index-cursos-button-inscribete" target="_blank">INSCRIBETE</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -410,10 +461,10 @@
                 </div>
                 <div v-for="(cursoseguridadVial, identificador) in cursos.seguridadVial" :key="cursoseguridadVial.id">
                     <div v-if="cursoseguridadVial.nombre.trim().toLowerCase().indexOf(buscar.toLowerCase()) !== -1">
-                        <div v-if="cursoseguridadVial.estado == 'activo' && (cursoseguridadVial.usuario == 1 || cursoseguridadVial.usuario == 2)" class="accordion-item index-cursos-accordion">
+                        <div v-if="cursoseguridadVial.requisitos.estado == 'activo' && cursoseguridadVial.requisitos.ofertado && (cursoseguridadVial.requisitos.usuario == 1 || cursoseguridadVial.requisitos.usuario == 2)" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
                                 <button class="index-cursos-accordion-button" type="button" data-bs-toggle="collapse" :data-bs-target="'#'+identificador" aria-expanded="false" :aria-controls="identificador">
-                                    <img :src="cursoseguridadVial.imagen" alt="foto" class="rounded" width="300px">
+                                    <img :src="cursoseguridadVial.figure.imagen" :alt="cursoseguridadVial.figure.alt" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursoseguridadVial.nombre }}</strong> <br>
                                         <i>Categoría: {{ cursoseguridadVial.categoria }}</i> <br>
@@ -426,6 +477,9 @@
                                     <div class="d-flex align-items-center">
                                         {{ cursoseguridadVial.contenido }}
                                     </div>
+                                    <div v-if="cursoseguridadVial.requisitos.botonInscribir == 'si'" class="d-flex justify-content-center">
+                                        <a :href="cursoseguridadVial.requisitos.link" class="index-cursos-button-inscribete" target="_blank">INSCRIBETE</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -433,10 +487,10 @@
                 </div>
                 <div v-for="(cursoseguridadSaludTrabajo, identificador) in cursos.seguridadcursoseguridadSaludTrabajo" :key="cursoseguridadSaludTrabajo.id">
                     <div v-if="cursoseguridadSaludTrabajo.nombre.trim().toLowerCase().indexOf(buscar.toLowerCase()) !== -1">
-                        <div v-if="cursoseguridadSaludTrabajo.estado == 'activo' && (cursoseguridadSaludTrabajo.usuario == 1 || cursoseguridadSaludTrabajo.usuario == 2)" class="accordion-item index-cursos-accordion">
+                        <div v-if="cursoseguridadSaludTrabajo.requisitos.estado == 'activo' && cursoseguridadSaludTrabajo.requisitos.ofertado && (cursoseguridadSaludTrabajo.requisitos.usuario == 1 || cursoseguridadSaludTrabajo.requisitos.usuario == 2)" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
                                 <button class="index-cursos-accordion-button" type="button" data-bs-toggle="collapse" :data-bs-target="'#'+identificador" aria-expanded="false" :aria-controls="identificador">
-                                    <img :src="cursoseguridadSaludTrabajo.imagen" alt="foto" class="rounded" width="300px">
+                                    <img :src="cursoseguridadSaludTrabajo.figure.imagen" :alt="cursoseguridadSaludTrabajo.figure.alt" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursoseguridadSaludTrabajo.nombre }}</strong> <br>
                                         <i>Categoría: {{ cursoseguridadSaludTrabajo.categoria }}</i> <br>
@@ -449,6 +503,9 @@
                                     <div class="d-flex align-items-center">
                                         {{ cursoseguridadSaludTrabajo.contenido }}
                                     </div>
+                                    <div v-if="cursoseguridadSaludTrabajo.requisitos.botonInscribir == 'si'" class="d-flex justify-content-center">
+                                        <a :href="cursoseguridadSaludTrabajo.requisitos.link" class="index-cursos-button-inscribete" target="_blank">INSCRIBETE</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -456,10 +513,10 @@
                 </div>
                 <div v-for="(cursoseminarios, identificador) in cursos.seminarios" :key="cursoseminarios.id">
                     <div v-if="cursoseminarios.nombre.trim().toLowerCase().indexOf(buscar.toLowerCase()) !== -1">
-                        <div v-if="cursoseminarios.estado == 'activo' && (cursoseminarios.usuario == 1 || cursoseminarios.usuario == 2)" class="accordion-item index-cursos-accordion">
+                        <div v-if="cursoseminarios.requisitos.estado == 'activo' && cursoseminarios.requisitos.ofertado && (cursoseminarios.requisitos.usuario == 1 || cursoseminarios.requisitos.usuario == 2)" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
                                 <button class="index-cursos-accordion-button" type="button" data-bs-toggle="collapse" :data-bs-target="'#'+identificador" aria-expanded="false" :aria-controls="identificador">
-                                    <img :src="cursoseminarios.imagen" alt="foto" class="rounded" width="300px">
+                                    <img :src="cursoseminarios.figure.imagen" :alt="cursoseminarios.figure.alt" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursoseminarios.nombre }}</strong> <br>
                                         <i>Categoría: {{ cursoseminarios.categoria }}</i> <br>
@@ -472,6 +529,9 @@
                                     <div class="d-flex align-items-center">
                                         {{ cursoseminarios.contenido }}
                                     </div>
+                                    <div v-if="cursoseminarios.requisitos.botonInscribir == 'si'" class="d-flex justify-content-center">
+                                        <a :href="cursoseminarios.requisitos.link" class="index-cursos-button-inscribete" target="_blank">INSCRIBETE</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -479,10 +539,10 @@
                 </div>
                 <div v-for="(cursosocial, identificador) in cursos.social" :key="cursosocial.id">
                     <div v-if="cursosocial.nombre.trim().toLowerCase().indexOf(buscar.toLowerCase()) !== -1">
-                        <div v-if="cursosocial.estado == 'activo' && (cursosocial.usuario == 1 || cursosocial.usuario == 2)" class="accordion-item index-cursos-accordion">
+                        <div v-if="cursosocial.requisitos.estado == 'activo' && cursosocial.requisitos.ofertado && (cursosocial.requisitos.usuario == 1 || cursosocial.requisitos.usuario == 2)" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
                                 <button class="index-cursos-accordion-button" type="button" data-bs-toggle="collapse" :data-bs-target="'#'+identificador" aria-expanded="false" :aria-controls="identificador">
-                                    <img :src="cursosocial.imagen" alt="foto" class="rounded" width="300px">
+                                    <img :src="cursosocial.figure.imagen" :alt="cursosocial.figure.alt" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursosocial.nombre }}</strong> <br>
                                         <i>Categoría: {{ cursosocial.categoria }}</i> <br>
@@ -495,6 +555,9 @@
                                     <div class="d-flex align-items-center">
                                         {{ cursosocial.contenido }}
                                     </div>
+                                    <div v-if="cursosocial.requisitos.botonInscribir == 'si'" class="d-flex justify-content-center">
+                                        <a :href="cursosocial.requisitos.link" class="index-cursos-button-inscribete" target="_blank">INSCRIBETE</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -502,10 +565,10 @@
                 </div>
                 <div v-for="(cursotecnologiaInnovacion, identificador) in cursos.tecnologiaInnovacion" :key="cursotecnologiaInnovacion.id">
                     <div v-if="cursotecnologiaInnovacion.nombre.trim().toLowerCase().indexOf(buscar.toLowerCase()) !== -1">
-                        <div v-if="cursotecnologiaInnovacion.estado == 'activo' && (cursotecnologiaInnovacion.usuario == 1 || cursotecnologiaInnovacion.usuario == 2)" class="accordion-item index-cursos-accordion">
+                        <div v-if="cursotecnologiaInnovacion.requisitos.estado == 'activo' && cursotecnologiaInnovacion.requisitos.ofertado && (cursotecnologiaInnovacion.requisitos.usuario == 1 || cursotecnologiaInnovacion.requisitos.usuario == 2)" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
                                 <button class="index-cursos-accordion-button" type="button" data-bs-toggle="collapse" :data-bs-target="'#'+identificador" aria-expanded="false" :aria-controls="identificador">
-                                    <img :src="cursotecnologiaInnovacion.imagen" alt="foto" class="rounded" width="300px">
+                                    <img :src="cursotecnologiaInnovacion.figure.imagen" :alt="cursotecnologiaInnovacion.figure.alt" class="rounded" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursotecnologiaInnovacion.nombre }}</strong> <br>
                                         <i>Categoría: {{ cursotecnologiaInnovacion.categoria }}</i> <br>
@@ -517,6 +580,9 @@
                                 <div class="index-cursos-cuerpo-accordion">
                                     <div class="d-flex align-items-center">
                                         {{ cursotecnologiaInnovacion.contenido }}
+                                    </div>
+                                    <div v-if="cursotecnologiaInnovacion.requisitos.botonInscribir == 'si'" class="d-flex justify-content-center">
+                                        <a :href="cursotecnologiaInnovacion.requisitos.link" class="index-cursos-button-inscribete" target="_blank">INSCRIBETE</a>
                                     </div>
                                 </div>
                             </div>
