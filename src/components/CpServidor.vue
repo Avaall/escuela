@@ -2,14 +2,10 @@
     <div>
         <div>
             <!-- 0 -->
-            <div v-if="propt == 0" class="text-center">
+            <div v-if="propt == 0" class="text-center index-cursos-ciudadano-portada">
                 <div class="index-cursos-ciudadano-categoria">
-                    <span class="material-symbols-outlined index-cursos-titulo">
-                        arrow_back
-                    </span>
-                    &nbsp;Bienvenido, selecciona la categoría de tu interés
+                    &nbsp;Bienvenido, <br> selecciona la categoría <br> de tu interés
                 </div>
-                <img src="../assets/img/index-cursos.png" alt="" width="500px">
             </div>
             <!-- 1 -->
             <div v-if="propt == 1" class="d-flex flex-column">

@@ -664,10 +664,10 @@
                     </ul>
                 </div>
                 <div v-if="miVariable == 1" class="index-cursos-visualizacion">
-                    <CpCiudadano class="w-100 h-100 d-flex align-items-center justify-content-center index-cursos-fondo" :propt="numero" />
+                    <CpCiudadano id="CpCiudadano" class="w-100 h-100 d-flex align-items-center justify-content-center index-cursos-fondo" :propt="numero" />
                 </div>
                 <div v-if="miVariable == 2" class="index-cursos-visualizacion">
-                    <CpServidor class="w-100 h-100 d-flex align-items-center justify-content-center" :propt="numero" />
+                    <CpServidor id="CpServidor" class="w-100 h-100 d-flex align-items-center justify-content-center index-cursos-fondo" :propt="numero" />
                 </div>
             </div>
         </div>
@@ -695,6 +695,12 @@ export default {
   },
   methods: {
     number (valor) {
+      if (this.miVariable === 1) {
+        document.getElementById('CpCiudadano').style.background = 'none'
+      }
+      if (this.miVariable === 2) {
+        document.getElementById('CpServidor').style.background = 'none'
+      }
       this.valorCurso = 0
       this.numero = valor
       const li = document.querySelectorAll('.index-cursos-menu-ul-li')

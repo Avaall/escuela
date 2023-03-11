@@ -55,28 +55,40 @@
                     <p class="text-center mx-2 home-valor-texto-titulo">¿Qué es la Escuela Virtual de Aprendizaje?</p>
                 </div>
                 <div class="home-informacion-body">
-                    Es una de las estrategias de formación, capacitación y entrenamiento de
-                    la Alcaldía de Medellín para fortalecer las competencias laborales de los
-                    servidores públicos, mediante programas de aprendizaje con énfasis en
-                    actualización permanente del fortalecimiento de la cultura organizacional
-                    y la ética de los servicios ofrecidos a la ciudadanía.
+                    <p>
+                        Es una de las estrategias de formación, capacitación y entrenamiento de
+                        la Alcaldía de Medellín para fortalecer las <strong>competencias</strong> y <strong>capacidades</strong> de
+                        los servidores públicos y de la ciudadanía, mediante programas de
+                        aprendizaje con énfasis en diferentes temáticas. <br><br>
+
+                        La <strong>misión</strong> de la Escuela es facilitar los procesos de enseñanza y aprendizaje
+                        desde el <strong>SER</strong> (formación), el <strong>HACER</strong> (entrenamiento) y el <strong>SABER</strong> (capacitación).
+                    </p>
                     <div>
                         <button v-on:click="cerrar(0)">Cerrar</button>
                     </div>
                 </div>
                 <div class="home-informacion-body-responsive">
-                    Es una de las estrategias de formación, capacitación y entrenamiento de
-                    la Alcaldía de Medellín para fortalecer las competencias laborales de los
-                    servidores públicos, mediante programas de aprendizaje con énfasis en
-                    actualización permanente del fortalecimiento de la cultura organizacional
-                    y la ética de los servicios ofrecidos a la ciudadanía.
+                    <p>
+                        Es una de las estrategias de formación, capacitación y entrenamiento de
+                        la Alcaldía de Medellín para fortalecer las <strong>competencias</strong> y <strong>capacidades</strong> de
+                        los servidores públicos y de la ciudadanía, mediante programas de
+                        aprendizaje con énfasis en diferentes temáticas. <br><br>
+
+                        La <strong>misión</strong> de la Escuela es facilitar los procesos de enseñanza y aprendizaje
+                        desde el <strong>SER</strong> (formación), el <strong>HACER</strong> (entrenamiento) y el <strong>SABER</strong> (capacitación).
+                    </p>
                 </div>
                 <div class="home-informacion-body-responsive-md">
-                    Es una de las estrategias de formación, capacitación y entrenamiento de
-                    la Alcaldía de Medellín para fortalecer las competencias laborales de los
-                    servidores públicos, mediante programas de aprendizaje con énfasis en
-                    actualización permanente del fortalecimiento de la cultura organizacional
-                    y la ética de los servicios ofrecidos a la ciudadanía.
+                    <p>
+                        Es una de las estrategias de formación, capacitación y entrenamiento de
+                        la Alcaldía de Medellín para fortalecer las <strong>competencias</strong> y <strong>capacidades</strong> de
+                        los servidores públicos y de la ciudadanía, mediante programas de
+                        aprendizaje con énfasis en diferentes temáticas. <br><br>
+
+                        La <strong>misión</strong> de la Escuela es facilitar los procesos de enseñanza y aprendizaje
+                        desde el <strong>SER</strong> (formación), el <strong>HACER</strong> (entrenamiento) y el <strong>SABER</strong> (capacitación).
+                    </p>
                     <div>
                         <button v-on:click="cerrar(0)">Cerrar</button>
                     </div>

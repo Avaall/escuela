@@ -655,6 +655,28 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+@media screen and (max-width: 1200px) {
+    .index-cursos-ciudadano-portada {
+        margin: -180px 0 0 -230px !important;
+    }
+    .index-cursos-ciudadano-categoria {
+        font-weight: 500;
+        font-size: 20px !important;
+    }
+    .index-cursos-menu-ul-li {
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
+@media screen and (max-width: 950px) {
+    .index-cursos-menu-sub {
+        display: none;
+    }
+    .index-cursos-visualizacion {
+        width: 100%;
+        height: 50vh;
+    }
+}
 
     /* FIN INDEX CpCursos */
 
