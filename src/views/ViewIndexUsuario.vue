@@ -24,6 +24,15 @@
                     Ir al Campus
                 </a>
             </div>
+            <div class="index-nav-container-responsive">
+                <div class="x">
+                    <i class="bi bi-list"></i>
+                </div>
+                <a href="https://escuelavirtual.medellin.gov.co/login/index.php" target="_blank"
+                    class="index-nav-button-ingreso">
+                    Ir al Campus
+                </a>
+            </div>
         </div>
       <!-- FIN Navegador o Menu -->
       <!-- Visualización del contenido según usuario -->
