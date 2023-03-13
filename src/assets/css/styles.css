@@ -517,6 +517,31 @@
     justify-content: center;
     cursor: pointer;
 }
+.dropdown-menu {
+    width: 200px;
+    background: #00aeef !important;
+    border: none !important;
+}
+.dropdown-menu li {
+    font-size: 20px;
+    padding: 5px 10px;
+    color: #fff;
+}
+.dropdown-menu li:first-child {
+    border-bottom: 1px solid #fff;
+}
+.index-button-responsive {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 30px;
+}
+.index-button-responsive:hover {
+    color: #fff;
+    font-size: 30px;
+}
 .index-nav-button:hover {
     color: #fff;
     background: #1e92c4;

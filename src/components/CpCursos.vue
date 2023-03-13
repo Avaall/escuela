@@ -665,23 +665,40 @@
                 </div>
                 <div v-if="miVariable == 1" id="index-visualizacion" class="index-cursos-visualizacion">
                     <div class="div-tema">
-                        <select name="" id="select">
-                            <option value="" v-on:click="number(1)">Convivencia ciudadana</option>
-                            <option value="" v-on:click="number(2)">Diversidad y género</option>
-                            <option value="" v-on:click="number(3)">Gestión humana</option>
-                            <option value="" v-on:click="number(4)">Hacienda y contratación</option>
-                            <option value="" v-on:click="number(5)">Inclusión social</option>
-                            <option value="" v-on:click="number(6)">Salud</option>
-                            <option value="" v-on:click="number(7)">Seguridad vial</option>
-                            <option value="" v-on:click="number(8)">Seguridad y salud en el trabajo</option>
-                            <option value="" v-on:click="number(9)">Seminarios</option>
-                            <option value="" v-on:click="number(10)">Social</option>
-                            <option value="" v-on:click="number(11)">Tecnología e innovación</option>
+                        <label for="">Categoría:</label>
+                        <select class="mx-3" v-model="categoria" name="" v-on:change="mover" id="select">
+                            <option value="Convivencia ciudadana">Convivencia ciudadana</option>
+                            <option class="d-none" value="Diversidad y género">Diversidad y género</option>
+                            <option class="d-none" value="Gestión humana">Gestión humana</option>
+                            <option class="d-none" value="Hacienda y contratación">Hacienda y contratación</option>
+                            <option class="d-none" value="Inclusión social">Inclusión social</option>
+                            <option class="d-none" value="Salud">Salud</option>
+                            <option value="Seguridad vial">Seguridad vial</option>
+                            <option class="d-none" value="Seguridad y salud en el trabajo">Seguridad y salud en el trabajo</option>
+                            <option class="d-none" value="Seminarios">Seminarios</option>
+                            <option value="Social">Social</option>
+                            <option value="Tecnología e innovación">Tecnología e innovación</option>
                         </select>
                     </div>
                     <CpCiudadano id="CpCiudadano" class="w-100 h-100 d-flex align-items-center justify-content-center index-cursos-fondo" :propt="numero" />
                 </div>
-                <div v-if="miVariable == 2" class="index-cursos-visualizacion">
+                <div v-if="miVariable == 2" id="index-visualizacion-2" class="index-cursos-visualizacion">
+                    <div class="div-tema">
+                        <label for="">Categoría:</label>
+                        <select class="mx-3" v-model="categoria" name="" v-on:change="mover" id="select">
+                            <option value="Convivencia ciudadana">Convivencia ciudadana</option>
+                            <option class="d-none" value="Diversidad y género">Diversidad y género</option>
+                            <option class="d-none" value="Gestión humana">Gestión humana</option>
+                            <option value="Hacienda y contratación">Hacienda y contratación</option>
+                            <option class="d-none" value="Inclusión social">Inclusión social</option>
+                            <option class="d-none" value="Salud">Salud</option>
+                            <option value="Seguridad vial">Seguridad vial</option>
+                            <option class="d-none" value="Seguridad y salud en el trabajo">Seguridad y salud en el trabajo</option>
+                            <option class="d-none" value="Seminarios">Seminarios</option>
+                            <option value="Social">Social</option>
+                            <option value="Tecnología e innovación">Tecnología e innovación</option>
+                        </select>
+                    </div>
                     <CpServidor id="CpServidor" class="w-100 h-100 d-flex align-items-center justify-content-center index-cursos-fondo" :propt="numero" />
                 </div>
             </div>
@@ -699,7 +716,9 @@ export default {
     return {
       cursos: datos,
       numero: 0,
-      buscar: ''
+      buscar: '',
+      categoria: '',
+      ejecutado: false
     }
   },
   name: 'CpCursos',
@@ -719,12 +738,53 @@ export default {
     if (this.especifico === 11) {
       this.number(11)
     }
-    if (this.miVariable === 2) {
-      document.getElementById('hacienda').classList.remove('d-none')
-      document.getElementById('hacienda').classList.add('d-block')
+    if (!this.ejecutado) {
+      this.ejecutar()
+      this.ejecutado = true
     }
   },
   methods: {
+    ejecutar () {
+      if (this.miVariable === 2) {
+        document.getElementById('hacienda').classList.remove('d-none')
+        document.getElementById('hacienda').classList.add('d-block')
+      }
+    },
+    mover () {
+      if (this.categoria === 'Convivencia ciudadana') {
+        this.number(1)
+      }
+      if (this.categoria === 'Diversidad y género') {
+        this.number(2)
+      }
+      if (this.categoria === 'Gestión humana') {
+        this.number(3)
+      }
+      if (this.categoria === 'Hacienda y contratación') {
+        this.number(4)
+      }
+      if (this.categoria === 'Inclusión social') {
+        this.number(5)
+      }
+      if (this.categoria === 'Salud') {
+        this.number(6)
+      }
+      if (this.categoria === 'Seguridad vial') {
+        this.number(7)
+      }
+      if (this.categoria === 'Seguridad y salud en el trabajo"') {
+        this.number(8)
+      }
+      if (this.categoria === 'Seminarios') {
+        this.number(9)
+      }
+      if (this.categoria === 'Social') {
+        this.number(10)
+      }
+      if (this.categoria === 'Tecnología e innovación') {
+        this.number(11)
+      }
+    },
     number (valor) {
       if (this.miVariable === 1) {
         document.getElementById('CpCiudadano').style.background = 'none'
@@ -733,8 +793,14 @@ export default {
         document.getElementById('CpServidor').style.background = 'none'
       }
       if (window.screen.width < 769) {
-        document.getElementById('sub-menus').classList.add('d-none')
-        document.getElementById('index-visualizacion').classList.add('d-block')
+        if (this.miVariable === 1) {
+          document.getElementById('sub-menus').classList.add('d-none')
+          document.getElementById('index-visualizacion').classList.add('d-block')
+        }
+        if (this.miVariable === 2) {
+          document.getElementById('sub-menus').classList.add('d-none')
+          document.getElementById('index-visualizacion-2').classList.add('d-block')
+        }
       }
       this.valorCurso = 0
       this.numero = valor

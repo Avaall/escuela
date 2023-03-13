@@ -25,8 +25,14 @@
                 </a>
             </div>
             <div class="index-nav-container-responsive">
-                <div class="index-nav-responsive">
-                    <i class="bi bi-list"></i>
+                <div class="dropdown">
+                    <div class="index-button-responsive dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="bi bi-list"></i>
+                    </div>
+                    <ul class="dropdown-menu">
+                        <li><span v-on:click="mostrarCursos" class="index-nav-button-responsive">Cursos</span></li>
+                        <li><span v-on:click="mostrarConoce" class="index-nav-button-responsive">Conócenos más</span></li>
+                    </ul>
                 </div>
                 <a href="https://escuelavirtual.medellin.gov.co/login/index.php" target="_blank"
                     class="index-nav-button-ingreso">
