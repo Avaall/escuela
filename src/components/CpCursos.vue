@@ -613,7 +613,7 @@
                             </span>
                             Gestión humana
                         </li>
-                        <li v-if="miVariable == 2" class="d-block index-cursos-menu-ul-li" v-on:click="number(4)">
+                        <li id="hacienda" class="d-none index-cursos-menu-ul-li" v-on:click="number(4)">
                             <span class="material-symbols-outlined mx-2">
                                 arrow_circle_right
                             </span>
@@ -718,6 +718,10 @@ export default {
   mounted () {
     if (this.especifico === 11) {
       this.number(11)
+    }
+    if (this.miVariable === 2) {
+      document.getElementById('hacienda').classList.remove('d-none')
+      document.getElementById('hacienda').classList.add('d-block')
     }
   },
   methods: {
