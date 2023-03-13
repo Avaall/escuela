@@ -98,31 +98,40 @@
                     <p class="text-center mx-2 home-valor-texto-titulo">Requisitos <br> &nbsp;</p>
                 </div>
                 <div class="home-informacion-body">
-                    Se crea desde la Secretaría de Gestión Humana y Servicio a la Ciudadanía.
-                    Se ve la necesidad de capacitar a los servidores en cuanto a ética y
-                    cultura organizacional, ya que tiene como responsabilidad la estructura
-                    organizacional, La gestión integral del talento humano, La gestión de la
-                    información, La tecnología para el mejoramiento continuo de la prestación
-                    de servicios.
+                    <ul class="lista-1">
+                        <li>Ser residente del Distrito de Medellín.</li>
+                        <li>Contar con un computador, tablet o teléfono móvil con conexión a internet estable.</li>
+                        <li>
+                            Tener un correo electrónico activo, ya que a este será enviada la confirmación de
+                            inscripción y toda la información relacionada con el curso al que te inscribas.
+                        </li>
+                        <li>¡Muchas ganas de aprender!</li>
+                    </ul>
                     <div>
                         <button v-on:click="cerrar(1)">Cerrar</button>
                     </div>
                 </div>
                 <div class="home-informacion-body-responsive">
-                    Se crea desde la Secretaría de Gestión Humana y Servicio a la Ciudadanía.
-                    Se ve la necesidad de capacitar a los servidores en cuanto a ética y
-                    cultura organizacional, ya que tiene como responsabilidad la estructura
-                    organizacional, La gestión integral del talento humano, La gestión de la
-                    información, La tecnología para el mejoramiento continuo de la prestación
-                    de servicios.
+                    <ul class="lista-1">
+                        <li>Ser residente del Distrito de Medellín.</li>
+                        <li>Contar con un computador, tablet o teléfono móvil con conexión a internet estable.</li>
+                        <li>
+                            Tener un correo electrónico activo, ya que a este será enviada la confirmación de
+                            inscripción y toda la información relacionada con el curso al que te inscribas.
+                        </li>
+                        <li>¡Muchas ganas de aprender!</li>
+                    </ul>
                 </div>
                 <div class="home-informacion-body-responsive-md">
-                    Se crea desde la Secretaría de Gestión Humana y Servicio a la Ciudadanía.
-                    Se ve la necesidad de capacitar a los servidores en cuanto a ética y
-                    cultura organizacional, ya que tiene como responsabilidad la estructura
-                    organizacional, La gestión integral del talento humano, La gestión de la
-                    información, La tecnología para el mejoramiento continuo de la prestación
-                    de servicios.
+                    <ul class="lista-1">
+                        <li>Ser residente del Distrito de Medellín.</li>
+                        <li>Contar con un computador, tablet o teléfono móvil con conexión a internet estable.</li>
+                        <li>
+                            Tener un correo electrónico activo, ya que a este será enviada la confirmación de
+                            inscripción y toda la información relacionada con el curso al que te inscribas.
+                        </li>
+                        <li>¡Muchas ganas de aprender!</li>
+                    </ul>
                     <div>
                         <button v-on:click="cerrar(1)">Cerrar</button>
                     </div>
@@ -132,21 +141,85 @@
                     <p class="text-center mx-2 home-valor-texto-titulo">¿Qué puedo <br> aprender aquí?</p>
                 </div>
                 <div class="home-informacion-body">
-                    Su misión se cimienta en tres aspectos: el SER (su formación),
-                    el HACER (su entrenamiento) y el SABER (su capacitación).
+                    En la Escuela Virtual de Aprendizaje encontrarás cursos gratuitos que te permitirán
+                    obtener nuevos conocimientos o fortalecer los que ya tienes en diferentes áreas como:
+                    tecnología e innovación, diversidad y equidad de género, prevención del embarazo en la
+                    adolescencia, entre otros. Al finalizar los cursos recibirás un certificado de participación.
                     <div>
                         <button v-on:click="cerrar(2)">Cerrar</button>
                     </div>
                 </div>
                 <div class="home-informacion-body-responsive">
-                    Su misión se cimienta en tres aspectos: el SER (su formación),
-                    el HACER (su entrenamiento) y el SABER (su capacitación).
+                    En la Escuela Virtual de Aprendizaje encontrarás cursos gratuitos que te permitirán
+                    obtener nuevos conocimientos o fortalecer los que ya tienes en diferentes áreas como:
+                    tecnología e innovación, diversidad y equidad de género, prevención del embarazo en la
+                    adolescencia, entre otros. Al finalizar los cursos recibirás un certificado de participación.
                 </div>
                 <div class="home-informacion-body-responsive-md">
-                    Su misión se cimienta en tres aspectos: el SER (su formación),
-                    el HACER (su entrenamiento) y el SABER (su capacitación).
+                    En la Escuela Virtual de Aprendizaje encontrarás cursos gratuitos que te permitirán
+                    obtener nuevos conocimientos o fortalecer los que ya tienes en diferentes áreas como:
+                    tecnología e innovación, diversidad y equidad de género, prevención del embarazo en la
+                    adolescencia, entre otros. Al finalizar los cursos recibirás un certificado de participación.
                     <div>
                         <button v-on:click="cerrar(2)">Cerrar</button>
+                    </div>
+                </div>
+                <div class="home-informacion-button" v-on:click="MostrarInfoButton(3)">
+                    <img src="../assets/img/modal-icon-4.png" alt="" class="mt-2 home-icon-informacion">
+                    <p class="text-center mx-2 home-valor-texto-titulo">¿Cómo inscribirte? <br> &nbsp;</p>
+                </div>
+                <div class="home-informacion-body">
+                    <ul class="lista-2">
+                        <li>Elige los cursos de tu interés.</li>
+                        <li>Haz clic en "Inscríbete".</li>
+                        <li>Digita tus datos en el formulario de inscripción y luego haz clic en "Inscribirme".</li>
+                        <li>
+                            Espera el mensaje de confirmación que llegará a tu correo durante las próximas 24
+                            horas para el inicio del curso. Revisa que el mensaje no llegue a la carpeta de spam.
+                        </li>
+                        <li>
+                            Luego de recibir tu usuario y contraseña para iniciar el curso, podrás acceder al
+                            campus virtual para empezar tu proceso formativo.
+                        </li>
+                        <li>Recuerda que los cursos son gratuitos y al finalizar recibes certificado de participación.</li>
+                    </ul>
+                    <div>
+                        <button v-on:click="cerrar(3)">Cerrar</button>
+                    </div>
+                </div>
+                <div class="home-informacion-body-responsive">
+                    <ul class="lista-2">
+                        <li>Elige los cursos de tu interés.</li>
+                        <li>Haz clic en "Inscríbete".</li>
+                        <li>Digita tus datos en el formulario de inscripción y luego haz clic en "Inscribirme".</li>
+                        <li>
+                            Espera el mensaje de confirmación que llegará a tu correo durante las próximas 24
+                            horas para el inicio del curso. Revisa que el mensaje no llegue a la carpeta de spam.
+                        </li>
+                        <li>
+                            Luego de recibir tu usuario y contraseña para iniciar el curso, podrás acceder al
+                            campus virtual para empezar tu proceso formativo.
+                        </li>
+                        <li>Recuerda que los cursos son gratuitos y al finalizar recibes certificado de participación.</li>
+                    </ul>
+                </div>
+                <div class="home-informacion-body-responsive-md">
+                    <ul class="lista-2">
+                        <li>Elige los cursos de tu interés.</li>
+                        <li>Haz clic en "Inscríbete".</li>
+                        <li>Digita tus datos en el formulario de inscripción y luego haz clic en "Inscribirme".</li>
+                        <li>
+                            Espera el mensaje de confirmación que llegará a tu correo durante las próximas 24
+                            horas para el inicio del curso. Revisa que el mensaje no llegue a la carpeta de spam.
+                        </li>
+                        <li>
+                            Luego de recibir tu usuario y contraseña para iniciar el curso, podrás acceder al
+                            campus virtual para empezar tu proceso formativo.
+                        </li>
+                        <li>Recuerda que los cursos son gratuitos y al finalizar recibes certificado de participación.</li>
+                    </ul>
+                    <div>
+                        <button v-on:click="cerrar(3)">Cerrar</button>
                     </div>
                 </div>
                 <div class="home-informacion-button" v-on:click="MostrarInfoButton(3)">
