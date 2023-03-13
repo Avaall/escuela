@@ -88,6 +88,14 @@
     .usuarios-texto {
         font-size: 20px;
     }
+    .usuario-texto-medellin {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .font {
+        width: 300px;
+        font-size: 15px;
+    }
 }
 @media screen and (max-width: 560px) {
     .usuario-texto-titulo {

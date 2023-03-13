@@ -663,7 +663,7 @@
                         </li>
                     </ul>
                 </div>
-                <div v-if="miVariable == 1" class="index-cursos-visualizacion">
+                <div v-if="miVariable == 1" id="index-visualizacion" class="index-cursos-visualizacion">
                     <CpCiudadano id="CpCiudadano" class="w-100 h-100 d-flex align-items-center justify-content-center index-cursos-fondo" :propt="numero" />
                 </div>
                 <div v-if="miVariable == 2" class="index-cursos-visualizacion">
@@ -701,8 +701,9 @@ export default {
       if (this.miVariable === 2) {
         document.getElementById('CpServidor').style.background = 'none'
       }
-      if (window.screen.width < 1000) {
-        document.getElementById('sub-menus').style.display = 'none !important'
+      if (window.screen.width < 769) {
+        document.getElementById('sub-menus').classList.add('d-none')
+        document.getElementById('index-visualizacion').classList.add('d-block')
       }
       this.valorCurso = 0
       this.numero = valor
