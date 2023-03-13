@@ -444,7 +444,7 @@
                 "usuario": 1,
                 "botonInscribir": "no",
                 "link": "",
-                "estado": "activo",
+                "estado": "inactivo",
                 "ofertado": "si"
             }
         },
@@ -461,7 +461,7 @@
                 "usuario": 1,
                 "botonInscribir": "no",
                 "link": "",
-                "estado": "activo",
+                "estado": "inactivo",
                 "ofertado": "si"
             }
         },

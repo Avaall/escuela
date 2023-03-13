@@ -23,7 +23,8 @@
                 <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active">
+                <div class="carousel-item carousel-item-unic active"></div>
+                <div class="carousel-item">
                     <img src="../assets/img/carousel-1.png" class="d-block h-100 img-carousel" alt="...">
                     <div class="carousel-caption d-flex justify-content-end h-100 align-items-center home-carousel-animation">
                         <img src="../assets/img/carousel-logo-escuela.png" alt="" width="400px" class="info-caption">
@@ -37,7 +38,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item carousel-item-unic"></div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -97,10 +97,11 @@
                 </div>
                 <div class="home-informacion-button" v-on:click="MostrarInfoButton(1)">
                     <img src="../assets/img/modal-icon-2.png" alt="" class="mt-2 home-icon-informacion">
-                    <p class="text-center mx-2 home-valor-texto-titulo">Requisitos <br> &nbsp;</p>
+                    <p class="text-center mx-2 home-valor-texto-titulo">¿Qué necesitas <br> para acceder?</p>
                 </div>
                 <div class="home-informacion-body">
                     <ul class="lista-1">
+                        <strong>Para acceder a los cursos ofertados debes cumplir con los siguientes requisitos:</strong>
                         <li>Ser residente del Distrito de Medellín.</li>
                         <li>Contar con un computador, tablet o teléfono móvil con conexión a internet estable.</li>
                         <li>
@@ -115,6 +116,7 @@
                 </div>
                 <div class="home-informacion-body-responsive">
                     <ul class="lista-1">
+                        <strong>Para acceder a los cursos ofertados debes cumplir con los siguientes requisitos:</strong>
                         <li>Ser residente del Distrito de Medellín.</li>
                         <li>Contar con un computador, tablet o teléfono móvil con conexión a internet estable.</li>
                         <li>
@@ -126,6 +128,7 @@
                 </div>
                 <div class="home-informacion-body-responsive-md">
                     <ul class="lista-1">
+                        <strong>Para acceder a los cursos ofertados debes cumplir con los siguientes requisitos:</strong>
                         <li>Ser residente del Distrito de Medellín.</li>
                         <li>Contar con un computador, tablet o teléfono móvil con conexión a internet estable.</li>
                         <li>
@@ -173,17 +176,17 @@
                 <div class="home-informacion-body">
                     <ul class="lista-2">
                         <li>Elige los cursos de tu interés.</li>
-                        <li>Haz clic en "Inscríbete".</li>
-                        <li>Digita tus datos en el formulario de inscripción y luego haz clic en "Inscribirme".</li>
+                        <li>Haz clic en <strong>"Inscríbete".</strong></li>
+                        <li>Digita tus datos en el formulario de inscripción y luego haz clic en <strong>"Inscribirme"</strong>.</li>
                         <li>
                             Espera el mensaje de confirmación que llegará a tu correo durante las próximas 24
                             horas para el inicio del curso. Revisa que el mensaje no llegue a la carpeta de spam.
                         </li>
                         <li>
                             Luego de recibir tu usuario y contraseña para iniciar el curso, podrás acceder al
-                            campus virtual para empezar tu proceso formativo.
+                            <strong>campus virtual</strong> para empezar tu proceso formativo.
                         </li>
-                        <li>Recuerda que los cursos son gratuitos y al finalizar recibes certificado de participación.</li>
+                        <li>Recuerda que los cursos son <strong>gratuitos</strong> y al finalizar recibes <strong>certificado de participación</strong>.</li>
                     </ul>
                     <div>
                         <button v-on:click="cerrar(3)">Cerrar</button>
@@ -192,33 +195,33 @@
                 <div class="home-informacion-body-responsive">
                     <ul class="lista-2">
                         <li>Elige los cursos de tu interés.</li>
-                        <li>Haz clic en "Inscríbete".</li>
-                        <li>Digita tus datos en el formulario de inscripción y luego haz clic en "Inscribirme".</li>
+                        <li>Haz clic en <strong>"Inscríbete".</strong></li>
+                        <li>Digita tus datos en el formulario de inscripción y luego haz clic en <strong>"Inscribirme"</strong>.</li>
                         <li>
                             Espera el mensaje de confirmación que llegará a tu correo durante las próximas 24
                             horas para el inicio del curso. Revisa que el mensaje no llegue a la carpeta de spam.
                         </li>
                         <li>
                             Luego de recibir tu usuario y contraseña para iniciar el curso, podrás acceder al
-                            campus virtual para empezar tu proceso formativo.
+                            <strong>campus virtual</strong> para empezar tu proceso formativo.
                         </li>
-                        <li>Recuerda que los cursos son gratuitos y al finalizar recibes certificado de participación.</li>
+                        <li>Recuerda que los cursos son <strong>gratuitos</strong> y al finalizar recibes <strong>certificado de participación</strong>.</li>
                     </ul>
                 </div>
                 <div class="home-informacion-body-responsive-md">
                     <ul class="lista-2">
                         <li>Elige los cursos de tu interés.</li>
-                        <li>Haz clic en "Inscríbete".</li>
-                        <li>Digita tus datos en el formulario de inscripción y luego haz clic en "Inscribirme".</li>
+                        <li>Haz clic en <strong>"Inscríbete".</strong></li>
+                        <li>Digita tus datos en el formulario de inscripción y luego haz clic en <strong>"Inscribirme"</strong>.</li>
                         <li>
                             Espera el mensaje de confirmación que llegará a tu correo durante las próximas 24
                             horas para el inicio del curso. Revisa que el mensaje no llegue a la carpeta de spam.
                         </li>
                         <li>
                             Luego de recibir tu usuario y contraseña para iniciar el curso, podrás acceder al
-                            campus virtual para empezar tu proceso formativo.
+                            <strong>campus virtual</strong> para empezar tu proceso formativo.
                         </li>
-                        <li>Recuerda que los cursos son gratuitos y al finalizar recibes certificado de participación.</li>
+                        <li>Recuerda que los cursos son <strong>gratuitos</strong> y al finalizar recibes <strong>certificado de participación</strong>.</li>
                     </ul>
                     <div>
                         <button v-on:click="cerrar(3)">Cerrar</button>

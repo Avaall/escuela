@@ -613,7 +613,7 @@
                             </span>
                             Gestión humana
                         </li>
-                        <li class="d-none index-cursos-menu-ul-li" v-on:click="number(4)">
+                        <li v-if="miVariable == 2" class="d-block index-cursos-menu-ul-li" v-on:click="number(4)">
                             <span class="material-symbols-outlined mx-2">
                                 arrow_circle_right
                             </span>
@@ -664,6 +664,21 @@
                     </ul>
                 </div>
                 <div v-if="miVariable == 1" id="index-visualizacion" class="index-cursos-visualizacion">
+                    <div class="div-tema">
+                        <select name="" id="select">
+                            <option value="" v-on:click="number(1)">Convivencia ciudadana</option>
+                            <option value="" v-on:click="number(2)">Diversidad y género</option>
+                            <option value="" v-on:click="number(3)">Gestión humana</option>
+                            <option value="" v-on:click="number(4)">Hacienda y contratación</option>
+                            <option value="" v-on:click="number(5)">Inclusión social</option>
+                            <option value="" v-on:click="number(6)">Salud</option>
+                            <option value="" v-on:click="number(7)">Seguridad vial</option>
+                            <option value="" v-on:click="number(8)">Seguridad y salud en el trabajo</option>
+                            <option value="" v-on:click="number(9)">Seminarios</option>
+                            <option value="" v-on:click="number(10)">Social</option>
+                            <option value="" v-on:click="number(11)">Tecnología e innovación</option>
+                        </select>
+                    </div>
                     <CpCiudadano id="CpCiudadano" class="w-100 h-100 d-flex align-items-center justify-content-center index-cursos-fondo" :propt="numero" />
                 </div>
                 <div v-if="miVariable == 2" class="index-cursos-visualizacion">
