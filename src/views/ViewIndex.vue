@@ -20,6 +20,7 @@
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -36,6 +37,7 @@
                         </div>
                     </div>
                 </div>
+                <div class="carousel-item carousel-item-unic"></div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -218,28 +220,6 @@
                         </li>
                         <li>Recuerda que los cursos son gratuitos y al finalizar recibes certificado de participación.</li>
                     </ul>
-                    <div>
-                        <button v-on:click="cerrar(3)">Cerrar</button>
-                    </div>
-                </div>
-                <div class="home-informacion-button" v-on:click="MostrarInfoButton(3)">
-                    <img src="../assets/img/modal-icon-4.png" alt="" class="mt-2 home-icon-informacion">
-                    <p class="text-center mx-2 home-valor-texto-titulo">Noticias de interés <br> &nbsp;</p>
-                </div>
-                <div class="home-informacion-body">
-                    La plataforma cuenta con 13 secretarías Actualmente
-                    hay 64 programas de aprendizaje, 56 cursos y 8 diplomados.
-                    <div>
-                        <button v-on:click="cerrar(3)">Cerrar</button>
-                    </div>
-                </div>
-                <div class="home-informacion-body-responsive">
-                    La plataforma cuenta con 13 secretarías Actualmente
-                    hay 64 programas de aprendizaje, 56 cursos y 8 diplomados.
-                </div>
-                <div class="home-informacion-body-responsive-md">
-                    La plataforma cuenta con 13 secretarías Actualmente
-                    hay 64 programas de aprendizaje, 56 cursos y 8 diplomados.
                     <div>
                         <button v-on:click="cerrar(3)">Cerrar</button>
                     </div>

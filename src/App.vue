@@ -55,7 +55,7 @@ export default {
   },
   methods: {
     CerrarMenu () {
-      document.getElementById('usuario-ingresar').style.top = '-100vh'
+      document.getElementById('usuario-ingresar').style.top = '-150vh'
     },
     cambiarValor (x) {
       if (x === 1) {

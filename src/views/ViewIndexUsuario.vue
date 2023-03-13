@@ -12,10 +12,10 @@
         <div class="index-nav-usuario">
             <div class="container index-nav-container">
                 <div class="d-flex w-50">
-                  <a href="/" class="index-nav-button-principal">
-                    <img src="../assets/img/index-footer-home.png" width="30px" height="25px" class="fluid" alt="">
-                    <span>Página principal</span>
-                  </a>
+                    <a href="/" class="index-nav-button-principal">
+                      <img src="../assets/img/index-footer-home.png" width="30px" height="25px" class="fluid" alt="">
+                      <span>Página principal</span>
+                    </a>
                     <span v-on:click="mostrarCursos" class="index-nav-button">Cursos</span>
                     <span v-on:click="mostrarConoce" class="index-nav-button">Conócenos más</span>
                 </div>
@@ -25,7 +25,7 @@
                 </a>
             </div>
             <div class="index-nav-container-responsive">
-                <div class="x">
+                <div class="index-nav-responsive">
                     <i class="bi bi-list"></i>
                 </div>
                 <a href="https://escuelavirtual.medellin.gov.co/login/index.php" target="_blank"
@@ -36,7 +36,7 @@
         </div>
       <!-- FIN Navegador o Menu -->
       <!-- Visualización del contenido según usuario -->
-        <div class="container">
+        <div class="container container-b">
             <CpCursos v-if="mostrar_cursos" :mi-variable="sub_id" />
             <CpConoceMas v-if="mostrar_conoce" :mi-variable="sub_id" />
         </div>

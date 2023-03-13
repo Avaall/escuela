@@ -19,7 +19,7 @@
                         <div v-if="cursoConvivenciaCiudadana.requisitos.estado == 'activo' && cursoConvivenciaCiudadana.requisitos.ofertado == 'si' && cursoConvivenciaCiudadana.requisitos.usuario == 1" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
                                 <button class="index-cursos-accordion-button" type="button" data-bs-toggle="collapse" :data-bs-target="'#'+identificador" aria-expanded="false" :aria-controls="identificador">
-                                    <img :src="cursoConvivenciaCiudadana.figure.imagen" :alt="cursoConvivenciaCiudadana.figure.alt" class="rounded" width="300px">
+                                    <img :src="cursoConvivenciaCiudadana.figure.imagen" :alt="cursoConvivenciaCiudadana.figure.alt" class="rounded img-img" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursoConvivenciaCiudadana.nombre }}</strong>
                                     </p>
@@ -41,7 +41,7 @@
                 </div>
             </div>
             <!-- 2 -->
-            <div v-if="propt == 2" class="d-flex flex-column">
+            <div v-if="propt == 2" class="d-none flex-column">
                 <div class="mb-3">
                     <h3 class="d-flex justify-content-center">
                         <span class="index-cursos-titulo">Diversidad y género</span>
@@ -52,7 +52,7 @@
                         <div v-if="cursodiversidadGenero.requisitos.estado == 'activo' && cursodiversidadGenero.requisitos.ofertado == 'si' && cursodiversidadGenero.requisitos.usuario == 1" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
                                 <button class="index-cursos-accordion-button" type="button" data-bs-toggle="collapse" :data-bs-target="'#'+identificador" aria-expanded="false" :aria-controls="identificador">
-                                    <img :src="cursodiversidadGenero.figure.imagen" :alt="cursodiversidadGenero.figure.alt" class="rounded" width="300px">
+                                    <img :src="cursodiversidadGenero.figure.imagen" :alt="cursodiversidadGenero.figure.alt" class="rounded img-img" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursodiversidadGenero.nombre }}</strong>
                                     </p>
@@ -74,7 +74,7 @@
                 </div>
             </div>
             <!-- 3 -->
-            <div v-if="propt == 3" class="d-flex flex-column">
+            <div v-if="propt == 3" class="d-none flex-column">
                 <div class="mb-3">
                     <h3 class="d-flex justify-content-center">
                         <span class="index-cursos-titulo">Gestión humana</span>
@@ -85,7 +85,7 @@
                         <div v-if="cursogestionHumana.requisitos.estado == 'activo' && cursogestionHumana.requisitos.ofertado == 'si' && cursogestionHumana.requisitos.usuario == 1" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
                                 <button class="index-cursos-accordion-button" type="button" data-bs-toggle="collapse" :data-bs-target="'#'+identificador" aria-expanded="false" :aria-controls="identificador">
-                                    <img :src="cursogestionHumana.figure.imagen" :alt="cursogestionHumana.figure.alt" class="rounded" width="300px">
+                                    <img :src="cursogestionHumana.figure.imagen" :alt="cursogestionHumana.figure.alt" class="rounded img-img" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursogestionHumana.nombre }}</strong>
                                     </p>
@@ -107,7 +107,7 @@
                 </div>
             </div>
             <!-- 4 -->
-            <div v-if="propt == 4" class="d-flex flex-column">
+            <div v-if="propt == 4" class="d-none flex-column">
                 <div class="mb-3">
                     <h3 class="d-flex justify-content-center">
                         <span class="index-cursos-titulo">Hacienda y contratación</span>
@@ -118,7 +118,7 @@
                         <div v-if="cursohaciendaContratacion.requisitos.estado == 'activo' && cursohaciendaContratacion.requisitos.ofertado == 'si' && cursohaciendaContratacion.requisitos.usuario == 1" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
                                 <button class="index-cursos-accordion-button" type="button" data-bs-toggle="collapse" :data-bs-target="'#'+identificador" aria-expanded="false" :aria-controls="identificador">
-                                    <img :src="cursohaciendaContratacion.figure.imagen" :alt="cursohaciendaContratacion.figure.alt" class="rounded" width="300px">
+                                    <img :src="cursohaciendaContratacion.figure.imagen" :alt="cursohaciendaContratacion.figure.alt" class="rounded img-img" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursohaciendaContratacion.nombre }}</strong>
                                     </p>
@@ -140,7 +140,7 @@
                 </div>
             </div>
             <!-- 5 -->
-            <div v-if="propt == 5" class="d-flex flex-column">
+            <div v-if="propt == 5" class="d-none flex-column">
                 <div class="mb-3">
                     <h3 class="d-flex justify-content-center">
                         <span class="index-cursos-titulo">Inclusión social</span>
@@ -151,7 +151,7 @@
                         <div v-if="cursoinclusionSocial.requisitos.estado == 'activo' && cursoinclusionSocial.requisitos.ofertado == 'si' && cursoinclusionSocial.requisitos.usuario == 1" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
                                 <button class="index-cursos-accordion-button" type="button" data-bs-toggle="collapse" :data-bs-target="'#'+identificador" aria-expanded="false" :aria-controls="identificador">
-                                    <img :src="cursoinclusionSocial.figure.imagen" :alt="cursoinclusionSocial.figure.alt" class="rounded" width="300px">
+                                    <img :src="cursoinclusionSocial.figure.imagen" :alt="cursoinclusionSocial.figure.alt" class="rounded img-img" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursoinclusionSocial.nombre }}</strong>
                                     </p>
@@ -173,7 +173,7 @@
                 </div>
             </div>
             <!-- 6 -->
-            <div v-if="propt == 6" class="d-flex flex-column">
+            <div v-if="propt == 6" class="d-none flex-column">
                 <div class="mb-3">
                     <h3 class="d-flex justify-content-center">
                         <span class="index-cursos-titulo">Salud</span>
@@ -184,7 +184,7 @@
                         <div v-if="cursosalud.requisitos.estado == 'activo' && cursosalud.requisitos.ofertado == 'si' && cursosalud.requisitos.usuario == 1" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
                                 <button class="index-cursos-accordion-button" type="button" data-bs-toggle="collapse" :data-bs-target="'#'+identificador" aria-expanded="false" :aria-controls="identificador">
-                                    <img :src="cursosalud.figure.imagen" :alt="cursosalud.figure.alt" class="rounded" width="300px">
+                                    <img :src="cursosalud.figure.imagen" :alt="cursosalud.figure.alt" class="rounded img-img" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursosalud.nombre }}</strong>
                                     </p>
@@ -217,7 +217,7 @@
                         <div v-if="cursoseguridadVial.requisitos.estado == 'activo' && cursoseguridadVial.requisitos.ofertado == 'si' && cursoseguridadVial.requisitos.usuario == 1" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
                                 <button class="index-cursos-accordion-button" type="button" data-bs-toggle="collapse" :data-bs-target="'#'+identificador" aria-expanded="false" :aria-controls="identificador">
-                                    <img :src="cursoseguridadVial.figure.imagen" :alt="cursoseguridadVial.figure.alt" class="rounded" width="300px">
+                                    <img :src="cursoseguridadVial.figure.imagen" :alt="cursoseguridadVial.figure.alt" class="rounded img-img" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursoseguridadVial.nombre }}</strong>
                                     </p>
@@ -239,7 +239,7 @@
                 </div>
             </div>
             <!-- 8 -->
-            <div v-if="propt == 8" class="d-flex flex-column">
+            <div v-if="propt == 8" class="d-none flex-column">
                 <div class="mb-3">
                     <h3 class="d-flex justify-content-center">
                         <span class="index-cursos-titulo">Seguridad y salud en el trabajo</span>
@@ -250,7 +250,7 @@
                         <div v-if="cursoseguridadSaludTrabajo.requisitos.estado == 'activo' && cursoseguridadSaludTrabajo.requisitos.ofertado == 'si' && cursoseguridadSaludTrabajo.requisitos.usuario == 1" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
                                 <button class="index-cursos-accordion-button" type="button" data-bs-toggle="collapse" :data-bs-target="'#'+identificador" aria-expanded="false" :aria-controls="identificador">
-                                    <img :src="cursoseguridadSaludTrabajo.figure.imagen" :alt="cursoseguridadSaludTrabajo.figure.alt" class="rounded" width="300px">
+                                    <img :src="cursoseguridadSaludTrabajo.figure.imagen" :alt="cursoseguridadSaludTrabajo.figure.alt" class="rounded img-img" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursoseguridadSaludTrabajo.nombre }}</strong>
                                     </p>
@@ -272,7 +272,7 @@
                 </div>
             </div>
             <!-- 9 -->
-            <div v-if="propt == 9" class="d-flex flex-column">
+            <div v-if="propt == 9" class="d-none flex-column">
                 <div class="mb-3">
                     <h3 class="d-flex justify-content-center">
                         <span class="index-cursos-titulo">Seminarios</span>
@@ -283,7 +283,7 @@
                         <div v-if="cursoseminarios.requisitos.estado == 'activo' && cursoseminarios.requisitos.ofertado == 'si' && cursoseminarios.requisitos.usuario == 1" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
                                 <button class="index-cursos-accordion-button" type="button" data-bs-toggle="collapse" :data-bs-target="'#'+identificador" aria-expanded="false" :aria-controls="identificador">
-                                    <img :src="cursoseminarios.figure.imagen" :alt="cursoseminarios.figure.alt" class="rounded" width="300px">
+                                    <img :src="cursoseminarios.figure.imagen" :alt="cursoseminarios.figure.alt" class="rounded img-img" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursoseminarios.nombre }}</strong>
                                     </p>
@@ -316,7 +316,7 @@
                         <div v-if="cursosocial.requisitos.estado == 'activo' && cursosocial.requisitos.ofertado == 'si' && cursosocial.requisitos.usuario == 1" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
                                 <button class="index-cursos-accordion-button" type="button" data-bs-toggle="collapse" :data-bs-target="'#'+identificador" aria-expanded="false" :aria-controls="identificador">
-                                    <img :src="cursosocial.figure.imagen" :alt="cursosocial.figure.alt" class="rounded" width="300px">
+                                    <img :src="cursosocial.figure.imagen" :alt="cursosocial.figure.alt" class="rounded img-img" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursosocial.nombre }}</strong>
                                     </p>
@@ -349,7 +349,7 @@
                         <div v-if="cursotecnologiaInnovacion.requisitos.estado == 'activo' && cursotecnologiaInnovacion.requisitos.ofertado == 'si' && cursotecnologiaInnovacion.requisitos.usuario == 1" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
                                 <button class="index-cursos-accordion-button" type="button" data-bs-toggle="collapse" :data-bs-target="'#'+identificador" aria-expanded="false" :aria-controls="identificador">
-                                    <img :src="cursotecnologiaInnovacion.figure.imagen" :alt="cursotecnologiaInnovacion.figure.alt" class="rounded" width="300px">
+                                    <img :src="cursotecnologiaInnovacion.figure.imagen" :alt="cursotecnologiaInnovacion.figure.alt" class="rounded img-img" width="300px">
                                     <p class="index-cursos-titulo-accordion">
                                         <strong>{{ cursotecnologiaInnovacion.nombre }}</strong>
                                     </p>

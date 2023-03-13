@@ -41,7 +41,7 @@
                         </div>
                     </div>
                 </div>
-                <div v-for="(cursodiversidadGenero, identificador) in cursos.diversidadGenero" :key="cursodiversidadGenero.id">
+                <div class="d-none" v-for="(cursodiversidadGenero, identificador) in cursos.diversidadGenero" :key="cursodiversidadGenero.id">
                     <div v-if="cursodiversidadGenero.nombre.trim().toLowerCase().indexOf(buscar.toLowerCase()) !== -1">
                         <div v-if="cursodiversidadGenero.requisitos.estado == 'activo' && cursodiversidadGenero.requisitos.ofertado && cursodiversidadGenero.requisitos.usuario == 1" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
@@ -67,7 +67,7 @@
                         </div>
                     </div>
                 </div>
-                <div v-for="(cursogestionHumana, identificador) in cursos.gestionHumana" :key="cursogestionHumana.id">
+                <div class="d-none" v-for="(cursogestionHumana, identificador) in cursos.gestionHumana" :key="cursogestionHumana.id">
                     <div v-if="cursogestionHumana.nombre.trim().toLowerCase().indexOf(buscar.toLowerCase()) !== -1">
                         <div v-if="cursogestionHumana.requisitos.estado == 'activo' && cursogestionHumana.requisitos.ofertado && cursogestionHumana.requisitos.usuario == 1" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
@@ -93,7 +93,7 @@
                         </div>
                     </div>
                 </div>
-                <div v-for="(cursohaciendaContratacion, identificador) in cursos.haciendaContratacion" :key="cursohaciendaContratacion.id">
+                <div class="d-none" v-for="(cursohaciendaContratacion, identificador) in cursos.haciendaContratacion" :key="cursohaciendaContratacion.id">
                     <div v-if="cursohaciendaContratacion.nombre.trim().toLowerCase().indexOf(buscar.toLowerCase()) !== -1">
                         <div v-if="cursohaciendaContratacion.requisitos.estado == 'activo' && cursohaciendaContratacion.requisitos.ofertado && cursohaciendaContratacion.requisitos.usuario == 1" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
@@ -119,7 +119,7 @@
                         </div>
                     </div>
                 </div>
-                <div v-for="(cursoinclusionSocial, identificador) in cursos.inclusionSocial" :key="cursoinclusionSocial.id">
+                <div class="d-none" v-for="(cursoinclusionSocial, identificador) in cursos.inclusionSocial" :key="cursoinclusionSocial.id">
                     <div v-if="cursoinclusionSocial.nombre.trim().toLowerCase().indexOf(buscar.toLowerCase()) !== -1">
                         <div v-if="cursoinclusionSocial.requisitos.estado == 'activo' && cursoinclusionSocial.requisitos.ofertado && cursoinclusionSocial.requisitos.usuario == 1" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
@@ -145,7 +145,7 @@
                         </div>
                     </div>
                 </div>
-                <div v-for="(cursosalud, identificador) in cursos.salud" :key="cursosalud.id">
+                <div class="d-none" v-for="(cursosalud, identificador) in cursos.salud" :key="cursosalud.id">
                     <div v-if="cursosalud.nombre.trim().toLowerCase().indexOf(buscar.toLowerCase()) !== -1">
                         <div v-if="cursosalud.requisitos.estado == 'activo' && cursosalud.requisitos.ofertado && cursosalud.requisitos.usuario == 1" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
@@ -197,7 +197,7 @@
                         </div>
                     </div>
                 </div>
-                <div v-for="(cursoseguridadSaludTrabajo, identificador) in cursos.seguridadcursoseguridadSaludTrabajo" :key="cursoseguridadSaludTrabajo.id">
+                <div class="d-none" v-for="(cursoseguridadSaludTrabajo, identificador) in cursos.seguridadcursoseguridadSaludTrabajo" :key="cursoseguridadSaludTrabajo.id">
                     <div v-if="cursoseguridadSaludTrabajo.nombre.trim().toLowerCase().indexOf(buscar.toLowerCase()) !== -1">
                         <div v-if="cursoseguridadSaludTrabajo.requisitos.estado == 'activo' && cursoseguridadSaludTrabajo.requisitos.ofertado && cursoseguridadSaludTrabajo.requisitos.usuario == 1" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
@@ -223,7 +223,7 @@
                         </div>
                     </div>
                 </div>
-                <div v-for="(cursoseminarios, identificador) in cursos.seminarios" :key="cursoseminarios.id">
+                <div class="d-none" v-for="(cursoseminarios, identificador) in cursos.seminarios" :key="cursoseminarios.id">
                     <div v-if="cursoseminarios.nombre.trim().toLowerCase().indexOf(buscar.toLowerCase()) !== -1">
                         <div v-if="cursoseminarios.requisitos.estado == 'activo' && cursoseminarios.requisitos.ofertado && cursoseminarios.requisitos.usuario == 1" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
@@ -329,7 +329,7 @@
                         </div>
                     </div>
                 </div>
-                <div v-for="(cursodiversidadGenero, identificador) in cursos.diversidadGenero" :key="cursodiversidadGenero.id">
+                <div class="d-none" v-for="(cursodiversidadGenero, identificador) in cursos.diversidadGenero" :key="cursodiversidadGenero.id">
                     <div v-if="cursodiversidadGenero.nombre.trim().toLowerCase().indexOf(buscar.toLowerCase()) !== -1">
                         <div v-if="cursodiversidadGenero.requisitos.estado == 'activo' && cursodiversidadGenero.requisitos.ofertado && (cursodiversidadGenero.requisitos.usuario == 1 || cursodiversidadGenero.requisitos.usuario == 2)" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
@@ -355,7 +355,7 @@
                         </div>
                     </div>
                 </div>
-                <div v-for="(cursogestionHumana, identificador) in cursos.gestionHumana" :key="cursogestionHumana.id">
+                <div class="d-none" v-for="(cursogestionHumana, identificador) in cursos.gestionHumana" :key="cursogestionHumana.id">
                     <div v-if="cursogestionHumana.nombre.trim().toLowerCase().indexOf(buscar.toLowerCase()) !== -1">
                         <div v-if="cursogestionHumana.requisitos.estado == 'activo' && cursogestionHumana.requisitos.ofertado && (cursogestionHumana.requisitos.usuario == 1 || cursogestionHumana.requisitos.usuario == 2)" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
@@ -381,7 +381,7 @@
                         </div>
                     </div>
                 </div>
-                <div v-for="(cursohaciendaContratacion, identificador) in cursos.haciendaContratacion" :key="cursohaciendaContratacion.id">
+                <div class="d-none" v-for="(cursohaciendaContratacion, identificador) in cursos.haciendaContratacion" :key="cursohaciendaContratacion.id">
                     <div v-if="cursohaciendaContratacion.nombre.trim().toLowerCase().indexOf(buscar.toLowerCase()) !== -1">
                         <div v-if="cursohaciendaContratacion.requisitos.estado == 'activo' && cursohaciendaContratacion.requisitos.ofertado && (cursohaciendaContratacion.requisitos.usuario == 1 || cursohaciendaContratacion.requisitos.usuario == 2)" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
@@ -407,7 +407,7 @@
                         </div>
                     </div>
                 </div>
-                <div v-for="(cursoinclusionSocial, identificador) in cursos.inclusionSocial" :key="cursoinclusionSocial.id">
+                <div class="d-none" v-for="(cursoinclusionSocial, identificador) in cursos.inclusionSocial" :key="cursoinclusionSocial.id">
                     <div v-if="cursoinclusionSocial.nombre.trim().toLowerCase().indexOf(buscar.toLowerCase()) !== -1">
                         <div v-if="cursoinclusionSocial.requisitos.estado == 'activo' && cursoinclusionSocial.requisitos.ofertado && (cursoinclusionSocial.requisitos.usuario == 1 || cursoinclusionSocial.requisitos.usuario == 2)" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
@@ -433,7 +433,7 @@
                         </div>
                     </div>
                 </div>
-                <div v-for="(cursosalud, identificador) in cursos.salud" :key="cursosalud.id">
+                <div class="d-none" v-for="(cursosalud, identificador) in cursos.salud" :key="cursosalud.id">
                     <div v-if="cursosalud.nombre.trim().toLowerCase().indexOf(buscar.toLowerCase()) !== -1">
                         <div v-if="cursosalud.requisitos.estado == 'activo' && cursosalud.requisitos.ofertado && (cursosalud.requisitos.usuario == 1 || cursosalud.requisitos.usuario == 2)" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
@@ -485,7 +485,7 @@
                         </div>
                     </div>
                 </div>
-                <div v-for="(cursoseguridadSaludTrabajo, identificador) in cursos.seguridadcursoseguridadSaludTrabajo" :key="cursoseguridadSaludTrabajo.id">
+                <div class="d-none" v-for="(cursoseguridadSaludTrabajo, identificador) in cursos.seguridadcursoseguridadSaludTrabajo" :key="cursoseguridadSaludTrabajo.id">
                     <div v-if="cursoseguridadSaludTrabajo.nombre.trim().toLowerCase().indexOf(buscar.toLowerCase()) !== -1">
                         <div v-if="cursoseguridadSaludTrabajo.requisitos.estado == 'activo' && cursoseguridadSaludTrabajo.requisitos.ofertado && (cursoseguridadSaludTrabajo.requisitos.usuario == 1 || cursoseguridadSaludTrabajo.requisitos.usuario == 2)" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
@@ -511,7 +511,7 @@
                         </div>
                     </div>
                 </div>
-                <div v-for="(cursoseminarios, identificador) in cursos.seminarios" :key="cursoseminarios.id">
+                <div class="d-none" v-for="(cursoseminarios, identificador) in cursos.seminarios" :key="cursoseminarios.id">
                     <div v-if="cursoseminarios.nombre.trim().toLowerCase().indexOf(buscar.toLowerCase()) !== -1">
                         <div v-if="cursoseminarios.requisitos.estado == 'activo' && cursoseminarios.requisitos.ofertado && (cursoseminarios.requisitos.usuario == 1 || cursoseminarios.requisitos.usuario == 2)" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
@@ -593,7 +593,7 @@
         </div>
         <div v-else>
             <div class="index-cursos-menu">
-                <div class="h-100 index-cursos-menu-sub">
+                <div id="sub-menus" class="h-100 index-cursos-menu-sub">
                     <ul class="index-cursos-menu-ul">
                         <li class="index-cursos-menu-ul-li" v-on:click="number(1)">
                             <span class="material-symbols-outlined mx-2">
@@ -601,31 +601,31 @@
                             </span>
                             Convivencia ciudadana
                         </li>
-                        <li class="index-cursos-menu-ul-li" v-on:click="number(2)">
+                        <li class="d-none index-cursos-menu-ul-li" v-on:click="number(2)">
                             <span class="material-symbols-outlined mx-2">
                                 arrow_circle_right
                             </span>
                             Diversidad y género
                         </li>
-                        <li class="index-cursos-menu-ul-li" v-on:click="number(3)">
+                        <li class="d-none index-cursos-menu-ul-li" v-on:click="number(3)">
                             <span class="material-symbols-outlined mx-2">
                                 arrow_circle_right
                             </span>
                             Gestión humana
                         </li>
-                        <li class="index-cursos-menu-ul-li" v-on:click="number(4)">
+                        <li class="d-none index-cursos-menu-ul-li" v-on:click="number(4)">
                             <span class="material-symbols-outlined mx-2">
                                 arrow_circle_right
                             </span>
                             Hacienda y contratación
                         </li>
-                        <li class="index-cursos-menu-ul-li" v-on:click="number(5)">
+                        <li class="d-none index-cursos-menu-ul-li" v-on:click="number(5)">
                             <span class="material-symbols-outlined mx-2">
                                 arrow_circle_right
                             </span>
                             Inclusión social
                         </li>
-                        <li class="index-cursos-menu-ul-li" v-on:click="number(6)">
+                        <li class="d-none index-cursos-menu-ul-li" v-on:click="number(6)">
                             <span class="material-symbols-outlined mx-2">
                                 arrow_circle_right
                             </span>
@@ -637,13 +637,13 @@
                             </span>
                             Seguridad vial
                         </li>
-                        <li class="index-cursos-menu-ul-li" v-on:click="number(8)">
+                        <li class="d-none index-cursos-menu-ul-li" v-on:click="number(8)">
                             <span class="material-symbols-outlined mx-2">
                                 arrow_circle_right
                             </span>
                             Seguridad y salud en el trabajo
                         </li>
-                        <li class="index-cursos-menu-ul-li" v-on:click="number(9)">
+                        <li class="d-none index-cursos-menu-ul-li" v-on:click="number(9)">
                             <span class="material-symbols-outlined mx-2">
                                 arrow_circle_right
                             </span>
@@ -700,6 +700,9 @@ export default {
       }
       if (this.miVariable === 2) {
         document.getElementById('CpServidor').style.background = 'none'
+      }
+      if (window.screen.width < 1000) {
+        document.getElementById('sub-menus').style.display = 'none !important'
       }
       this.valorCurso = 0
       this.numero = valor
