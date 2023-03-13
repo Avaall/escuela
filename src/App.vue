@@ -28,10 +28,10 @@
       <!-- FIN Home ingreso que desciende -->
       <!-- Visualización de la pantalla completa -->
         <section v-if="valor" id="indexUsuario">
-            <IndexUsuario :mi-variable="nuevoID" />
+            <IndexUsuario :miVariable="nuevoID" :adicional="adicional" />
         </section>
         <section v-else class="d-block" id="Index">
-            <Index />
+            <Index @cambiarValor="cambiarValor (3)" />
         </section>
       <!-- FIN Visualización de la pantalla completa -->
     </div>
@@ -45,7 +45,8 @@ export default {
   data () {
     return {
       valor: false,
-      nuevoID: 0
+      nuevoID: 0,
+      adicional: 0
     }
   },
   name: 'App',
@@ -65,6 +66,11 @@ export default {
       if (x === 2) {
         this.valor = true
         this.nuevoID = 2
+      }
+      if (x === 3) {
+        this.valor = true
+        this.nuevoID = 1
+        this.adicional = 11
       }
     }
   }

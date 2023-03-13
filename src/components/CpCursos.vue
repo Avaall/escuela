@@ -703,10 +703,22 @@ export default {
     }
   },
   name: 'CpCursos',
-  props: ['miVariable'],
+  props: {
+    miVariable: {
+      type: Number
+    },
+    especifico: {
+      type: Number
+    }
+  },
   components: {
     CpCiudadano,
     CpServidor
+  },
+  mounted () {
+    if (this.especifico === 11) {
+      this.number(11)
+    }
   },
   methods: {
     number (valor) {

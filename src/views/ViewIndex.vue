@@ -23,7 +23,9 @@
                 <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item carousel-item-unic active"></div>
+                <div class="carousel-item carousel-item-unic active">
+                    <div class="carousel-caption h-100" v-on:click="cambiarValor"></div>
+                </div>
                 <div class="carousel-item">
                     <img src="../assets/img/carousel-1.png" class="d-block h-100 img-carousel" alt="...">
                     <div class="carousel-caption d-flex justify-content-end h-100 align-items-center home-carousel-animation">
@@ -256,6 +258,9 @@ export default {
   methods: {
     AbrirMenu () {
       document.getElementById('usuario-ingresar').style.top = '0px'
+    },
+    cambiarValor () {
+      this.$emit('cambiarValor')
     },
     MostrarInfoButton (i) {
       const informacion = document.querySelectorAll('.home-informacion-body')

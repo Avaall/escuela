@@ -37,7 +37,7 @@
       <!-- FIN Navegador o Menu -->
       <!-- Visualización del contenido según usuario -->
         <div class="container container-b">
-            <CpCursos v-if="mostrar_cursos" :mi-variable="sub_id" />
+            <CpCursos v-if="mostrar_cursos" :especifico="sub_adicion" :miVariable="sub_id" />
             <CpConoceMas v-if="mostrar_conoce" :mi-variable="sub_id" />
         </div>
       <!-- FIN Visualización del contenido según usuario -->
@@ -71,10 +71,18 @@ export default {
     return {
       mostrar_cursos: true,
       mostrar_conoce: false,
-      sub_id: this.miVariable
+      sub_id: this.miVariable,
+      sub_adicion: this.adicional
     }
   },
-  props: ['miVariable'],
+  props: {
+    miVariable: {
+      type: Number
+    },
+    adicional: {
+      type: Number
+    }
+  },
   components: {
     CpConoceMas,
     CpCursos
