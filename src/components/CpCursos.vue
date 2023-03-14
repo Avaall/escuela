@@ -6,8 +6,8 @@
                 <div class="d-flex justify-content-between align-items-center">
                     <p class="d-flex align-items-center justify-content-center"><strong>Cursos</strong>&nbsp;por categoría</p>
                     <div class="d-flex">
-                        <input class="form-control me-2" id="buscador" type="search" placeholder="Buscar" v-model="buscar" aria-label="Search">
-                        <button class="index-cursos-button-search">
+                        <input class="form-control me-2 d-none d-sm-block" id="buscador" type="search" placeholder="Buscar" v-model="buscar" aria-label="Search">
+                        <button id="buttonSearch" class="d-block index-cursos-button-search" v-on:click="buscarResponsive">
                             <span>
                                 <i class="bi bi-search"></i>
                             </span>
@@ -736,6 +736,14 @@ export default {
     }
   },
   methods: {
+    buscarResponsive () {
+      const buton = document.getElementById('buttonSearch')
+      buton.classList.remove('d-block')
+      buton.classList.add('d-none')
+      const input = document.getElementById('buscador')
+      input.classList.remove('d-none')
+      input.classList.add('d-block')
+    },
     ejecutar () {
       if (this.miVariable === 2) {
         document.getElementById('hacienda').classList.remove('d-none')
