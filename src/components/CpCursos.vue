@@ -743,7 +743,7 @@ export default {
         const input = document.getElementById('buscador')
         input.classList.remove('d-none')
         input.classList.add('d-block')
-        input.setAttribute('autofocus', '')
+        input.focus()
       }
     },
     mover () {
