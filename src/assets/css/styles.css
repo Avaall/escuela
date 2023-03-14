@@ -937,7 +937,7 @@
 }
 @media screen and (max-width: 1200px) {
     .index-cursos-ciudadano-portada {
-        margin: -95px 0 0 -210px !important;
+        margin: -105px 0 0 -210px !important;
     }
     .index-cursos-menu-ul-li {
         font-size: 18px;
@@ -1003,7 +1003,7 @@
 
 .index-cursos-ciudadano-portada {
     position: absolute;
-    margin: -90px 0 0 -200px;
+    margin: -100px 0 0 -200px;
 }
 .index-cursos-ciudadano-categoria {
     color: #ee7b2e;
