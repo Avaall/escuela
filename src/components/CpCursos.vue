@@ -668,14 +668,7 @@
                         <label for="">Categoría:</label>
                         <select class="mx-3" v-model="categoria" name="" v-on:change="mover" id="select">
                             <option value="Convivencia ciudadana">Convivencia ciudadana</option>
-                            <option class="ver" value="Diversidad y género">Diversidad y género</option>
-                            <option class="ver" value="Gestión humana">Gestión humana</option>
-                            <option class="ver" value="Hacienda y contratación">Hacienda y contratación</option>
-                            <option class="ver" value="Inclusión social">Inclusión social</option>
-                            <option class="ver" value="Salud">Salud</option>
                             <option value="Seguridad vial">Seguridad vial</option>
-                            <option class="ver" value="Seguridad y salud en el trabajo">Seguridad y salud en el trabajo</option>
-                            <option class="ver" value="Seminarios">Seminarios</option>
                             <option value="Social">Social</option>
                             <option value="Tecnología e innovación">Tecnología e innovación</option>
                         </select>
@@ -687,14 +680,8 @@
                         <label for="">Categoría:</label>
                         <select class="mx-3" v-model="categoria" name="" v-on:change="mover" id="select">
                             <option value="Convivencia ciudadana">Convivencia ciudadana</option>
-                            <option class="ver" value="Diversidad y género">Diversidad y género</option>
-                            <option class="ver" value="Gestión humana">Gestión humana</option>
                             <option value="Hacienda y contratación">Hacienda y contratación</option>
-                            <option class="ver" value="Inclusión social">Inclusión social</option>
-                            <option class="ver" value="Salud">Salud</option>
                             <option value="Seguridad vial">Seguridad vial</option>
-                            <option class="ver" value="Seguridad y salud en el trabajo">Seguridad y salud en el trabajo</option>
-                            <option class="ver" value="Seminarios">Seminarios</option>
                             <option value="Social">Social</option>
                             <option value="Tecnología e innovación">Tecnología e innovación</option>
                         </select>
