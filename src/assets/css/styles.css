@@ -459,7 +459,7 @@
     /* INDEX */
 
 .index-header-usuario {
-    min-width: 450px;
+    min-width: 400px;
     height: 200px;
     background: url(../img/banner-header-index.jpg);
     background-repeat: no-repeat;
@@ -492,7 +492,7 @@
 }
 .index-nav-usuario {
     width: 100%;
-    min-width: 450px;
+    min-width: 400px;
     background: #00aeef;
     display: flex;
     align-items: center;
