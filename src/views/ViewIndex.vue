@@ -97,46 +97,34 @@
                 </div>
                 <div class="home-informacion-button" v-on:click="MostrarInfoButton(1)">
                     <img src="../assets/img/modal-icon-2.png" alt="" class="mt-2 home-icon-informacion">
-                    <p class="text-center mx-2 home-valor-texto-titulo">¿Qué necesitas <br> para acceder?</p>
+                    <p class="text-center mx-2 home-valor-texto-titulo">¿Qué necesito <br> para acceder?</p>
                 </div>
                 <div class="home-informacion-body">
-                    <ul class="lista-1">
-                        <strong>Para acceder a los cursos ofertados debes cumplir con los siguientes requisitos:</strong>
-                        <li>Ser residente del Distrito de Medellín.</li>
-                        <li>Contar con un computador, tablet o teléfono móvil con conexión a internet estable.</li>
-                        <li>
-                            Tener un correo electrónico activo, ya que a este será enviada la confirmación de
-                            inscripción y toda la información relacionada con el curso al que te inscribas.
-                        </li>
-                        <li>¡Muchas ganas de aprender!</li>
-                    </ul>
+                    <strong>Para acceder a los cursos ofertados debes cumplir con los siguientes requisitos:</strong><br>
+                    <strong>-</strong> Ser residente del Distrito de Medellín. <br>
+                    <strong>-</strong> Contar con un computador, tablet o teléfono móvil con conexión a internet estable. <br>
+                    <strong>-</strong> Tener un correo electrónico activo, ya que a este será enviada la confirmación de
+                        inscripción y toda la información relacionada con el curso al que te inscribas. <br>
+                    <strong>-</strong> ¡Muchas ganas de aprender!
                     <div>
                         <button v-on:click="cerrar(1)">Cerrar</button>
                     </div>
                 </div>
                 <div class="home-informacion-body-responsive">
-                    <ul class="lista-1">
-                        <strong>Para acceder a los cursos ofertados debes cumplir con los siguientes requisitos:</strong>
-                        <li>Ser residente del Distrito de Medellín.</li>
-                        <li>Contar con un computador, tablet o teléfono móvil con conexión a internet estable.</li>
-                        <li>
-                            Tener un correo electrónico activo, ya que a este será enviada la confirmación de
-                            inscripción y toda la información relacionada con el curso al que te inscribas.
-                        </li>
-                        <li>¡Muchas ganas de aprender!</li>
-                    </ul>
+                    <strong>Para acceder a los cursos ofertados debes cumplir con los siguientes requisitos:</strong><br>
+                    <strong>-</strong> Ser residente del Distrito de Medellín. <br>
+                    <strong>-</strong> Contar con un computador, tablet o teléfono móvil con conexión a internet estable. <br>
+                    <strong>-</strong> Tener un correo electrónico activo, ya que a este será enviada la confirmación de
+                        inscripción y toda la información relacionada con el curso al que te inscribas. <br>
+                    <strong>-</strong> ¡Muchas ganas de aprender!
                 </div>
                 <div class="home-informacion-body-responsive-md">
-                    <ul class="lista-1">
-                        <strong>Para acceder a los cursos ofertados debes cumplir con los siguientes requisitos:</strong>
-                        <li>Ser residente del Distrito de Medellín.</li>
-                        <li>Contar con un computador, tablet o teléfono móvil con conexión a internet estable.</li>
-                        <li>
-                            Tener un correo electrónico activo, ya que a este será enviada la confirmación de
-                            inscripción y toda la información relacionada con el curso al que te inscribas.
-                        </li>
-                        <li>¡Muchas ganas de aprender!</li>
-                    </ul>
+                    <strong>Para acceder a los cursos ofertados debes cumplir con los siguientes requisitos:</strong><br>
+                    <strong>-</strong> Ser residente del Distrito de Medellín. <br>
+                    <strong>-</strong> Contar con un computador, tablet o teléfono móvil con conexión a internet estable. <br>
+                    <strong>-</strong> Tener un correo electrónico activo, ya que a este será enviada la confirmación de
+                        inscripción y toda la información relacionada con el curso al que te inscribas. <br>
+                    <strong>-</strong> ¡Muchas ganas de aprender!
                     <div>
                         <button v-on:click="cerrar(1)">Cerrar</button>
                     </div>
@@ -171,58 +159,40 @@
                 </div>
                 <div class="home-informacion-button" v-on:click="MostrarInfoButton(3)">
                     <img src="../assets/img/modal-icon-4.png" alt="" class="mt-2 home-icon-informacion">
-                    <p class="text-center mx-2 home-valor-texto-titulo">¿Cómo inscribirte? <br> &nbsp;</p>
+                    <p class="text-center mx-2 home-valor-texto-titulo">¿Cómo inscribirme? <br> &nbsp;</p>
                 </div>
                 <div class="home-informacion-body">
-                    <ul class="lista-2">
-                        <li>Elige los cursos de tu interés.</li>
-                        <li>Haz clic en <strong>"Inscríbete".</strong></li>
-                        <li>Digita tus datos en el formulario de inscripción y luego haz clic en <strong>"Inscribirme"</strong>.</li>
-                        <li>
-                            Espera el mensaje de confirmación que llegará a tu correo durante las próximas 24
-                            horas para el inicio del curso. Revisa que el mensaje no llegue a la carpeta de spam.
-                        </li>
-                        <li>
-                            Luego de recibir tu usuario y contraseña para iniciar el curso, podrás acceder al
-                            <strong>campus virtual</strong> para empezar tu proceso formativo.
-                        </li>
-                        <li>Recuerda que los cursos son <strong>gratuitos</strong> y al finalizar recibes <strong>certificado de participación</strong>.</li>
-                    </ul>
+                    <strong>1.</strong> Elige los cursos de tu interés. <br>
+                    <strong>2.</strong> Haz clic en <strong>"Inscríbete".</strong> <br>
+                    <strong>3.</strong> Digita tus datos en el formulario de inscripción y luego haz clic en <strong>"Inscribirme"</strong>. <br>
+                    <strong>4.</strong> Espera el mensaje de confirmación que llegará a tu correo durante las próximas 24
+                    horas para el inicio del curso. Revisa que el mensaje no llegue a la carpeta de spam. <br>
+                    <strong>5.</strong> Luego de recibir tu usuario y contraseña para iniciar el curso, podrás acceder al
+                    <strong>campus virtual</strong> para empezar tu proceso formativo. <br>
+                    <strong>6.</strong> Recuerda que los cursos son <strong>gratuitos</strong> y al finalizar recibes <strong>certificado de participación</strong>.
                     <div>
                         <button v-on:click="cerrar(3)">Cerrar</button>
                     </div>
                 </div>
                 <div class="home-informacion-body-responsive">
-                    <ul class="lista-2">
-                        <li>Elige los cursos de tu interés.</li>
-                        <li>Haz clic en <strong>"Inscríbete".</strong></li>
-                        <li>Digita tus datos en el formulario de inscripción y luego haz clic en <strong>"Inscribirme"</strong>.</li>
-                        <li>
-                            Espera el mensaje de confirmación que llegará a tu correo durante las próximas 24
-                            horas para el inicio del curso. Revisa que el mensaje no llegue a la carpeta de spam.
-                        </li>
-                        <li>
-                            Luego de recibir tu usuario y contraseña para iniciar el curso, podrás acceder al
-                            <strong>campus virtual</strong> para empezar tu proceso formativo.
-                        </li>
-                        <li>Recuerda que los cursos son <strong>gratuitos</strong> y al finalizar recibes <strong>certificado de participación</strong>.</li>
-                    </ul>
+                    <strong>1.</strong> Elige los cursos de tu interés. <br>
+                    <strong>2.</strong> Haz clic en <strong>"Inscríbete".</strong> <br>
+                    <strong>3.</strong> Digita tus datos en el formulario de inscripción y luego haz clic en <strong>"Inscribirme"</strong>. <br>
+                    <strong>4.</strong> Espera el mensaje de confirmación que llegará a tu correo durante las próximas 24
+                    horas para el inicio del curso. Revisa que el mensaje no llegue a la carpeta de spam. <br>
+                    <strong>5.</strong> Luego de recibir tu usuario y contraseña para iniciar el curso, podrás acceder al
+                    <strong>campus virtual</strong> para empezar tu proceso formativo. <br>
+                    <strong>6.</strong> Recuerda que los cursos son <strong>gratuitos</strong> y al finalizar recibes <strong>certificado de participación</strong>.
                 </div>
                 <div class="home-informacion-body-responsive-md">
-                    <ul class="lista-2">
-                        <li>Elige los cursos de tu interés.</li>
-                        <li>Haz clic en <strong>"Inscríbete".</strong></li>
-                        <li>Digita tus datos en el formulario de inscripción y luego haz clic en <strong>"Inscribirme"</strong>.</li>
-                        <li>
-                            Espera el mensaje de confirmación que llegará a tu correo durante las próximas 24
-                            horas para el inicio del curso. Revisa que el mensaje no llegue a la carpeta de spam.
-                        </li>
-                        <li>
-                            Luego de recibir tu usuario y contraseña para iniciar el curso, podrás acceder al
-                            <strong>campus virtual</strong> para empezar tu proceso formativo.
-                        </li>
-                        <li>Recuerda que los cursos son <strong>gratuitos</strong> y al finalizar recibes <strong>certificado de participación</strong>.</li>
-                    </ul>
+                    <strong>1.</strong> Elige los cursos de tu interés. <br>
+                    <strong>2.</strong> Haz clic en <strong>"Inscríbete".</strong> <br>
+                    <strong>3.</strong> Digita tus datos en el formulario de inscripción y luego haz clic en <strong>"Inscribirme"</strong>. <br>
+                    <strong>4.</strong> Espera el mensaje de confirmación que llegará a tu correo durante las próximas 24
+                    horas para el inicio del curso. Revisa que el mensaje no llegue a la carpeta de spam. <br>
+                    <strong>5.</strong> Luego de recibir tu usuario y contraseña para iniciar el curso, podrás acceder al
+                    <strong>campus virtual</strong> para empezar tu proceso formativo. <br>
+                    <strong>6.</strong> Recuerda que los cursos son <strong>gratuitos</strong> y al finalizar recibes <strong>certificado de participación</strong>.
                     <div>
                         <button v-on:click="cerrar(3)">Cerrar</button>
                     </div>
