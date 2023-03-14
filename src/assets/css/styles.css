@@ -483,12 +483,6 @@
     border-radius: 10px;
     padding: 20px;
 }
-.index-espacio {
-    width: 100% !important;
-}
-.index-division {
-    width: 100%;
-}
 .home-informacion-body div {
     display: flex;
     justify-content: end;
@@ -698,9 +692,6 @@
 .index-inicio-info {
     margin-right: 30px;
 }
-.index-inicio-width {
-    width: 50% !important;
-}
 .index-inicio-titulo {
     color: #ee7b2e;
     font-size: 39px;
@@ -713,9 +704,6 @@
 }
 .text-inicio {
     font-size: 18px;
-}
-.index-division {
-    width: 100%;
 }
 #CpInicio {
     min-width: 350px;
@@ -730,17 +718,9 @@
         margin: 0 20px;
     }
 }
-@media screen and (max-width: 950px) {
-    .index-inicio-width {
-        width: 100% !important;
-    }
-}
 @media screen and (max-width: 765px) {
     .index-inicio-info {
         margin-right: 0px;
-    }
-    .index-division {
-        width: 100%;
     }
 }
 

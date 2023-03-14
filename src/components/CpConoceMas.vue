@@ -18,11 +18,11 @@
         <!-- FIN Primera sección sobre la escuela -->
         <!-- Segunda sección sobre la escuela -->
         <div class="d-flex flex-column align-items-center my-5 flex-md-row w-100">
-            <div class="index-inicio-width d-none d-lg-block w-100">
+            <div class="d-none d-lg-block w-50">
                 <img src="../assets/img/index-inicio-logo.png" alt="" class="img-fluid index-inicio-logo">
             </div>
-            <div class="index-espacio d-flex flex-column flex-md-row flex-lg-column">
-                <div class="index-division">
+            <div class="d-flex flex-column flex-md-row flex-lg-column">
+                <div class="">
                     <h1 class="index-inicio-titulo">¿Por qué la Alcaldía de Medellín cuenta con una Escuela Virtual de Aprendizaje?</h1>
                     <span class="text-inicio">
                         Para garantizar la correcta prestación de servicios a la ciudadanía, la Alcaldía
@@ -32,7 +32,7 @@
                         cursos resultaron de interés general, se decidió abrir la oferta a la ciudadanía.
                     </span>
                 </div>
-                <div class="index-division">
+                <div class="">
                     <h1 class="index-inicio-titulo">Misión</h1>
                     <span class="text-inicio">
                         Facilitar los procesos de enseñanza y aprendizaje desde el SER (formación),
