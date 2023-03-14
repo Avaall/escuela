@@ -2,7 +2,7 @@
     <div>
         <div>
             <!-- 0 -->
-            <div v-if="propt == 0" class="text-center index-cursos-ciudadano-portada">
+            <div v-if="propt == 0" class="text-center index-cursos-ciudadano-portada-2">
                 <div class="index-cursos-ciudadano-categoria">
                     <p><strong>Bienvenido,</strong> selecciona <br> la categoría de tu interés</p>
                 </div>

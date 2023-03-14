@@ -689,6 +689,12 @@
 
     /* INDEX Inicio */
 
+.config {
+    width: 500px;
+}
+.div-index-conocemas {
+    width: 50%;
+}
 .index-inicio-info {
     margin-right: 30px;
 }
@@ -699,19 +705,11 @@
     font-weight: 700;
     margin-bottom: 20px;
 }
-.index-inicio-logo {
-    width: 500px;
-}
 .text-inicio {
     font-size: 18px;
 }
 #CpInicio {
     min-width: 350px;
-}
-@media screen and (max-width: 1200px) {
-    .index-inicio-logo {
-        width: 400px;
-    }
 }
 @media screen and (max-width: 1000px) {
     #CpInicio {
@@ -797,6 +795,11 @@
     }
     .img-img {
         width: 240px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .div-index-conocemas {
+        width: 100%;
     }
 }
 @media screen and (max-width: 950px) {
@@ -917,7 +920,7 @@
 }
 @media screen and (max-width: 1200px) {
     .index-cursos-ciudadano-portada {
-        margin: -105px 0 0 -210px !important;
+        margin: -97px 0 0 -215px !important;
     }
     .index-cursos-menu-ul-li {
         font-size: 18px;
@@ -926,7 +929,7 @@
 }
 @media screen and (max-width: 950px) {
     .index-cursos-ciudadano-portada {
-        margin: -92px 0 0 -200px !important;
+        margin: -95px 0 0 -200px !important;
     }
     .index-cursos-ciudadano-categoria {
         font-size: 16px !important;
@@ -983,7 +986,11 @@
 
 .index-cursos-ciudadano-portada {
     position: absolute;
-    margin: -100px 0 0 -200px;
+    margin: -90px 0 0 -200px;
+}
+.index-cursos-ciudadano-portada-2 {
+    position: absolute;
+    margin: -100px 0 0 -210px;
 }
 .index-cursos-ciudadano-categoria {
     color: #ee7b2e;

@@ -2,7 +2,7 @@
     <div id="CpInicio">
         <!-- Primera sección sobre la escuela -->
         <div class="d-flex flex-column align-items-center mt-5 flex-md-row mx-md-0">
-            <div class="index-inicio-width index-inicio-info mb-5">
+            <div class="index-inicio-info mb-5">
                 <h1 class="index-inicio-titulo">¿Qué es la Escuela Virtual de Aprendizaje?</h1>
                 <span class="text-inicio">
                     Es una de las estrategias de formación, capacitación y entrenamiento de
@@ -11,18 +11,18 @@
                     con énfasis en diferentes temáticas.
                 </span>
             </div>
-            <div class="index-inicio-width">
+            <div>
                 <img src="../assets/img/index-1.jpg" alt="" class="img-fluid">
             </div>
         </div>
         <!-- FIN Primera sección sobre la escuela -->
         <!-- Segunda sección sobre la escuela -->
         <div class="d-flex flex-column align-items-center my-5 flex-md-row w-100">
-            <div class="d-none d-lg-block w-50">
-                <img src="../assets/img/index-inicio-logo.png" alt="" class="img-fluid index-inicio-logo">
+            <div class="d-none d-lg-flex div-index-conocemas">
+                <img src="../assets/img/index-inicio-logo.png" alt="" class="img-fluid config">
             </div>
-            <div class="d-flex flex-column flex-md-row flex-lg-column">
-                <div class="">
+            <div class="d-flex flex-column div-index-conocemas">
+                <div class="mb-4">
                     <h1 class="index-inicio-titulo">¿Por qué la Alcaldía de Medellín cuenta con una Escuela Virtual de Aprendizaje?</h1>
                     <span class="text-inicio">
                         Para garantizar la correcta prestación de servicios a la ciudadanía, la Alcaldía
