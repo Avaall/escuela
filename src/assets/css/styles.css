@@ -373,6 +373,7 @@
         margin-right: 0 !important;
     }
     .index-header-usuario {
+        height: 100px !important;
         background: white !important;
     }
 }

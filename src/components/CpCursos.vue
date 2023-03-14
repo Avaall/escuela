@@ -810,12 +810,34 @@ export default {
       this.valorCurso = 0
       this.numero = valor
       const li = document.querySelectorAll('.index-cursos-menu-ul-li')
-      for (let i = 0; i < li.length; i++) {
-        if (li[valor - 1] === li[i]) {
-          li[i].classList.add('index-cursos-menu-ul-li-activado')
+      if (this.ejecutado) {
+        for (let i = 0; i < li.length; i++) {
+          if (li[valor - 1] === li[i]) {
+            li[i].classList.add('index-cursos-menu-ul-li-activado')
+          }
+          if (li[i] !== li[valor - 1]) {
+            li[i].classList.remove('index-cursos-menu-ul-li-activado')
+          }
         }
-        if (li[i] !== li[valor - 1]) {
-          li[i].classList.remove('index-cursos-menu-ul-li-activado')
+      }
+      if (!this.ejecutado) {
+        for (let i = 0; i < li.length; i++) {
+          if (i < 4) {
+            if (li[valor - 1] === li[i]) {
+              li[i].classList.add('index-cursos-menu-ul-li-activado')
+            }
+            if (li[i] !== li[valor - 1]) {
+              li[i].classList.remove('index-cursos-menu-ul-li-activado')
+            }
+          }
+          if (i >= 4) {
+            if (li[valor - 2] === li[i]) {
+              li[i].classList.add('index-cursos-menu-ul-li-activado')
+            }
+            if (li[i] !== li[valor - 2]) {
+              li[i].classList.remove('index-cursos-menu-ul-li-activado')
+            }
+          }
         }
       }
     }
