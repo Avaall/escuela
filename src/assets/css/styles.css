@@ -673,6 +673,12 @@
     transition: .5s;
     color: #fff;
 }
+.index-cursos-button-search span:first-child {
+    display: none;
+}
+.index-cursos-button-search  span:last-child {
+    display: block;
+}
 .index-cursos-sub-linea {
     margin-top: 10px;
     height: 1px;
@@ -763,6 +769,12 @@
     }
     .img-img {
         width: 300px;
+    }
+    .index-cursos-button-search span:first-child {
+        display: block !important;
+    }
+    .index-cursos-button-search  span:last-child {
+        display: none !important;
     }
 }
 .index-cursos-accordion-button span {

@@ -7,7 +7,12 @@
                     <p class="d-flex align-items-center justify-content-center"><strong>Cursos</strong>&nbsp;por categoría</p>
                     <div class="d-flex">
                         <input class="form-control me-2" id="buscador" type="search" placeholder="Buscar" v-model="buscar" aria-label="Search">
-                        <button class="index-cursos-button-search">Buscar</button>
+                        <button class="index-cursos-button-search">
+                            <span>
+                                <i class="bi bi-search"></i>
+                            </span>
+                            <span>Buscar</span>
+                        </button>
                     </div>
                 </div>
                 <div class="index-cursos-sub-linea"></div>
