@@ -19,6 +19,7 @@
             </h1>
         </div>
         <div v-if="buscar !== ''">
+            <div class="d-none">{{ this.numero = 0 }}</div>
             <div v-if="miVariable == 1" class="d-flex flex-wrap justify-content-center">
                 <div v-for="(cursoconvivenciaCiudadana, identificador) in cursos.convivenciaCiudadana" :key="cursoconvivenciaCiudadana.id">
                     <div v-if="cursoconvivenciaCiudadana.nombre.trim().toLowerCase().indexOf(buscar.toLowerCase()) !== -1">
