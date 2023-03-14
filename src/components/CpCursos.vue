@@ -593,7 +593,7 @@
         </div>
         <div v-else>
             <div class="index-cursos-menu">
-                <div id="sub-menus" class="h-100 index-cursos-menu-sub">
+                <div id="sub-menus" class="d-block h-100 index-cursos-menu-sub">
                     <ul class="index-cursos-menu-ul">
                         <li class="index-cursos-menu-ul-li" v-on:click="number(1)">
                             <span class="material-symbols-outlined mx-2">
@@ -795,6 +795,8 @@ export default {
       if (window.screen.width < 769) {
         if (this.miVariable === 1) {
           const a = document.getElementById('sub-menus')
+          a.classList.remove('index-cursos-menu-sub')
+          a.classList.remove('d-block')
           a.classList.add('d-none')
           const b = document.getElementById('index-visualizacion')
           b.classList.add('d-block')
