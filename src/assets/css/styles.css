@@ -907,6 +907,9 @@
     .index-cursos-menu-sub {
         display: none;
     }
+    .index-cursos-titulo-general {
+        font-size: 16px !important;
+    }
 }
 
     /* FIN INDEX CpCursos */
