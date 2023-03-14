@@ -27,8 +27,8 @@
                     <div class="carousel-caption h-100" v-on:click="cambiarValor"></div>
                 </div>
                 <div class="carousel-item carousel-item-unic-2">
-                    <div class="carousel-caption d-flex justify-content-end h-100 align-items-center home-carousel-animation">
-                        <img src="../assets/img/carousel-logo-escuela.png" alt="" width="400px" class="info-caption">
+                    <div class="carousel-caption d-flex justify-content-center justify-content-sm-end h-100 align-items-center home-carousel-animation">
+                        <img src="../assets/img/carousel-logo-escuela.png" alt="" class="img-info-caption info-caption">
                     </div>
                 </div>
                 <div class="carousel-item carousel-item-unic-3">
