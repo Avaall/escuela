@@ -839,6 +839,9 @@
     background: red;
     left: 0;
 }
+.ver {
+    display: none !important;
+}
 @media screen and (max-width: 1200px) {
     .index-cursos-ciudadano-portada {
         margin: -130px 0 0 -165px !important;
