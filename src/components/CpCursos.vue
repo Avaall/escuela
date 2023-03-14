@@ -794,12 +794,16 @@ export default {
       }
       if (window.screen.width < 769) {
         if (this.miVariable === 1) {
-          document.getElementById('sub-menus').classList.add('d-none')
-          document.getElementById('index-visualizacion').classList.add('d-block')
+          const a = document.getElementById('sub-menus')
+          a.classList.add('d-none')
+          const b = document.getElementById('index-visualizacion')
+          b.classList.add('d-block')
         }
         if (this.miVariable === 2) {
-          document.getElementById('sub-menus').classList.add('d-none')
-          document.getElementById('index-visualizacion-2').classList.add('d-block')
+          const a = document.getElementById('sub-menus')
+          a.classList.add('d-none')
+          const b = document.getElementById('index-visualizacion-2')
+          b.classList.add('d-block')
         }
       }
       this.valorCurso = 0
