@@ -4,7 +4,7 @@
             <!-- 0 -->
             <div v-if="propt == 0" class="text-center index-cursos-ciudadano-portada">
                 <div class="index-cursos-ciudadano-categoria">
-                    &nbsp;Bienvenido, <br> selecciona la categoría <br> de tu interés
+                    <p><strong>Bienvenido,</strong> selecciona <br> la categoría de tu interés</p>
                 </div>
             </div>
             <!-- 1 -->

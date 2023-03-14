@@ -483,6 +483,12 @@
     border-radius: 10px;
     padding: 20px;
 }
+.index-espacio {
+    width: 100% !important;
+}
+.index-division {
+    width: 100%;
+}
 .home-informacion-body div {
     display: flex;
     justify-content: end;
@@ -931,7 +937,7 @@
 }
 @media screen and (max-width: 1200px) {
     .index-cursos-ciudadano-portada {
-        margin: -130px 0 0 -165px !important;
+        margin: -95px 0 0 -210px !important;
     }
     .index-cursos-menu-ul-li {
         font-size: 18px;
@@ -940,7 +946,7 @@
 }
 @media screen and (max-width: 950px) {
     .index-cursos-ciudadano-portada {
-        margin: -130px 0 0 -180px !important;
+        margin: -92px 0 0 -200px !important;
     }
     .index-cursos-ciudadano-categoria {
         font-size: 16px !important;
@@ -997,15 +1003,14 @@
 
 .index-cursos-ciudadano-portada {
     position: absolute;
-    margin: -115px 0 0 -160px;
+    margin: -90px 0 0 -200px;
 }
 .index-cursos-ciudadano-categoria {
     color: #ee7b2e;
     padding: 20px;
-    font-size: 14px;
+    font-size: 18px;
     border-radius: 10px;
     margin-bottom: -80px;
-    font-weight: 800;
 }
 .index-cursos-titulo {
     color: #ee7b2e;

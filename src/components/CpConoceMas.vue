@@ -21,7 +21,7 @@
             <div class="index-inicio-width d-none d-lg-block w-100">
                 <img src="../assets/img/index-inicio-logo.png" alt="" class="img-fluid index-inicio-logo">
             </div>
-            <div class="index-espacio d-flex flex-column flex-md-row flex-lg-column w-100">
+            <div class="index-espacio d-flex flex-column flex-md-row flex-lg-column">
                 <div class="index-division">
                     <h1 class="index-inicio-titulo">¿Por qué la Alcaldía de Medellín cuenta con una Escuela Virtual de Aprendizaje?</h1>
                     <span class="text-inicio">
