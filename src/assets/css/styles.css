@@ -373,10 +373,7 @@
         margin-right: 0 !important;
     }
     .index-header-usuario {
-        background: url(../img/banner-header-index-3.png) !important;
-        background-size: 100% 100% !important;
-        background-repeat: no-repeat !important;
-        background-position: center !important;
+        background: white !important;
     }
 }
 @media screen and (max-width: 460px) {
@@ -477,7 +474,7 @@
     width: 0;
     opacity: 0;
     display: flex;
-    font-size: 18px;
+    font-size: 16px;
     text-align: justify;
     flex-direction: column;
     overflow-y: hidden;
