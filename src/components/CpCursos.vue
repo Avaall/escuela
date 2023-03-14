@@ -795,6 +795,8 @@ export default {
         }
         if (this.miVariable === 2) {
           const a = document.getElementById('sub-menus')
+          a.classList.remove('index-cursos-menu-sub')
+          a.classList.remove('d-block')
           a.classList.add('d-none')
           const b = document.getElementById('index-visualizacion-2')
           b.classList.add('d-block')

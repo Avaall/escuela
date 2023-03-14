@@ -26,14 +26,12 @@
                 <div class="carousel-item carousel-item-unic active">
                     <div class="carousel-caption h-100" v-on:click="cambiarValor"></div>
                 </div>
-                <div class="carousel-item">
-                    <img src="../assets/img/carousel-1.png" class="d-block h-100 img-carousel" alt="...">
+                <div class="carousel-item carousel-item-unic-2">
                     <div class="carousel-caption d-flex justify-content-end h-100 align-items-center home-carousel-animation">
                         <img src="../assets/img/carousel-logo-escuela.png" alt="" width="400px" class="info-caption">
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="../assets/img/carousel-2.png" class="d-block h-100 img-carousel" alt="...">
+                <div class="carousel-item carousel-item-unic-3">
                     <div class="carousel-caption d-flex flex-column justify-content-center h-100 align-items-center">
                         <div class="home-carousel-text home-carousel-animation">
                             <center class="info-caption-text"><span>La <strong>Escuela Virtual de Aprendizaje</strong><br>es un espacio para compartir,<br> explorar y descubrir conocimientos</span></center>

@@ -162,12 +162,22 @@
     height: 38vh;
     background-color: #e6effd;
 }
-.img-carousel {
-    width: 100%;
-}
 .carousel-item-unic {
     cursor: pointer;
     background: url(../img/carousel-3.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.carousel-item-unic-2 {
+    background: url(../img/carousel-1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.carousel-item-unic-3 {
+    cursor: pointer;
+    background: url(../img/carousel-2.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -244,9 +254,6 @@
     list-style: number;
 }
 @media screen and (max-width: 1200px) {
-    .img-carousel {
-        width: auto;
-    }
     .home-footer-limit-2 {
         margin-top: 30px;
         justify-content: center;
@@ -290,6 +297,18 @@
         background-repeat: no-repeat;
         background-position: center;
     }
+    .carousel-item-unic-2 {
+        background: url(../img/carousel-1-responsive-1.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .carousel-item-unic-3 {
+        background: url(../img/carousel-2-responsive-1.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 }
 @media screen and (max-width: 700px) {
     .info-caption-text {
@@ -297,6 +316,18 @@
     }
     .carousel-item-unic {
         background: url(../img/carousel-3-responsive-2.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .carousel-item-unic-2 {
+        background: url(../img/carousel-1-responsive-2.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .carousel-item-unic-3 {
+        background: url(../img/carousel-2-responsive-2.png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         background-position: center;
@@ -319,6 +350,26 @@
     .img-ingreso {
         width: 150px;
         margin-right: 0 !important;
+    }
+}
+@media screen and (max-width: 460px) {
+    .carousel-item-unic {
+        background: url(../img/carousel-3-responsive-3.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .carousel-item-unic-2 {
+        background: url(../img/carousel-1-responsive-3.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .carousel-item-unic-3 {
+        background: url(../img/carousel-2-responsive-3.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center;
     }
 }
 
