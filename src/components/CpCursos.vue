@@ -386,7 +386,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="d-none" v-for="(cursohaciendaContratacion, identificador) in cursos.haciendaContratacion" :key="cursohaciendaContratacion.id">
+                <div v-for="(cursohaciendaContratacion, identificador) in cursos.haciendaContratacion" :key="cursohaciendaContratacion.id">
                     <div v-if="cursohaciendaContratacion.nombre.trim().toLowerCase().indexOf(buscar.toLowerCase()) !== -1">
                         <div v-if="cursohaciendaContratacion.requisitos.estado == 'activo' && cursohaciendaContratacion.requisitos.ofertado && (cursohaciendaContratacion.requisitos.usuario == 1 || cursohaciendaContratacion.requisitos.usuario == 2)" class="accordion-item index-cursos-accordion">
                             <h2 class="accordion-header" id="acordion1">
@@ -618,7 +618,7 @@
                             </span>
                             Gestión humana
                         </li>
-                        <li id="hacienda" class="d-none index-cursos-menu-ul-li" v-on:click="number(4)">
+                        <li v-if="ejecutado" class="index-cursos-menu-ul-li" v-on:click="number(4)">
                             <span class="material-symbols-outlined mx-2">
                                 arrow_circle_right
                             </span>
@@ -730,24 +730,20 @@ export default {
     if (this.especifico === 11) {
       this.number(11)
     }
-    if (!this.ejecutado) {
-      this.ejecutar()
+    if (this.miVariable === 2) {
       this.ejecutado = true
     }
   },
   methods: {
     buscarResponsive () {
-      const buton = document.getElementById('buttonSearch')
-      buton.classList.remove('d-block')
-      buton.classList.add('d-none')
-      const input = document.getElementById('buscador')
-      input.classList.remove('d-none')
-      input.classList.add('d-block')
-    },
-    ejecutar () {
-      if (this.miVariable === 2) {
-        document.getElementById('hacienda').classList.remove('d-none')
-        document.getElementById('hacienda').classList.add('d-block')
+      if (window.screen.width < 578) {
+        const buton = document.getElementById('buttonSearch')
+        buton.classList.remove('d-block')
+        buton.classList.add('d-none')
+        const input = document.getElementById('buscador')
+        input.classList.remove('d-none')
+        input.classList.add('d-block')
+        input.setAttribute('autofocus', '')
       }
     },
     mover () {
